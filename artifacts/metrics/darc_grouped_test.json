@@ -1,0 +1,2900 @@
+{
+  "format_version": "1.0",
+  "method": "DARC",
+  "split": "test",
+  "sample_count": 182,
+  "prediction_count": 182,
+  "category_metrics": {
+    "exact_match_accuracy": 0.7362637362637363,
+    "primary_category_accuracy": 0.978021978021978,
+    "micro_precision": 0.8484848484848485,
+    "micro_recall": 0.9491525423728814,
+    "micro_f1": 0.896,
+    "macro_f1": 0.6654943444956265,
+    "supported_macro_f1": 0.7320437789451891,
+    "not_estimable_categories": [
+      "fatigue_crack"
+    ],
+    "per_class": {
+      "corrosion": {
+        "tp": 59,
+        "fp": 5,
+        "fn": 1,
+        "true_support": 60,
+        "predicted_support": 64,
+        "estimable": true,
+        "precision": 0.921875,
+        "recall": 0.9833333333333333,
+        "f1": 0.9516129032258064
+      },
+      "crack": {
+        "tp": 72,
+        "fp": 2,
+        "fn": 0,
+        "true_support": 72,
+        "predicted_support": 74,
+        "estimable": true,
+        "precision": 0.972972972972973,
+        "recall": 1.0,
+        "f1": 0.9863013698630138
+      },
+      "efflorescence": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "true_support": 1,
+        "predicted_support": 0,
+        "estimable": true,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "exposed_rebar": {
+        "tp": 30,
+        "fp": 6,
+        "fn": 0,
+        "true_support": 30,
+        "predicted_support": 36,
+        "estimable": true,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091
+      },
+      "fatigue_crack": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "true_support": 0,
+        "predicted_support": 0,
+        "estimable": false,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "honeycomb": {
+        "tp": 7,
+        "fp": 4,
+        "fn": 1,
+        "true_support": 8,
+        "predicted_support": 11,
+        "estimable": true,
+        "precision": 0.6363636363636364,
+        "recall": 0.875,
+        "f1": 0.7368421052631579
+      },
+      "looseness": {
+        "tp": 11,
+        "fp": 0,
+        "fn": 2,
+        "true_support": 13,
+        "predicted_support": 11,
+        "estimable": true,
+        "precision": 1.0,
+        "recall": 0.8461538461538461,
+        "f1": 0.9166666666666666
+      },
+      "peeling": {
+        "tp": 2,
+        "fp": 12,
+        "fn": 12,
+        "true_support": 14,
+        "predicted_support": 14,
+        "estimable": true,
+        "precision": 0.14285714285714285,
+        "recall": 0.14285714285714285,
+        "f1": 0.14285714285714285
+      },
+      "pothole": {
+        "tp": 10,
+        "fp": 4,
+        "fn": 0,
+        "true_support": 10,
+        "predicted_support": 14,
+        "estimable": true,
+        "precision": 0.7142857142857143,
+        "recall": 1.0,
+        "f1": 0.8333333333333333
+      },
+      "spalling": {
+        "tp": 102,
+        "fp": 23,
+        "fn": 0,
+        "true_support": 102,
+        "predicted_support": 125,
+        "estimable": true,
+        "precision": 0.816,
+        "recall": 1.0,
+        "f1": 0.8986784140969163
+      },
+      "void": {
+        "tp": 43,
+        "fp": 4,
+        "fn": 1,
+        "true_support": 44,
+        "predicted_support": 47,
+        "estimable": true,
+        "precision": 0.9148936170212766,
+        "recall": 0.9772727272727273,
+        "f1": 0.945054945054945
+      }
+    }
+  },
+  "description_metrics": {
+    "mean_token_f1": 0.6016195093949901,
+    "mean_jaccard": 0.4431408560546276
+  },
+  "evaluated_samples": [
+    {
+      "image_id": "00019.jpg",
+      "true_categories": [
+        "crack",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": false,
+      "description_token_f1": 0.46511627906976744,
+      "description_jaccard": 0.23333333333333334
+    },
+    {
+      "image_id": "00029.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.64,
+      "description_jaccard": 0.4666666666666667
+    },
+    {
+      "image_id": "00078.jpg",
+      "true_categories": [
+        "crack",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": false,
+      "description_token_f1": 0.627450980392157,
+      "description_jaccard": 0.40625
+    },
+    {
+      "image_id": "00670.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.8085106382978724,
+      "description_jaccard": 0.7083333333333334
+    },
+    {
+      "image_id": "00687.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.6382978723404256,
+      "description_jaccard": 0.4482758620689655
+    },
+    {
+      "image_id": "00688.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.5714285714285715,
+      "description_jaccard": 0.375
+    },
+    {
+      "image_id": "00690.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.823529411764706,
+      "description_jaccard": 0.7037037037037037
+    },
+    {
+      "image_id": "00694.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.5777777777777778,
+      "description_jaccard": 0.39285714285714285
+    },
+    {
+      "image_id": "00695.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 1.0,
+      "description_jaccard": 1.0
+    },
+    {
+      "image_id": "00696.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.6511627906976744,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "00698.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 0.75,
+      "description_jaccard": 0.6153846153846154
+    },
+    {
+      "image_id": "00703.jpg",
+      "true_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "category_exact_match": true,
+      "description_token_f1": 1.0,
+      "description_jaccard": 1.0
+    },
+    {
+      "image_id": "00975.jpg",
+      "true_categories": [
+        "crack",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": false,
+      "description_token_f1": 0.553191489361702,
+      "description_jaccard": 0.3870967741935484
+    },
+    {
+      "image_id": "17.jpg",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.4923076923076923,
+      "description_jaccard": 0.2857142857142857
+    },
+    {
+      "image_id": "19.png",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.523076923076923,
+      "description_jaccard": 0.3170731707317073
+    },
+    {
+      "image_id": "21.jpeg",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.523076923076923,
+      "description_jaccard": 0.3170731707317073
+    },
+    {
+      "image_id": "29.jpg",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.523076923076923,
+      "description_jaccard": 0.3170731707317073
+    },
+    {
+      "image_id": "37.JPG",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.4923076923076923,
+      "description_jaccard": 0.2857142857142857
+    },
+    {
+      "image_id": "4.jpg",
+      "true_categories": [
+        "efflorescence",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "crack",
+        "spalling"
+      ],
+      "primary_category": "efflorescence",
+      "category_exact_match": false,
+      "description_token_f1": 0.13793103448275862,
+      "description_jaccard": 0.043478260869565216
+    },
+    {
+      "image_id": "43.JPG",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.4923076923076923,
+      "description_jaccard": 0.2857142857142857
+    },
+    {
+      "image_id": "57.jpg",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.22641509433962265,
+      "description_jaccard": 0.11904761904761904
+    },
+    {
+      "image_id": "7.jpg",
+      "true_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "category_exact_match": false,
+      "description_token_f1": 0.523076923076923,
+      "description_jaccard": 0.3170731707317073
+    },
+    {
+      "image_id": "70.jpg",
+      "true_categories": [
+        "looseness",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "looseness",
+        "spalling"
+      ],
+      "primary_category": "spalling",
+      "category_exact_match": false,
+      "description_token_f1": 0.32653061224489793,
+      "description_jaccard": 0.19444444444444445
+    },
+    {
+      "image_id": "73.jpg",
+      "true_categories": [
+        "looseness",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "spalling",
+      "category_exact_match": false,
+      "description_token_f1": 0.3666666666666667,
+      "description_jaccard": 0.25
+    },
+    {
+      "image_id": "78.jpg",
+      "true_categories": [
+        "looseness",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "spalling",
+      "category_exact_match": false,
+      "description_token_f1": 0.16666666666666666,
+      "description_jaccard": 0.10256410256410256
+    },
+    {
+      "image_id": "79.jpg",
+      "true_categories": [
+        "looseness",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "spalling",
+      "category_exact_match": false,
+      "description_token_f1": 0.5652173913043478,
+      "description_jaccard": 0.42857142857142855
+    },
+    {
+      "image_id": "81.jpg",
+      "true_categories": [
+        "looseness",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "peeling",
+      "category_exact_match": false,
+      "description_token_f1": 0.5,
+      "description_jaccard": 0.3333333333333333
+    },
+    {
+      "image_id": "crack_0010.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.9375,
+      "description_jaccard": 0.8823529411764706
+    },
+    {
+      "image_id": "crack_0011.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.4666666666666666,
+      "description_jaccard": 0.3181818181818182
+    },
+    {
+      "image_id": "crack_0012.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5853658536585367,
+      "description_jaccard": 0.46153846153846156
+    },
+    {
+      "image_id": "crack_0013.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666666,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "crack_0014.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6000000000000001,
+      "description_jaccard": 0.45
+    },
+    {
+      "image_id": "crack_0015.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.7692307692307692,
+      "description_jaccard": 0.625
+    },
+    {
+      "image_id": "crack_0016.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6470588235294118,
+      "description_jaccard": 0.4782608695652174
+    },
+    {
+      "image_id": "crack_0017.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5555555555555555,
+      "description_jaccard": 0.4
+    },
+    {
+      "image_id": "crack_0018.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5806451612903226,
+      "description_jaccard": 0.4090909090909091
+    },
+    {
+      "image_id": "crack_0019.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5581395348837209,
+      "description_jaccard": 0.4444444444444444
+    },
+    {
+      "image_id": "crack_0040.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.4864864864864865,
+      "description_jaccard": 0.3333333333333333
+    },
+    {
+      "image_id": "crack_0041.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6428571428571429,
+      "description_jaccard": 0.47368421052631576
+    },
+    {
+      "image_id": "crack_0042.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5161290322580646,
+      "description_jaccard": 0.36363636363636365
+    },
+    {
+      "image_id": "crack_0043.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6428571428571429,
+      "description_jaccard": 0.47368421052631576
+    },
+    {
+      "image_id": "crack_0044.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6285714285714286,
+      "description_jaccard": 0.4583333333333333
+    },
+    {
+      "image_id": "crack_0045.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666666,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "crack_0046.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.787878787878788,
+      "description_jaccard": 0.6842105263157895
+    },
+    {
+      "image_id": "crack_0047.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5161290322580646,
+      "description_jaccard": 0.34782608695652173
+    },
+    {
+      "image_id": "crack_0048.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.7272727272727272,
+      "description_jaccard": 0.5714285714285714
+    },
+    {
+      "image_id": "crack_0049.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.787878787878788,
+      "description_jaccard": 0.65
+    },
+    {
+      "image_id": "crack_0681.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.29629629629629634,
+      "description_jaccard": 0.17391304347826086
+    },
+    {
+      "image_id": "crack_0682.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5599999999999999,
+      "description_jaccard": 0.3888888888888889
+    },
+    {
+      "image_id": "crack_0683.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.23529411764705885,
+      "description_jaccard": 0.13333333333333333
+    },
+    {
+      "image_id": "crack_0684.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack",
+        "honeycomb",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": false,
+      "description_token_f1": 0.7142857142857142,
+      "description_jaccard": 0.5555555555555556
+    },
+    {
+      "image_id": "crack_0685.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.7142857142857142,
+      "description_jaccard": 0.5555555555555556
+    },
+    {
+      "image_id": "crack_0686.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.64,
+      "description_jaccard": 0.47058823529411764
+    },
+    {
+      "image_id": "crack_0687.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5517241379310345,
+      "description_jaccard": 0.38095238095238093
+    },
+    {
+      "image_id": "crack_0688.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.27586206896551724,
+      "description_jaccard": 0.16
+    },
+    {
+      "image_id": "crack_0689.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.2857142857142857,
+      "description_jaccard": 0.16666666666666666
+    },
+    {
+      "image_id": "gangf_070.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5964912280701754,
+      "description_jaccard": 0.4411764705882353
+    },
+    {
+      "image_id": "gangf_071.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.48979591836734687,
+      "description_jaccard": 0.30303030303030304
+    },
+    {
+      "image_id": "gangf_072.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.64,
+      "description_jaccard": 0.4666666666666667
+    },
+    {
+      "image_id": "gangf_073.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5333333333333333,
+      "description_jaccard": 0.3225806451612903
+    },
+    {
+      "image_id": "gangf_074.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6909090909090909,
+      "description_jaccard": 0.5161290322580645
+    },
+    {
+      "image_id": "gangf_075.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6296296296296295,
+      "description_jaccard": 0.45161290322580644
+    },
+    {
+      "image_id": "gangf_076.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.75,
+      "description_jaccard": 0.5714285714285714
+    },
+    {
+      "image_id": "gangf_077.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5777777777777778,
+      "description_jaccard": 0.3793103448275862
+    },
+    {
+      "image_id": "gangf_078.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5106382978723405,
+      "description_jaccard": 0.3125
+    },
+    {
+      "image_id": "gangf_079.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5777777777777778,
+      "description_jaccard": 0.3793103448275862
+    },
+    {
+      "image_id": "gangf_170.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6296296296296297,
+      "description_jaccard": 0.45161290322580644
+    },
+    {
+      "image_id": "gangf_171.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6545454545454545,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "gangf_172.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5185185185185186,
+      "description_jaccard": 0.38235294117647056
+    },
+    {
+      "image_id": "gangf_173.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.816326530612245,
+      "description_jaccard": 0.6923076923076923
+    },
+    {
+      "image_id": "gangf_174.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5862068965517241,
+      "description_jaccard": 0.37142857142857144
+    },
+    {
+      "image_id": "gangf_175.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.4897959183673469,
+      "description_jaccard": 0.30303030303030304
+    },
+    {
+      "image_id": "gangf_176.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5416666666666666,
+      "description_jaccard": 0.34375
+    },
+    {
+      "image_id": "gangf_177.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5,
+      "description_jaccard": 0.3548387096774194
+    },
+    {
+      "image_id": "gangf_178.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.47058823529411764,
+      "description_jaccard": 0.3142857142857143
+    },
+    {
+      "image_id": "gangf_179.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6071428571428571,
+      "description_jaccard": 0.4117647058823529
+    },
+    {
+      "image_id": "gangf_180.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.5490196078431373,
+      "description_jaccard": 0.375
+    },
+    {
+      "image_id": "gangf_181.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "crack",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": false,
+      "description_token_f1": 0.5185185185185186,
+      "description_jaccard": 0.35294117647058826
+    },
+    {
+      "image_id": "gangf_182.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.68,
+      "description_jaccard": 0.5357142857142857
+    },
+    {
+      "image_id": "gangf_183.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.48148148148148145,
+      "description_jaccard": 0.32432432432432434
+    },
+    {
+      "image_id": "gangf_184.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 1.0,
+      "description_jaccard": 1.0
+    },
+    {
+      "image_id": "gangf_185.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.2727272727272727,
+      "description_jaccard": 0.16216216216216217
+    },
+    {
+      "image_id": "gangf_186.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.18181818181818182,
+      "description_jaccard": 0.1111111111111111
+    },
+    {
+      "image_id": "gangf_187.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.7,
+      "description_jaccard": 0.5151515151515151
+    },
+    {
+      "image_id": "gangf_188.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.7547169811320756,
+      "description_jaccard": 0.6666666666666666
+    },
+    {
+      "image_id": "gangf_189.jpg",
+      "true_categories": [
+        "crack"
+      ],
+      "predicted_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "category_exact_match": true,
+      "description_token_f1": 0.6071428571428571,
+      "description_jaccard": 0.4117647058823529
+    },
+    {
+      "image_id": "kong_0290.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.7307692307692308,
+      "description_jaccard": 0.5806451612903226
+    },
+    {
+      "image_id": "kong_0291.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6538461538461539,
+      "description_jaccard": 0.5151515151515151
+    },
+    {
+      "image_id": "kong_0292.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.7777777777777779,
+      "description_jaccard": 0.625
+    },
+    {
+      "image_id": "kong_0293.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.8627450980392156,
+      "description_jaccard": 0.75
+    },
+    {
+      "image_id": "kong_0294.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666666,
+      "description_jaccard": 0.53125
+    },
+    {
+      "image_id": "kong_0295.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666666,
+      "description_jaccard": 0.5333333333333333
+    },
+    {
+      "image_id": "kong_0296.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5882352941176471,
+      "description_jaccard": 0.4411764705882353
+    },
+    {
+      "image_id": "kong_0297.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.7037037037037038,
+      "description_jaccard": 0.5588235294117647
+    },
+    {
+      "image_id": "kong_0298.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5769230769230769,
+      "description_jaccard": 0.40540540540540543
+    },
+    {
+      "image_id": "kong_0299.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6530612244897959,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "kong_0320.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.4897959183673469,
+      "description_jaccard": 0.34285714285714286
+    },
+    {
+      "image_id": "kong_0321.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.64,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "kong_0322.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.72,
+      "description_jaccard": 0.5806451612903226
+    },
+    {
+      "image_id": "kong_0323.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6792452830188679,
+      "description_jaccard": 0.5625
+    },
+    {
+      "image_id": "kong_0324.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.7142857142857142,
+      "description_jaccard": 0.5714285714285714
+    },
+    {
+      "image_id": "kong_0325.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6923076923076923,
+      "description_jaccard": 0.5454545454545454
+    },
+    {
+      "image_id": "kong_0326.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6530612244897959,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "kong_0327.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6,
+      "description_jaccard": 0.46875
+    },
+    {
+      "image_id": "kong_0328.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5384615384615384,
+      "description_jaccard": 0.4117647058823529
+    },
+    {
+      "image_id": "kong_0329.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5106382978723404,
+      "description_jaccard": 0.35294117647058826
+    },
+    {
+      "image_id": "kong_0380.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5384615384615384,
+      "description_jaccard": 0.3888888888888889
+    },
+    {
+      "image_id": "kong_0381.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5833333333333334,
+      "description_jaccard": 0.4375
+    },
+    {
+      "image_id": "kong_0382.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.7636363636363638,
+      "description_jaccard": 0.6060606060606061
+    },
+    {
+      "image_id": "kong_0383.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5454545454545454,
+      "description_jaccard": 0.39473684210526316
+    },
+    {
+      "image_id": "kong_0384.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.8,
+      "description_jaccard": 0.7407407407407407
+    },
+    {
+      "image_id": "kong_0385.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.64,
+      "description_jaccard": 0.48484848484848486
+    },
+    {
+      "image_id": "kong_0386.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6545454545454545,
+      "description_jaccard": 0.4857142857142857
+    },
+    {
+      "image_id": "kong_0387.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666666,
+      "description_jaccard": 0.4864864864864865
+    },
+    {
+      "image_id": "kong_0388.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5599999999999999,
+      "description_jaccard": 0.4
+    },
+    {
+      "image_id": "kong_0389.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.5555555555555556,
+      "description_jaccard": 0.39473684210526316
+    },
+    {
+      "image_id": "kong_0390.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666667,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "kong_0391.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6785714285714286,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "kong_0392.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6315789473684211,
+      "description_jaccard": 0.4473684210526316
+    },
+    {
+      "image_id": "kong_0393.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.52,
+      "description_jaccard": 0.38235294117647056
+    },
+    {
+      "image_id": "kong_0394.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.7547169811320754,
+      "description_jaccard": 0.625
+    },
+    {
+      "image_id": "kong_0395.jpg",
+      "true_categories": [
+        "spalling",
+        "void"
+      ],
+      "predicted_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "category_exact_match": true,
+      "description_token_f1": 0.6530612244897959,
+      "description_jaccard": 0.5161290322580645
+    },
+    {
+      "image_id": "lou_0050.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6818181818181818,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "lou_0051.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.7234042553191491,
+      "description_jaccard": 0.5517241379310345
+    },
+    {
+      "image_id": "lou_0052.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.48000000000000004,
+      "description_jaccard": 0.2777777777777778
+    },
+    {
+      "image_id": "lou_0053.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.7659574468085107,
+      "description_jaccard": 0.6666666666666666
+    },
+    {
+      "image_id": "lou_0054.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "peeling",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": false,
+      "description_token_f1": 0.6666666666666667,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "lou_0055.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6956521739130435,
+      "description_jaccard": 0.5357142857142857
+    },
+    {
+      "image_id": "lou_0056.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6222222222222222,
+      "description_jaccard": 0.4642857142857143
+    },
+    {
+      "image_id": "lou_0057.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.7999999999999999,
+      "description_jaccard": 0.6923076923076923
+    },
+    {
+      "image_id": "lou_0058.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.5217391304347826,
+      "description_jaccard": 0.375
+    },
+    {
+      "image_id": "lou_0059.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": false,
+      "description_token_f1": 0.47058823529411764,
+      "description_jaccard": 0.2972972972972973
+    },
+    {
+      "image_id": "lou_0085.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "peeling",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": false,
+      "description_token_f1": 0.5957446808510638,
+      "description_jaccard": 0.5
+    },
+    {
+      "image_id": "lou_0086.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "peeling",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": false,
+      "description_token_f1": 0.6222222222222223,
+      "description_jaccard": 0.48148148148148145
+    },
+    {
+      "image_id": "lou_0087.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.7272727272727272,
+      "description_jaccard": 0.5416666666666666
+    },
+    {
+      "image_id": "lou_0088.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6222222222222222,
+      "description_jaccard": 0.4642857142857143
+    },
+    {
+      "image_id": "lou_0089.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.7083333333333333,
+      "description_jaccard": 0.5862068965517241
+    },
+    {
+      "image_id": "lou_0140.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666666,
+      "description_jaccard": 0.4827586206896552
+    },
+    {
+      "image_id": "lou_0141.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.4313725490196078,
+      "description_jaccard": 0.2631578947368421
+    },
+    {
+      "image_id": "lou_0143.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6666666666666666,
+      "description_jaccard": 0.5185185185185185
+    },
+    {
+      "image_id": "lou_0144.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.4583333333333333,
+      "description_jaccard": 0.3125
+    },
+    {
+      "image_id": "lou_0145.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6818181818181818,
+      "description_jaccard": 0.56
+    },
+    {
+      "image_id": "lou_0146.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6250000000000001,
+      "description_jaccard": 0.45161290322580644
+    },
+    {
+      "image_id": "lou_0147.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.8372093023255814,
+      "description_jaccard": 0.72
+    },
+    {
+      "image_id": "lou_0149.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "peeling",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": false,
+      "description_token_f1": 0.6521739130434783,
+      "description_jaccard": 0.5172413793103449
+    },
+    {
+      "image_id": "lou_0401.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "peeling",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": false,
+      "description_token_f1": 0.7346938775510203,
+      "description_jaccard": 0.6428571428571429
+    },
+    {
+      "image_id": "lou_0402.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.49056603773584906,
+      "description_jaccard": 0.32432432432432434
+    },
+    {
+      "image_id": "lou_0403.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.711111111111111,
+      "description_jaccard": 0.5925925925925926
+    },
+    {
+      "image_id": "lou_0404.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6190476190476191,
+      "description_jaccard": 0.4642857142857143
+    },
+    {
+      "image_id": "lou_0405.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.68,
+      "description_jaccard": 0.5666666666666667
+    },
+    {
+      "image_id": "lou_0408.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.44897959183673475,
+      "description_jaccard": 0.2777777777777778
+    },
+    {
+      "image_id": "lou_0409.jpg",
+      "true_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "category_exact_match": true,
+      "description_token_f1": 0.6222222222222223,
+      "description_jaccard": 0.4666666666666667
+    },
+    {
+      "image_id": "xiu_060.jpg",
+      "true_categories": [
+        "corrosion"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5263157894736842,
+      "description_jaccard": 0.25
+    },
+    {
+      "image_id": "xiu_061.jpg",
+      "true_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.631578947368421,
+      "description_jaccard": 0.4090909090909091
+    },
+    {
+      "image_id": "xiu_062.jpg",
+      "true_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.23809523809523808,
+      "description_jaccard": 0.13333333333333333
+    },
+    {
+      "image_id": "xiu_063.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.717948717948718,
+      "description_jaccard": 0.47619047619047616
+    },
+    {
+      "image_id": "xiu_064.jpg",
+      "true_categories": [
+        "corrosion"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5641025641025641,
+      "description_jaccard": 0.2916666666666667
+    },
+    {
+      "image_id": "xiu_065.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": true,
+      "description_token_f1": 0.5365853658536585,
+      "description_jaccard": 0.32
+    },
+    {
+      "image_id": "xiu_066.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.7567567567567567,
+      "description_jaccard": 0.5263157894736842
+    },
+    {
+      "image_id": "xiu_067.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.6666666666666667,
+      "description_jaccard": 0.5238095238095238
+    },
+    {
+      "image_id": "xiu_068.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5853658536585366,
+      "description_jaccard": 0.36
+    },
+    {
+      "image_id": "xiu_069.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": true,
+      "description_token_f1": 0.7058823529411765,
+      "description_jaccard": 0.47368421052631576
+    },
+    {
+      "image_id": "xiu_130.jpg",
+      "true_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.45454545454545453,
+      "description_jaccard": 0.25
+    },
+    {
+      "image_id": "xiu_131.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.2105263157894737,
+      "description_jaccard": 0.13793103448275862
+    },
+    {
+      "image_id": "xiu_132.jpg",
+      "true_categories": [
+        "corrosion"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5853658536585366,
+      "description_jaccard": 0.36
+    },
+    {
+      "image_id": "xiu_133.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.6842105263157895,
+      "description_jaccard": 0.5454545454545454
+    },
+    {
+      "image_id": "xiu_134.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.6285714285714287,
+      "description_jaccard": 0.38095238095238093
+    },
+    {
+      "image_id": "xiu_135.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": true,
+      "description_token_f1": 0.7222222222222222,
+      "description_jaccard": 0.5263157894736842
+    },
+    {
+      "image_id": "xiu_136.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5714285714285715,
+      "description_jaccard": 0.3333333333333333
+    },
+    {
+      "image_id": "xiu_137.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5714285714285715,
+      "description_jaccard": 0.36
+    },
+    {
+      "image_id": "xiu_138.jpg",
+      "true_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.65,
+      "description_jaccard": 0.391304347826087
+    },
+    {
+      "image_id": "xiu_139.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.6153846153846153,
+      "description_jaccard": 0.34782608695652173
+    },
+    {
+      "image_id": "xiu_150.jpg",
+      "true_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5,
+      "description_jaccard": 0.2692307692307692
+    },
+    {
+      "image_id": "xiu_151.jpg",
+      "true_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.6153846153846153,
+      "description_jaccard": 0.391304347826087
+    },
+    {
+      "image_id": "xiu_152.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.27906976744186046,
+      "description_jaccard": 0.16129032258064516
+    },
+    {
+      "image_id": "xiu_153.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": true,
+      "description_token_f1": 0.372093023255814,
+      "description_jaccard": 0.22580645161290322
+    },
+    {
+      "image_id": "xiu_154.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.7894736842105262,
+      "description_jaccard": 0.631578947368421
+    },
+    {
+      "image_id": "xiu_155.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": true,
+      "description_token_f1": 0.45454545454545453,
+      "description_jaccard": 0.2413793103448276
+    },
+    {
+      "image_id": "xiu_156.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": true,
+      "description_token_f1": 1.0,
+      "description_jaccard": 1.0
+    },
+    {
+      "image_id": "xiu_157.jpg",
+      "true_categories": [
+        "corrosion"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5853658536585366,
+      "description_jaccard": 0.36
+    },
+    {
+      "image_id": "xiu_158.jpg",
+      "true_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": true,
+      "description_token_f1": 0.7567567567567567,
+      "description_jaccard": 0.5789473684210527
+    },
+    {
+      "image_id": "xiu_159.jpg",
+      "true_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "predicted_categories": [
+        "corrosion",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "category_exact_match": false,
+      "description_token_f1": 0.5945945945945946,
+      "description_jaccard": 0.36363636363636365
+    }
+  ]
+}

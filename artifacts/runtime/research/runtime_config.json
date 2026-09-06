@@ -1,0 +1,53 @@
+{
+  "format_version": "1.0",
+  "method": "DARC",
+  "data_scope": "research",
+  "sample_count": 836,
+  "embedding_dim": 512,
+  "categories": [
+    "corrosion",
+    "crack",
+    "efflorescence",
+    "exposed_rebar",
+    "fatigue_crack",
+    "honeycomb",
+    "looseness",
+    "peeling",
+    "pothole",
+    "spalling",
+    "void"
+  ],
+  "algorithm": {
+    "encoder": "CLIP ViT-B/32",
+    "similarity": "cosine",
+    "top_k": 5,
+    "category_mode": "nonnegative_similarity_weighted_relative_vote",
+    "category_threshold": 0.35,
+    "description_selector": "nearest_nonempty_reference"
+  },
+  "model_identifier": "/mnt/datablob/qizhili/hf_models/clip-vit-base-patch32",
+  "processor_class": "CLIPProcessor",
+  "model_class": "CLIPModel",
+  "local_model_file_sha256": {
+    "config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+    "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "tokenizer.json": "b556ac8c99757ffb677208af34bc8c6721572114111a6e0aaf5fa69ff0b8d842",
+    "tokenizer_config.json": "34b7336e4bee12e0a9730eaf5189f582ef3c3eea5027f65730e5717256755aad",
+    "vocab.json": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363",
+    "merges.txt": "f526393189112391ce6f9795d4695f704121ce452c3aad1f5335cc41337eba85",
+    "pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f"
+  },
+  "index_sha256": "083b7ece1536c395f2cd2359e16088c0bea5753269eeca9e5f07b9f9b4ced9e6",
+  "sample_ids_sha256": "4b69ef45509fc6b5ee5a2deabf40a37a53ca335f122561a5fd3c5b9ebe2fd26d",
+  "policy": {
+    "eligible_for_original_grouped_test_evaluation": true,
+    "intended_use": "reproduce_frozen_grouped_test_results"
+  },
+  "sources": {
+    "features_sha256": "7390fcd86079011ac8010d8414cf9ed664c558400c3675473b3f6d7a154b9963",
+    "split_sample_ids_sha256": "4b69ef45509fc6b5ee5a2deabf40a37a53ca335f122561a5fd3c5b9ebe2fd26d",
+    "provenance_sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084",
+    "split_summary_sha256": "41ae2c0ce50ac94b2a310b5ad896b3bd53b60b77edd85e3db29e6d812b6ed5b8"
+  },
+  "config_payload_sha256": "1cbaed80ddcef539a2a29763a1dccb750aee63fe4980f6065150f0dda27db1cb"
+}

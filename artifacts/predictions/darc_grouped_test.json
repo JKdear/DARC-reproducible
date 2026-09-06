@@ -1,0 +1,1490 @@
+[
+  {
+    "image_id": "00019.jpg",
+    "damage_categories": [
+      "crack",
+      "spalling",
+      "pothole"
+    ],
+    "description": "There is a pothole on the road. The adjacent ground has cracked and has broken and spalled under pressure."
+  },
+  {
+    "image_id": "00029.jpg",
+    "damage_categories": [
+      "crack",
+      "spalling",
+      "pothole"
+    ],
+    "description": "Multiple potholes have appeared on the road surface with standing water inside. The nearby pavement material has cracked and has been crushed and spalled."
+  },
+  {
+    "image_id": "00078.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, causing breakage and spalling."
+  },
+  {
+    "image_id": "00670.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road surface with standing water. The material near the pothole has cracked and has been crushed, resulting in spalling."
+  },
+  {
+    "image_id": "00687.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water inside. The surrounding material has developed cracks and has been crushed, leading to spalling."
+  },
+  {
+    "image_id": "00688.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, starting to spall."
+  },
+  {
+    "image_id": "00690.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, causing breakage and spalling."
+  },
+  {
+    "image_id": "00694.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, starting to spall."
+  },
+  {
+    "image_id": "00695.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, causing breakage and spalling."
+  },
+  {
+    "image_id": "00696.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "A pothole has appeared on the road surface. The surrounding material has cracked and been crushed into fragments, which have then spalled off."
+  },
+  {
+    "image_id": "00698.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water. The material near the pothole has cracked and has been crushed, resulting in spalling."
+  },
+  {
+    "image_id": "00703.jpg",
+    "damage_categories": [
+      "crack",
+      "spalling",
+      "pothole"
+    ],
+    "description": "A pothole has appeared on the road surface. The surrounding material has cracked and been crushed into fragments, which have then spalled off."
+  },
+  {
+    "image_id": "00975.jpg",
+    "damage_categories": [
+      "crack",
+      "pothole",
+      "spalling"
+    ],
+    "description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, causing breakage and spalling."
+  },
+  {
+    "image_id": "17.jpg",
+    "damage_categories": [
+      "honeycomb",
+      "looseness",
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface presents typical honeycomb defects: a large number of irregular holes are distributed on the surface, accompanied by local loosening and spalling of the surface layer, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "19.png",
+    "damage_categories": [
+      "honeycomb",
+      "void",
+      "looseness",
+      "spalling"
+    ],
+    "description": "The concrete surface displays typical honeycomb defects: a large number of irregular holes are distributed over the surface, accompanied by local loosening and spalling of the surface material, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "21.jpeg",
+    "damage_categories": [
+      "spalling",
+      "looseness",
+      "void",
+      "honeycomb"
+    ],
+    "description": "The concrete surface displays typical honeycomb defects: a large number of irregular holes are distributed over the surface, accompanied by local loosening and spalling of the surface material, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "29.jpg",
+    "damage_categories": [
+      "honeycomb",
+      "void",
+      "spalling",
+      "looseness"
+    ],
+    "description": "The concrete surface displays typical honeycomb defects: a large number of irregular holes are distributed over the surface, accompanied by local loosening and spalling of the surface material, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "37.JPG",
+    "damage_categories": [
+      "honeycomb",
+      "looseness",
+      "void",
+      "spalling"
+    ],
+    "description": "The concrete surface presents typical honeycomb defects: a large number of irregular holes are distributed on the surface, accompanied by local loosening and spalling of the surface layer, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "4.jpg",
+    "damage_categories": [
+      "spalling",
+      "corrosion",
+      "crack"
+    ],
+    "description": "The surface protective layer of the component has spalled off, leaving the internal structure exposed, and has consequently suffered severe rust damage."
+  },
+  {
+    "image_id": "43.JPG",
+    "damage_categories": [
+      "looseness",
+      "spalling",
+      "honeycomb",
+      "void"
+    ],
+    "description": "The concrete surface presents typical honeycomb defects: a large number of irregular holes are distributed on the surface, accompanied by local loosening and spalling of the surface layer, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "57.jpg",
+    "damage_categories": [
+      "spalling",
+      "corrosion",
+      "exposed_rebar"
+    ],
+    "description": "The concrete on the structural surface has undergone severe erosion, exposing the internal aggregate and supporting rebar, which also show significant signs of rust."
+  },
+  {
+    "image_id": "7.jpg",
+    "damage_categories": [
+      "honeycomb",
+      "void",
+      "spalling",
+      "looseness"
+    ],
+    "description": "The concrete surface displays typical honeycomb defects: a large number of irregular holes are distributed over the surface, accompanied by local loosening and spalling of the surface material, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "70.jpg",
+    "damage_categories": [
+      "spalling",
+      "looseness",
+      "corrosion",
+      "exposed_rebar"
+    ],
+    "description": "This concrete surface exhibits classic honeycomb defects: numerous irregular cavities are scattered across the surface, with localized surface material loosening and flaking, and the overall compactness is severely lacking."
+  },
+  {
+    "image_id": "73.jpg",
+    "damage_categories": [
+      "void",
+      "spalling",
+      "honeycomb",
+      "looseness"
+    ],
+    "description": "The concrete surface presents typical honeycomb defects: a large number of irregular holes are distributed on the surface, accompanied by local loosening and spalling of the surface layer, and the overall structural compactness is seriously insufficient."
+  },
+  {
+    "image_id": "78.jpg",
+    "damage_categories": [
+      "void",
+      "looseness",
+      "spalling",
+      "honeycomb"
+    ],
+    "description": "This concrete surface exhibits classic honeycomb defects: numerous irregular cavities are scattered across the surface, with localized surface material loosening and flaking, and the overall compactness is severely lacking."
+  },
+  {
+    "image_id": "79.jpg",
+    "damage_categories": [
+      "spalling",
+      "corrosion",
+      "exposed_rebar"
+    ],
+    "description": "The concrete surface has a loose defect: exposed surface aggregate, loose mortar bonding, localized spalling, and the overall structural solidity is poor."
+  },
+  {
+    "image_id": "81.jpg",
+    "damage_categories": [
+      "looseness",
+      "honeycomb",
+      "void",
+      "spalling"
+    ],
+    "description": "The concrete surface shows a looseness defect: exposed surface aggregate, weak mortar bonding, local spalling, and overall structural compactness is insufficient."
+  },
+  {
+    "image_id": "crack_0010.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface shows a crack extending from left to right, appearing as an irregular curve."
+  },
+  {
+    "image_id": "crack_0011.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A crack is visible on the concrete surface, winding downward from the top, showing an irregular zigzag shape."
+  },
+  {
+    "image_id": "crack_0012.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete structure shows a crack extending left to right in an irregular curve."
+  },
+  {
+    "image_id": "crack_0013.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface shows a crack extending from left to right, displaying an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0014.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface has a left-to-right crack shaped as an irregular curve."
+  },
+  {
+    "image_id": "crack_0015.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface has a left-to-right crack shaped as an irregular curve."
+  },
+  {
+    "image_id": "crack_0016.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface has a crack extending from top to bottom, with an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0017.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the concrete surface, a diagonal crack winds from top-left to bottom-right, with an irregular curved trajectory."
+  },
+  {
+    "image_id": "crack_0018.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the concrete surface, a diagonal crack extending from top-left to bottom-right takes an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0019.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "In the structure shown, a crack is observed on the concrete surface. Specifically, there is a fissure extending from left to right with an irregular curved trajectory."
+  },
+  {
+    "image_id": "crack_0040.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete structure shows a crack starting from the left and expanding rightward, forming an uneven curved shape."
+  },
+  {
+    "image_id": "crack_0041.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A crack on the concrete surface extends from left to right, following an irregular curved path."
+  },
+  {
+    "image_id": "crack_0042.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A crack is visible on the concrete surface, winding downward from the top, showing an irregular zigzag shape."
+  },
+  {
+    "image_id": "crack_0043.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A crack on the concrete surface extends from left to right, following an irregular curved path."
+  },
+  {
+    "image_id": "crack_0044.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the concrete surface, a crack extending from left to right can be observed; its path takes an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0045.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface has a left-to-right crack shaped as an irregular curve."
+  },
+  {
+    "image_id": "crack_0046.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface shows a crack extending from left to right, displaying an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0047.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A crack appears on the concrete surface, winding from top to bottom in an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0048.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A crack is observed on the concrete surface, spreading from left to right in an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0049.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "There is a crack on the concrete surface, extending from left to right, forming an irregular curve."
+  },
+  {
+    "image_id": "crack_0681.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface has a left-to-right crack shaped as an irregular curve."
+  },
+  {
+    "image_id": "crack_0682.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface shows many cracks that interlace, forming a network-like pattern."
+  },
+  {
+    "image_id": "crack_0683.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the concrete surface, an oblique crack extending from top-right to bottom-left is observed, with a winding and irregular path."
+  },
+  {
+    "image_id": "crack_0684.jpg",
+    "damage_categories": [
+      "crack",
+      "honeycomb",
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many cracks that interlace, forming a network-like pattern."
+  },
+  {
+    "image_id": "crack_0685.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface shows many cracks that interlace, forming a network-like pattern."
+  },
+  {
+    "image_id": "crack_0686.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface shows many cracks that interlace, forming a network-like pattern."
+  },
+  {
+    "image_id": "crack_0687.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface displays many cracks that intersect each other, forming a network-like distribution pattern."
+  },
+  {
+    "image_id": "crack_0688.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface shows a crack extending from left to right, displaying an irregular curved shape."
+  },
+  {
+    "image_id": "crack_0689.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface has a crack running from top to bottom, irregular and winding."
+  },
+  {
+    "image_id": "gangf_070.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is discovered on the steel component's surface near the weld. This condition may significantly and negatively impact the structure's stability and load-bearing capacity."
+  },
+  {
+    "image_id": "gangf_071.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A small crack appears on the steel component's surface near the welded area, which could seriously threaten the structural integrity."
+  },
+  {
+    "image_id": "gangf_072.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is discovered on the steel component's surface adjacent to the weld. This crack may severely impair the structure's load-carrying ability."
+  },
+  {
+    "image_id": "gangf_073.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A small crack appears on the steel component's surface near the welded area, which could seriously threaten the structural integrity."
+  },
+  {
+    "image_id": "gangf_074.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is discovered on the steel component's surface adjacent to the weld. This crack may severely impair the structure's load-carrying ability."
+  },
+  {
+    "image_id": "gangf_075.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A small crack is found on the steel component's surface near the weld. The presence of this crack could pose a major threat to the overall structural stability."
+  },
+  {
+    "image_id": "gangf_076.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the steel component's surface, near the weld area, a fine crack is observed. This condition could seriously weaken the overall structural stability."
+  },
+  {
+    "image_id": "gangf_077.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A small crack appears on the steel component's surface near the welded area, which could seriously threaten the structural integrity."
+  },
+  {
+    "image_id": "gangf_078.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A small crack appears on the steel component's surface near the welded area, which could seriously threaten the structural integrity."
+  },
+  {
+    "image_id": "gangf_079.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is revealed on the steel component's surface near the weld mark. This condition could severely weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "gangf_170.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack appears on the steel component's surface near the weld area. This type of crack could pose a major risk to the overall stability of the structure."
+  },
+  {
+    "image_id": "gangf_171.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the steel component's surface, near the weld area, a fine crack is observed. This crack could significantly and adversely affect the overall structural stability."
+  },
+  {
+    "image_id": "gangf_172.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A slight crack is discovered on the steel component's surface immediately adjacent to the weld. This flaw could severely impair its structural stability."
+  },
+  {
+    "image_id": "gangf_173.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the steel component's surface, near the weld area, a fine crack is observed. This condition could seriously weaken the overall structural stability."
+  },
+  {
+    "image_id": "gangf_174.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A tiny crack is found on the steel component's surface near the weld, and this crack could have a major negative effect on the load-bearing capacity."
+  },
+  {
+    "image_id": "gangf_175.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the steel component's surface, near the welded joint, a fine crack appears, a phenomenon that could significantly affect the overall structural stability."
+  },
+  {
+    "image_id": "gangf_176.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the steel component's surface, near the welded joint, a fine crack appears, a phenomenon that could significantly affect the overall structural stability."
+  },
+  {
+    "image_id": "gangf_177.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is exposed on the surface of the steel component near the weld area. This fissure could significantly affect the structural stability."
+  },
+  {
+    "image_id": "gangf_178.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack appears on the steel component's surface near the weld. This imperfection has the potential to greatly affect the structure's load-bearing capacity."
+  },
+  {
+    "image_id": "gangf_179.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack has been detected on the surface of the steel member near the weld zone. This condition could potentially have a serious negative effect on the structural stability."
+  },
+  {
+    "image_id": "gangf_180.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "On the steel component's surface, near the welded joint, a fine crack appears, a phenomenon that could significantly affect the overall structural stability."
+  },
+  {
+    "image_id": "gangf_181.jpg",
+    "damage_categories": [
+      "crack",
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "A tiny crack is found on the steel component's surface near the weld. This slight fissure could cause a notable negative impact on the load-bearing capacity."
+  },
+  {
+    "image_id": "gangf_182.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A barely visible fine crack is found on the steel component's surface near the weld, which could have a significant negative impact on the overall structural stability."
+  },
+  {
+    "image_id": "gangf_183.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A slight crack has been found on the steel component's surface immediately next to the weld. This imperfection may seriously compromise its structural stability."
+  },
+  {
+    "image_id": "gangf_184.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is observed on the steel component's surface near the weld area, a situation that could significantly affect the overall structural stability."
+  },
+  {
+    "image_id": "gangf_185.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A diagonal crack extending from top-right to bottom-left appears on the concrete surface, taking an irregular curved shape."
+  },
+  {
+    "image_id": "gangf_186.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "The concrete surface has a crack extending from top to bottom, showing an irregular curved shape."
+  },
+  {
+    "image_id": "gangf_187.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is revealed on the steel component's surface near the weld. This situation could bring a major impact on the overall load-bearing capacity of the structure."
+  },
+  {
+    "image_id": "gangf_188.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A tiny crack is found on the steel component's surface near the weld. This slight fissure could cause a notable negative impact on the load-bearing capacity."
+  },
+  {
+    "image_id": "gangf_189.jpg",
+    "damage_categories": [
+      "crack"
+    ],
+    "description": "A fine crack is detected on the steel component's surface near the weld. This condition could severely affect the load-bearing capacity of the structure."
+  },
+  {
+    "image_id": "kong_0290.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some areas larger holes or spalling are evident. This condition may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0291.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is scattered with many fine pores, and in specific areas larger holes or spalling occur. This may adversely affect its load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0292.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in specific areas larger holes or even material spalling are evident. This defect may weaken the overall load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0293.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some areas larger holes or spalling are evident. This condition may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0294.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some areas larger holes or spalling are evident. This condition may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0295.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface presents many fine holes, and in some areas larger voids or material spalling occur. This may negatively affect structural stability."
+  },
+  {
+    "image_id": "kong_0296.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in specific areas larger holes or even material spalling are evident. This defect may weaken the overall load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0297.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is scattered with many fine pores, and in specific areas larger holes or spalling occur. This may adversely affect its load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0298.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some areas relatively larger holes or spalling can be observed. These defects may affect overall structural stability."
+  },
+  {
+    "image_id": "kong_0299.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some areas larger holes or spalling are also observed. These defects may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0320.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, while some parts have larger holes or material spalling. This may negatively affect the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0321.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is scattered with numerous fine voids, and in some areas larger voids or spalling appear. These defects may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0322.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface displays many fine pores, and in certain areas larger holes or spalling occur. This situation may negatively affect the overall structural strength."
+  },
+  {
+    "image_id": "kong_0323.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is scattered with many fine pores, and in specific areas larger holes or spalling occur. This may adversely affect its load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0324.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some areas larger voids or material spalling are visible. These defects may weaken its load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0325.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in local areas larger holes or even material spalling occur. These defects may weaken the structural load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0326.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface presents many fine holes, and in some areas larger voids or material spalling occur. This may negatively affect structural stability."
+  },
+  {
+    "image_id": "kong_0327.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface in the image shows many fine pores, and in a few areas larger holes or spalling appear. This may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0328.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface in the image shows many fine pores, and in a few areas larger holes or spalling appear. This may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0329.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, while some parts have larger holes or material spalling. This may negatively affect the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0380.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is scattered with numerous fine voids, and in some areas larger voids or spalling appear. These defects may weaken the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0381.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine holes, and in some areas larger holes or spalling marks are visible. This may negatively impact structural stability."
+  },
+  {
+    "image_id": "kong_0382.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some places larger holes or material spalling are visible. This situation may adversely affect the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0383.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is full of numerous fine pores, and in some areas larger voids or spalling are observed. These defects may reduce the building structure's load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0384.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine holes, and in some parts larger holes or spalling are visible. This may affect structural durability and load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0385.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine holes, and in some areas larger holes or spalling marks are visible. This may negatively impact structural stability."
+  },
+  {
+    "image_id": "kong_0386.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is dotted with numerous fine holes, and in some areas larger voids or material spalling are present. These flaws might weaken the structural load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0387.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is dotted with numerous fine holes, and in some areas larger voids or material spalling are present. These flaws might weaken the structural load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0388.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, while some parts have larger holes or material spalling. This may negatively affect the load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0389.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is dotted with numerous fine holes, and in some areas larger voids or material spalling are present. These flaws might weaken the structural load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0390.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface presents many fine pores, and in some areas larger holes or spalling appear. This may negatively affect structural solidity."
+  },
+  {
+    "image_id": "kong_0391.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is dotted with numerous fine holes, and in some areas larger voids or material spalling are present. These flaws might weaken the structural load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0392.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface is dotted with numerous fine holes, and in some areas larger voids or material spalling are present. These flaws might weaken the structural load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0393.jpg",
+    "damage_categories": [
+      "void",
+      "spalling"
+    ],
+    "description": "The concrete surface displays many fine pores, and in some areas larger holes or peeling are visible. These defects may affect structural solidity."
+  },
+  {
+    "image_id": "kong_0394.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine pores, and in some areas larger voids or material spalling are visible. These defects may weaken its load-bearing capacity."
+  },
+  {
+    "image_id": "kong_0395.jpg",
+    "damage_categories": [
+      "spalling",
+      "void"
+    ],
+    "description": "The concrete surface shows many fine holes, and in some parts larger holes or spalling are visible. This may affect structural durability and load-bearing capacity."
+  },
+  {
+    "image_id": "lou_0050.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0051.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0052.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "A large area of the concrete cover has spalled off, revealing the aggregate and exposing the main load-bearing rebar. Additionally, these rebars show severe rusting."
+  },
+  {
+    "image_id": "lou_0053.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling has occurred on the structural surface, exposing internal aggregate and load-bearing rebar, while these rebars have suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0054.jpg",
+    "damage_categories": [
+      "spalling",
+      "corrosion",
+      "exposed_rebar"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0055.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0056.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the concrete surface, exposing the internal aggregate and supporting rebar. Additionally, these rebars show severe rusting."
+  },
+  {
+    "image_id": "lou_0057.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling appears on the structural surface, exposing aggregate and load-bearing rebar, while these rebars have suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0058.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and pressure-bearing rebar, which have also been seriously corroded."
+  },
+  {
+    "image_id": "lou_0059.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling",
+      "peeling"
+    ],
+    "description": "Significant spalling has occurred on the structural surface, exposing the internal aggregate and pressure-bearing rebar. At the same time, these rebars show serious rust problems."
+  },
+  {
+    "image_id": "lou_0085.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling has occurred on the structural surface, exposing the underlying aggregate and load-bearing rebar, accompanied by severe corrosion of the rebar."
+  },
+  {
+    "image_id": "lou_0086.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling appears on the structural surface, exposing the underlying aggregate and main load-bearing rebar, and the rebar shows severe rusting."
+  },
+  {
+    "image_id": "lou_0087.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling appears on the structural surface, exposing the underlying aggregate and main load-bearing rebar, and the rebar shows severe rusting."
+  },
+  {
+    "image_id": "lou_0088.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling has occurred on the structural surface, exposing the underlying aggregate and load-bearing rebar, accompanied by severe corrosion of the rebar."
+  },
+  {
+    "image_id": "lou_0089.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0140.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling appears on the concrete structure surface, exposing internal aggregate and load-bearing rebar, and these rebars have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0141.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "A large area of the concrete cover has spalled off, revealing the aggregate and exposing the main load-bearing rebar. Additionally, these rebars show severe rusting."
+  },
+  {
+    "image_id": "lou_0143.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling appears on the concrete structure surface, exposing internal aggregate and load-bearing rebar, and these rebars have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0144.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar. At the same time, these rebars have suffered severe rust problems."
+  },
+  {
+    "image_id": "lou_0145.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0146.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "The structural surface exhibits extensive concrete spalling, exposing the inner aggregate and load-bearing rebar, which have also suffered severe corrosion."
+  },
+  {
+    "image_id": "lou_0147.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling has occurred on the structural surface, exposing internal aggregate and load-bearing rebar, while these rebars have suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0149.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive concrete spalling has occurred on the structural surface, exposing internal aggregate and load-bearing rebar, while these rebars have suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0401.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling appears on the concrete structure surface, exposing internal aggregate and load-bearing rebar, and these rebars have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0402.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Significant spalling has occurred on the structural surface, exposing the internal aggregate and pressure-bearing rebar. At the same time, these rebars show serious rust problems."
+  },
+  {
+    "image_id": "lou_0403.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0404.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing aggregate and load-bearing rebar, which have also suffered severe rusting."
+  },
+  {
+    "image_id": "lou_0405.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar. At the same time, these rebars have suffered severe rust problems."
+  },
+  {
+    "image_id": "lou_0408.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Significant spalling has occurred on the structural surface, exposing the underlying aggregate and load-bearing rebar. Moreover, these rebars have been severely rusted."
+  },
+  {
+    "image_id": "lou_0409.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "Extensive spalling has occurred on the structural surface, exposing aggregate and making load-bearing rebar visible. These rebars also show severe corrosion."
+  },
+  {
+    "image_id": "xiu_060.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The protective layer of the component has spalled off, exposing the component, which has then suffered intense rusting."
+  },
+  {
+    "image_id": "xiu_061.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "Because the protective coating on the component surface has come off, the component is exposed and has suffered severe corrosion."
+  },
+  {
+    "image_id": "xiu_062.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling",
+      "exposed_rebar"
+    ],
+    "description": "Extensive concrete spalling appears on the structural surface, exposing aggregate and main load-bearing rebar, and severe rusting is observed on the rebar."
+  },
+  {
+    "image_id": "xiu_063.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling",
+      "peeling"
+    ],
+    "description": "The surface protective layer of the component has spalled off, exposing the component, which has subsequently caused severe rust."
+  },
+  {
+    "image_id": "xiu_064.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The surface protective layer of the component has spalled off, exposing the component, which has subsequently caused severe rust."
+  },
+  {
+    "image_id": "xiu_065.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has spalled off, exposing the component, leading to severe corrosion."
+  },
+  {
+    "image_id": "xiu_066.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling",
+      "peeling"
+    ],
+    "description": "The protective layer on the component surface has spalled off, exposing the component, which has suffered severe corrosion damage."
+  },
+  {
+    "image_id": "xiu_067.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling",
+      "peeling"
+    ],
+    "description": "The outer protective layer of the component has spalled off, exposing the component, leading to severe corrosion."
+  },
+  {
+    "image_id": "xiu_068.jpg",
+    "damage_categories": [
+      "corrosion",
+      "peeling",
+      "spalling"
+    ],
+    "description": "The protective outer layer of the component has peeled off, exposing the component, which has then suffered severe rusting."
+  },
+  {
+    "image_id": "xiu_069.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The protective coating of the component has spalled off, leaving the component exposed and suffering severe corrosion."
+  },
+  {
+    "image_id": "xiu_130.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has spalled off, leaving the component exposed, which has then suffered severe corrosion."
+  },
+  {
+    "image_id": "xiu_131.jpg",
+    "damage_categories": [
+      "corrosion",
+      "exposed_rebar",
+      "spalling"
+    ],
+    "description": "The concrete surface has a top-to-bottom crack, exhibiting an irregular curved shape."
+  },
+  {
+    "image_id": "xiu_132.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling",
+      "peeling"
+    ],
+    "description": "The protective layer on the component surface has peeled off, exposing the component, which has subsequently led to severe corrosion problems."
+  },
+  {
+    "image_id": "xiu_133.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling",
+      "peeling"
+    ],
+    "description": "The surface protection of the component has peeled off, leading to exposure and subsequently causing severe rust issues."
+  },
+  {
+    "image_id": "xiu_134.jpg",
+    "damage_categories": [
+      "corrosion",
+      "peeling",
+      "spalling"
+    ],
+    "description": "The protective film on the component surface has spalled off, exposing the component and causing severe rust damage."
+  },
+  {
+    "image_id": "xiu_135.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has spalled off, exposing the component, leading to severe corrosion."
+  },
+  {
+    "image_id": "xiu_136.jpg",
+    "damage_categories": [
+      "corrosion",
+      "peeling",
+      "spalling"
+    ],
+    "description": "The protective coating of the component has spalled off, leaving the component exposed and suffering severe corrosion."
+  },
+  {
+    "image_id": "xiu_137.jpg",
+    "damage_categories": [
+      "corrosion",
+      "peeling",
+      "spalling"
+    ],
+    "description": "The surface protection of the component has peeled off, causing the component to lose its protection and become directly exposed, leading to severe rust."
+  },
+  {
+    "image_id": "xiu_138.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has spalled off, leaving the component exposed, which has then suffered severe corrosion."
+  },
+  {
+    "image_id": "xiu_139.jpg",
+    "damage_categories": [
+      "corrosion",
+      "peeling",
+      "spalling"
+    ],
+    "description": "The protective layer on the component surface has peeled off, exposing the component, which has subsequently led to severe corrosion problems."
+  },
+  {
+    "image_id": "xiu_150.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The surface protection material of the component has spalled off, exposing the component and causing it to suffer severe corrosion."
+  },
+  {
+    "image_id": "xiu_151.jpg",
+    "damage_categories": [
+      "corrosion",
+      "peeling",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has peeled off, leaving the component exposed and suffering severe corrosion."
+  },
+  {
+    "image_id": "xiu_152.jpg",
+    "damage_categories": [
+      "crack",
+      "spalling",
+      "pothole"
+    ],
+    "description": "There is a pothole on the road. The surrounding material has cracked and has been crushed, starting to spall."
+  },
+  {
+    "image_id": "xiu_153.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has spalled off, exposing its internal structure and causing severe rusting issues."
+  },
+  {
+    "image_id": "xiu_154.jpg",
+    "damage_categories": [
+      "corrosion",
+      "peeling",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has peeled off, leaving the component exposed and suffering severe corrosion."
+  },
+  {
+    "image_id": "xiu_155.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "Due to the spalling of the protective layer on the component surface, the component is left exposed, which has led to severe rust problems."
+  },
+  {
+    "image_id": "xiu_156.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The outer protective layer of the component has spalled off, exposing its internal structure and causing severe rusting issues."
+  },
+  {
+    "image_id": "xiu_157.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The protective layer on the component surface has peeled off, exposing the component, which has subsequently led to severe corrosion problems."
+  },
+  {
+    "image_id": "xiu_158.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling"
+    ],
+    "description": "The protective layer on the component surface has spalled off, exposing the component, which has then triggered severe rust issues."
+  },
+  {
+    "image_id": "xiu_159.jpg",
+    "damage_categories": [
+      "corrosion",
+      "spalling",
+      "peeling"
+    ],
+    "description": "The surface protective layer of the component has spalled off, exposing the component, which has subsequently caused severe rust."
+  }
+]

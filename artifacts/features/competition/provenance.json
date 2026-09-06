@@ -1,0 +1,56 @@
+{
+  "format_version": "1.0",
+  "method": "DARC",
+  "mode": "competition",
+  "construction": "combined_from_frozen_research_features_after_model_selection",
+  "model_identifier": "/mnt/datablob/qizhili/hf_models/clip-vit-base-patch32",
+  "processor_class": "CLIPProcessor",
+  "model_class": "CLIPModel",
+  "local_model_file_sha256": {
+    "config.json": "b575ef3c36f2a057fa19e221650105052d61cc9c1a972ec15019c6261ec98770",
+    "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "tokenizer.json": "b556ac8c99757ffb677208af34bc8c6721572114111a6e0aaf5fa69ff0b8d842",
+    "tokenizer_config.json": "34b7336e4bee12e0a9730eaf5189f582ef3c3eea5027f65730e5717256755aad",
+    "vocab.json": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363",
+    "merges.txt": "f526393189112391ce6f9795d4695f704121ce452c3aad1f5335cc41337eba85",
+    "pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f"
+  },
+  "categories": [
+    "corrosion",
+    "crack",
+    "efflorescence",
+    "exposed_rebar",
+    "fatigue_crack",
+    "honeycomb",
+    "looseness",
+    "peeling",
+    "pothole",
+    "spalling",
+    "void"
+  ],
+  "artifacts": {
+    "all_labeled": {
+      "path": "artifacts/features/competition/all_labeled.npz",
+      "sha256": "42d754c6cd93906d94781e1b40cb581a4bc8e182d96d01e2d50113c764125d63",
+      "sample_count": 1200,
+      "embedding_dim": 512,
+      "contains_labels": true,
+      "image_ids_sha256": "0daafc6d96f63332aaed3803794341a69c5a39c6322eb442fc9530fdaac30198",
+      "sample_ids_sha256": "0660f650c5eff639274e91e2db1d927e055fb0809414aa2d03fdc03d1be1e978",
+      "image_content_sha256": "913c366b45a70d595ffe8ebd2762265397c37ba588c5f06a24795a816c7ef37f",
+      "split_sha256": "9bfd3afffe30256fd6a3912a88b3a8db9d700672405af83733e21d9bc609c7c8"
+    }
+  },
+  "sources": {
+    "train_sha256": "7390fcd86079011ac8010d8414cf9ed664c558400c3675473b3f6d7a154b9963",
+    "val_sha256": "59159226faa2b4c81771bba63de10eb492b8c632156ef65d7f7aba8ecfa8b947",
+    "test_sha256": "2b6734118014d6ad3d7acf64cb0eacefc1a3a65ae4795677a48cf0305b1384ca",
+    "test_labels_sha256": "a1bc43107b87a1b9a6bc0d0e91516e2b948a119823212be080de9b27152e35fe",
+    "research_provenance_sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084"
+  },
+  "policy": {
+    "parameters_frozen_before_full_index_build": true,
+    "eligible_for_original_grouped_test_evaluation": false,
+    "intended_use": "prediction_on_unseen_competition_images_only"
+  }
+}

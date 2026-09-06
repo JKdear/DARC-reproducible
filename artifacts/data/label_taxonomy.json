@@ -1,0 +1,401 @@
+{
+  "name": "DARC structural damage taxonomy",
+  "version": "1.0",
+  "language": "en",
+  "categories": [
+    {
+      "name": "corrosion",
+      "description": "Rusting or corrosion of steel or reinforcement.",
+      "keywords": [
+        "corrosion",
+        "corroded",
+        "corroding",
+        "rust",
+        "rusting",
+        "rusted"
+      ],
+      "prefix_hints": [
+        "gangf",
+        "xiu"
+      ]
+    },
+    {
+      "name": "crack",
+      "description": "Visible cracking or fissures on concrete, pavement, or structural surfaces.",
+      "keywords": [
+        "crack",
+        "cracks",
+        "cracked",
+        "cracking",
+        "fissure",
+        "fissures",
+        "fracture",
+        "fractures"
+      ],
+      "prefix_hints": [
+        "crack"
+      ]
+    },
+    {
+      "name": "efflorescence",
+      "description": "White crystalline deposits, salt deposits, or efflorescence on surface or joints.",
+      "keywords": [
+        "efflorescence",
+        "white deposit",
+        "white deposits",
+        "salt deposit",
+        "salt deposits",
+        "white powder",
+        "powdery crystals"
+      ],
+      "prefix_hints": []
+    },
+    {
+      "name": "exposed_rebar",
+      "description": "Exposed reinforcement bars or steel bars visible through damaged concrete.",
+      "keywords": [
+        "exposed rebar",
+        "exposed reinforcement",
+        "reinforcing bar",
+        "reinforcing bars",
+        "steel bar",
+        "steel bars",
+        "rebar exposed"
+      ],
+      "prefix_hints": [
+        "lou"
+      ]
+    },
+    {
+      "name": "fatigue_crack",
+      "description": "Fatigue cracking or fatigue-related surface crack pattern.",
+      "keywords": [
+        "fatigue crack",
+        "fatigue cracks",
+        "fatigue cracking"
+      ],
+      "prefix_hints": []
+    },
+    {
+      "name": "honeycomb",
+      "description": "Honeycomb-like concrete defect with dense cavities and poor compactness.",
+      "keywords": [
+        "honeycomb",
+        "honeycombing"
+      ],
+      "prefix_hints": []
+    },
+    {
+      "name": "looseness",
+      "description": "Loose, loosened, or poorly compacted material on the surface.",
+      "keywords": [
+        "looseness",
+        "loose",
+        "loosened",
+        "loosening",
+        "flaking",
+        "poor compactness",
+        "insufficient compactness"
+      ],
+      "prefix_hints": []
+    },
+    {
+      "name": "peeling",
+      "description": "Peeling or peeled surface layer.",
+      "keywords": [
+        "peeling",
+        "peeled",
+        "peel"
+      ],
+      "prefix_hints": []
+    },
+    {
+      "name": "pothole",
+      "description": "Localized road or pavement depression, pit, or pothole damage.",
+      "keywords": [
+        "pothole",
+        "pot hole",
+        "road pit"
+      ],
+      "prefix_hints": []
+    },
+    {
+      "name": "spalling",
+      "description": "Surface spalling, flaking, material loss, crushed fragments, or broken-off layers.",
+      "keywords": [
+        "spalling",
+        "spall",
+        "spalled",
+        "breakage",
+        "broken",
+        "material loss",
+        "surface loss",
+        "fragment"
+      ],
+      "prefix_hints": []
+    },
+    {
+      "name": "void",
+      "description": "Voids, holes, pores, or cavities in concrete or surface material.",
+      "keywords": [
+        "void",
+        "voids",
+        "hole",
+        "holes",
+        "pore",
+        "pores",
+        "porous",
+        "cavity",
+        "cavities"
+      ],
+      "prefix_hints": [
+        "kong"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "name": "dense",
+      "keywords": [
+        "dense",
+        "many",
+        "numerous",
+        "covered with",
+        "full of"
+      ]
+    },
+    {
+      "name": "diagonal",
+      "keywords": [
+        "diagonal",
+        "oblique"
+      ]
+    },
+    {
+      "name": "irregular",
+      "keywords": [
+        "irregular",
+        "uneven",
+        "winding",
+        "curved",
+        "non-linear",
+        "nonlinear"
+      ]
+    },
+    {
+      "name": "left_to_right",
+      "keywords": [
+        "left to right",
+        "left-to-right",
+        "rightward"
+      ]
+    },
+    {
+      "name": "load_bearing_risk",
+      "keywords": [
+        "load-bearing",
+        "load bearing",
+        "stability",
+        "structural strength",
+        "durability",
+        "robustness"
+      ]
+    },
+    {
+      "name": "localized",
+      "keywords": [
+        "local",
+        "localized",
+        "in some areas",
+        "in some parts",
+        "specific areas"
+      ]
+    },
+    {
+      "name": "standing_water",
+      "keywords": [
+        "standing water",
+        "water inside",
+        "water-filled",
+        "water filled"
+      ]
+    },
+    {
+      "name": "top_left_to_bottom_right",
+      "keywords": [
+        "top-left to bottom-right",
+        "top left to bottom right"
+      ]
+    },
+    {
+      "name": "top_right_to_bottom_left",
+      "keywords": [
+        "top-right to bottom-left",
+        "top right to bottom left"
+      ]
+    }
+  ],
+  "unknown_category": "unknown",
+  "label_token_frequencies": [
+    {
+      "token": "component",
+      "count": 1058
+    },
+    {
+      "token": "crack",
+      "count": 878
+    },
+    {
+      "token": "spalling",
+      "count": 710
+    },
+    {
+      "token": "steel",
+      "count": 499
+    },
+    {
+      "token": "fine",
+      "count": 399
+    },
+    {
+      "token": "exposed",
+      "count": 377
+    },
+    {
+      "token": "load-bearing",
+      "count": 376
+    },
+    {
+      "token": "severe",
+      "count": 341
+    },
+    {
+      "token": "voids",
+      "count": 296
+    },
+    {
+      "token": "holes",
+      "count": 272
+    },
+    {
+      "token": "exposing",
+      "count": 267
+    },
+    {
+      "token": "rebar",
+      "count": 260
+    },
+    {
+      "token": "may",
+      "count": 232
+    },
+    {
+      "token": "aggregate",
+      "count": 231
+    },
+    {
+      "token": "larger",
+      "count": 227
+    },
+    {
+      "token": "near",
+      "count": 220
+    },
+    {
+      "token": "overall",
+      "count": 219
+    },
+    {
+      "token": "weld",
+      "count": 219
+    },
+    {
+      "token": "could",
+      "count": 217
+    },
+    {
+      "token": "capacity",
+      "count": 215
+    },
+    {
+      "token": "material",
+      "count": 213
+    },
+    {
+      "token": "affect",
+      "count": 212
+    },
+    {
+      "token": "corroded",
+      "count": 211
+    },
+    {
+      "token": "reinforcement",
+      "count": 205
+    },
+    {
+      "token": "many",
+      "count": 198
+    },
+    {
+      "token": "off",
+      "count": 197
+    },
+    {
+      "token": "areas",
+      "count": 193
+    },
+    {
+      "token": "these",
+      "count": 192
+    },
+    {
+      "token": "irregular",
+      "count": 187
+    },
+    {
+      "token": "some",
+      "count": 178
+    },
+    {
+      "token": "stability",
+      "count": 173
+    },
+    {
+      "token": "protective",
+      "count": 167
+    },
+    {
+      "token": "rusting",
+      "count": 154
+    },
+    {
+      "token": "layer",
+      "count": 147
+    },
+    {
+      "token": "pores",
+      "count": 143
+    },
+    {
+      "token": "pothole",
+      "count": 142
+    },
+    {
+      "token": "suffered",
+      "count": 135
+    },
+    {
+      "token": "spalled",
+      "count": 134
+    },
+    {
+      "token": "extensive",
+      "count": 130
+    },
+    {
+      "token": "which",
+      "count": 124
+    }
+  ]
+}

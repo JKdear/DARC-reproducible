@@ -1,0 +1,259 @@
+{
+  "format_version": "1.0",
+  "method": "DARC",
+  "file_count": 49,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 66,
+      "sha256": "faac78935fdc0db783bde41989aac496ef9742a46943814154f022699ada1a59"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 13076,
+      "sha256": "ad10d5dce312df082c74f4c7953ae1bf24b66dbadd499cc395d53dfb27c15d10"
+    },
+    {
+      "path": "artifacts/data/dataset_manifest.json",
+      "size_bytes": 1221669,
+      "sha256": "a33bb0324530e5c98829262554738d39500fb56eb10ce99963cb4d4949c4697c"
+    },
+    {
+      "path": "artifacts/data/label_taxonomy.json",
+      "size_bytes": 7425,
+      "sha256": "4f8810de2c616cca1ce6be84ab4ad10cf2cc5ad7dfdd58f1390ff14f615d7dec"
+    },
+    {
+      "path": "artifacts/data/splits_competition/all_labeled.json",
+      "size_bytes": 1207546,
+      "sha256": "9bfd3afffe30256fd6a3912a88b3a8db9d700672405af83733e21d9bc609c7c8"
+    },
+    {
+      "path": "artifacts/data/splits_grouped/split_summary.json",
+      "size_bytes": 30697,
+      "sha256": "41ae2c0ce50ac94b2a310b5ad896b3bd53b60b77edd85e3db29e6d812b6ed5b8"
+    },
+    {
+      "path": "artifacts/data/splits_grouped/test.json",
+      "size_bytes": 182262,
+      "sha256": "0832e087ce322687b0bea521a1141e7ecc3fa95372e642bd6dbbed912d5d5250"
+    },
+    {
+      "path": "artifacts/data/splits_grouped/train.json",
+      "size_bytes": 841109,
+      "sha256": "5b2476c14fe78e51487fa54ca73b0d22861786934aa9821fe493485a1c100419"
+    },
+    {
+      "path": "artifacts/data/splits_grouped/val.json",
+      "size_bytes": 184206,
+      "sha256": "53486ecc7112f86b66bad5a21a8c7392edec39e9da9d37d8d7224f33cd003f3a"
+    },
+    {
+      "path": "artifacts/features/competition/all_labeled.npz",
+      "size_bytes": 2359637,
+      "sha256": "42d754c6cd93906d94781e1b40cb581a4bc8e182d96d01e2d50113c764125d63"
+    },
+    {
+      "path": "artifacts/features/competition/provenance.json",
+      "size_bytes": 2522,
+      "sha256": "caf87f8ed097f7c7ca7234b04c1b5e6a5743226194ec8c986109856265527a03"
+    },
+    {
+      "path": "artifacts/features/research/provenance.json",
+      "size_bytes": 5651,
+      "sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084"
+    },
+    {
+      "path": "artifacts/features/research/test.npz",
+      "size_bytes": 355484,
+      "sha256": "2b6734118014d6ad3d7acf64cb0eacefc1a3a65ae4795677a48cf0305b1384ca"
+    },
+    {
+      "path": "artifacts/features/research/test_labels.npz",
+      "size_bytes": 3601,
+      "sha256": "a1bc43107b87a1b9a6bc0d0e91516e2b948a119823212be080de9b27152e35fe"
+    },
+    {
+      "path": "artifacts/features/research/train.npz",
+      "size_bytes": 1644727,
+      "sha256": "7390fcd86079011ac8010d8414cf9ed664c558400c3675473b3f6d7a154b9963"
+    },
+    {
+      "path": "artifacts/features/research/val.npz",
+      "size_bytes": 357622,
+      "sha256": "59159226faa2b4c81771bba63de10eb492b8c632156ef65d7f7aba8ecfa8b947"
+    },
+    {
+      "path": "artifacts/metrics/darc_grouped_test.json",
+      "size_bytes": 70671,
+      "sha256": "be3ee5ae478f6f719725b2db9f65c6949d61042e5beb0898edeb02a055316c74"
+    },
+    {
+      "path": "artifacts/predictions/darc_grouped_test.evidence.json",
+      "size_bytes": 202997,
+      "sha256": "c2d3f9e9a881f64d4cf666f4456652294364d45e8bc47a1cb6fec10f488520ec"
+    },
+    {
+      "path": "artifacts/predictions/darc_grouped_test.json",
+      "size_bytes": 51459,
+      "sha256": "348d47a9caba416513cc43593b74b78dc21586429351d22c909e0bcc49587dd3"
+    },
+    {
+      "path": "artifacts/runtime/competition/artifact_fingerprint.txt",
+      "size_bytes": 65,
+      "sha256": "c406a428b605d318f8f7c3335e93c6aae9c282a176f4c93c52aa8092609213f9"
+    },
+    {
+      "path": "artifacts/runtime/competition/retrieval_index.npz",
+      "size_bytes": 2385061,
+      "sha256": "f6d95163f4bd627b41eb1b94724274a2b90044d3858747ac68921bfcefc173e5"
+    },
+    {
+      "path": "artifacts/runtime/competition/runtime_config.json",
+      "size_bytes": 2162,
+      "sha256": "a98a7cd9f94503aae7f2fb4a039f8a9702c1d47f09c4f126e811ecf39168c26b"
+    },
+    {
+      "path": "artifacts/runtime/research/artifact_fingerprint.txt",
+      "size_bytes": 65,
+      "sha256": "1ac105c72169f9efdc07eede02338f2fe9f6d1594436fe7932476617ef484c22"
+    },
+    {
+      "path": "artifacts/runtime/research/retrieval_index.npz",
+      "size_bytes": 1663259,
+      "sha256": "083b7ece1536c395f2cd2359e16088c0bea5753269eeca9e5f07b9f9b4ced9e6"
+    },
+    {
+      "path": "artifacts/runtime/research/runtime_config.json",
+      "size_bytes": 2218,
+      "sha256": "3821b8525c3fa95608ffd3aa021c31f49a8544c0a513e6351e9a3c43ae7ef5fd"
+    },
+    {
+      "path": "config/darc.json",
+      "size_bytes": 2431,
+      "sha256": "197d6b2a43b762be31c03bb0a6f9585b4c62fe044e64f0d2b3d27bc67bb47c98"
+    },
+    {
+      "path": "config/server_sync_manifest.json",
+      "size_bytes": 2432,
+      "sha256": "bb33b69f76b14c7a8f9d66a4ba1a30efcefe9321607f6153db10858b853d0b87"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 77,
+      "sha256": "2efee08392bfbf4c97f896397562faf205162cb0d25efe7fb5203c86323acc96"
+    },
+    {
+      "path": "scripts/build_artifact.py",
+      "size_bytes": 1750,
+      "sha256": "490f51b0c084a4679024681c92632cee47bb8fb003d688c2c3270158633294ef"
+    },
+    {
+      "path": "scripts/build_release_manifest.py",
+      "size_bytes": 1814,
+      "sha256": "db34cde17e55e4fc23cf87b2bc61ed40fc5d8f91d8faf1d54fb32909d7b0ef57"
+    },
+    {
+      "path": "scripts/capture_environment.py",
+      "size_bytes": 2384,
+      "sha256": "de75bfc321d49bae69a2a9fcc9cfba6109c246941c8593ae088d6ec1f123f2e2"
+    },
+    {
+      "path": "scripts/combine_frozen_features.py",
+      "size_bytes": 1751,
+      "sha256": "d2f73675566d9e303d42fd27be44c035ac5846bb14040906f899cd339a78c1e1"
+    },
+    {
+      "path": "scripts/evaluate.py",
+      "size_bytes": 1129,
+      "sha256": "a0bcedb5592f4554752fde69ee512c24bd1f2dbf00f468e3e94e47910b96b5c4"
+    },
+    {
+      "path": "scripts/export_features.py",
+      "size_bytes": 2169,
+      "sha256": "c339ede93e703e9e63e7172c63fe02889d5ddf6752ad28fb6dc75b129d8e5aa5"
+    },
+    {
+      "path": "scripts/predict.py",
+      "size_bytes": 4863,
+      "sha256": "e662235536d89d9f917de759d94e36a5cc1cc22b433f01d146fe8b7410951137"
+    },
+    {
+      "path": "scripts/predict_features.py",
+      "size_bytes": 1764,
+      "sha256": "79e1a8c24512d1fb379b76339db3cc9782f2646260373015dfda8c875a3785d3"
+    },
+    {
+      "path": "scripts/prepare_data.py",
+      "size_bytes": 1032,
+      "sha256": "efa0964c19591e6e34f8335a29f928be67e50ba90779872e76be9294415bb7d9"
+    },
+    {
+      "path": "scripts/sync_verified_artifacts.py",
+      "size_bytes": 1931,
+      "sha256": "8303bb020d51a6663a1b75ea2b060ff046c25b4cce53ecb0969ca04fe8393751"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "size_bytes": 7560,
+      "sha256": "1267cb32c6914c77fd4080c83a2eb53e9f80bfd4ce858eca7b9c402b1637270f"
+    },
+    {
+      "path": "src/__init__.py",
+      "size_bytes": 95,
+      "sha256": "ce28c647543d1531d4db94c4f6dd3328fe8e0c7b2a4561f930ab86e401c06f82"
+    },
+    {
+      "path": "src/common.py",
+      "size_bytes": 2007,
+      "sha256": "78351720938d1f441402ff47a3f9cc802718f019d65c2b0302aa66a788aa0868"
+    },
+    {
+      "path": "src/data.py",
+      "size_bytes": 16139,
+      "sha256": "c450efe30cde1fa8b9736ff6d2893fa9624eaab9bfc93d64a3b5b9dfe7a1585c"
+    },
+    {
+      "path": "src/evaluation.py",
+      "size_bytes": 6857,
+      "sha256": "199db4057b61ddd7fb1e14d48c849c1faf5c67906bd98facf48609b96783133c"
+    },
+    {
+      "path": "src/features.py",
+      "size_bytes": 18229,
+      "sha256": "1de3576ea3bab749494a60d90dca2c663cca56477970b0465ce2bf6f9e20c974"
+    },
+    {
+      "path": "src/runtime.py",
+      "size_bytes": 15217,
+      "sha256": "2b1238389f16764f543f02db4349930d16359d1109c9add5695fb4fcd6f2a679"
+    },
+    {
+      "path": "src/taxonomy.py",
+      "size_bytes": 7329,
+      "sha256": "5002ce5bc417e231b32d0cb5f5f6909234a66ffbf5d75f114b8193b2c24f2604"
+    },
+    {
+      "path": "tests/conftest.py",
+      "size_bytes": 144,
+      "sha256": "0cb67ba91674c07e557440292720aa3c3c111f4c41b7db1f4d219a7c68dc6f52"
+    },
+    {
+      "path": "tests/test_algorithm.py",
+      "size_bytes": 4838,
+      "sha256": "2a72326c46a9560f88110d3e25a313f1f377f9d6822a18eda2945519d5a70b09"
+    },
+    {
+      "path": "tests/test_data_protocol.py",
+      "size_bytes": 2054,
+      "sha256": "3715bb0c66a987422fd2dfeda31f649e46568fded65ac41b2f414cf7938401a5"
+    }
+  ],
+  "excluded": [
+    "raw competition dataset",
+    "local CLIP model directory",
+    "virtual environments and caches",
+    "artifacts/release_verification.json",
+    "RELEASE_MANIFEST.json"
+  ]
+}

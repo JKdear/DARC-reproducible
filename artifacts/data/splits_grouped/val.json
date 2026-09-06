@@ -1,0 +1,4360 @@
+{
+  "split": "val",
+  "sample_count": 182,
+  "samples": [
+    {
+      "sample_id": "c04051f38bba",
+      "image_id": "00058.jpg",
+      "image_path": "image/00058.jpg",
+      "width": 810,
+      "height": 496,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged. A: Yes, a pothole is present on the road. Q: Please describe the damage characteristics as per the image.",
+      "reference_description": "A pothole exists on the road surface with standing water inside. The adjacent material has cracked and has been crushed due to pressure, starting to spall.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [
+        "standing_water"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00058.jpg"
+      ]
+    },
+    {
+      "sample_id": "e947b2f4a138",
+      "image_id": "00065.jpg",
+      "image_path": "image/00065.jpg",
+      "width": 862,
+      "height": 575,
+      "prefix": "numeric",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a pothole exists on the road.",
+      "description_prompt": "Q: According to the picture, determine if the structure is damaged. A: Yes, there is a pothole on the road. Q: Please characterize the damage from the image.",
+      "reference_description": "A pothole is present on the road with standing water inside. The surrounding material has cracked and has been crushed, causing spalling.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [
+        "standing_water"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00065.jpg"
+      ]
+    },
+    {
+      "sample_id": "52e5cb0a6c45",
+      "image_id": "00649.jpg",
+      "image_path": "image/00649.jpg",
+      "width": 1920,
+      "height": 1080,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: From the picture, decide if the structure has damage. A: Yes, a pothole is present on the road. Q: Please describe the damage features as per the image.",
+      "reference_description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, causing breakage and spalling.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [
+        "standing_water"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00649.jpg"
+      ]
+    },
+    {
+      "sample_id": "3258ac11f71b",
+      "image_id": "00661.jpg",
+      "image_path": "image/00661.jpg",
+      "width": 1600,
+      "height": 995,
+      "prefix": "numeric",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: According to the picture, determine if the structure is damaged. A: Yes, a pothole is visible on the road. Q: Describe the damage features from the image.",
+      "reference_description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, causing breakage and spalling.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [
+        "standing_water"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00661.jpg"
+      ]
+    },
+    {
+      "sample_id": "fa24a0051324",
+      "image_id": "00676.jpg",
+      "image_path": "image/00676.jpg",
+      "width": 1500,
+      "height": 1024,
+      "prefix": "numeric",
+      "category_prompt": "From the image, does the structure exhibit any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: Using the picture, assess if the structure is damaged. A: Yes, a pothole appears on the road. Q: Please characterize the damage based on the image.",
+      "reference_description": "A pothole has appeared on the road surface. The surrounding material has cracked and been crushed into fragments, which have then spalled off.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00676.jpg"
+      ]
+    },
+    {
+      "sample_id": "24919ba2c769",
+      "image_id": "00686.jpg",
+      "image_path": "image/00686.jpg",
+      "width": 1024,
+      "height": 683,
+      "prefix": "numeric",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: Based on the image, assess if the structure is damaged. A: Yes, a pothole appears on the road. Q: Please characterize the damage based on the image.",
+      "reference_description": "There is a pothole on the road. The nearby material shows cracks and has fractured and started to spall due to pressure.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00686.jpg"
+      ]
+    },
+    {
+      "sample_id": "979784fd9b51",
+      "image_id": "00692.jpg",
+      "image_path": "image/00692.jpg",
+      "width": 576,
+      "height": 768,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: From the picture, decide if the structure has damage. A: Yes, a pothole is present on the road. Q: Please describe the damage features as seen.",
+      "reference_description": "There is a pothole on the road with standing water. The material near the pothole has cracked and has been crushed, resulting in spalling.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [
+        "standing_water"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00692.jpg"
+      ]
+    },
+    {
+      "sample_id": "b7bfb49ace18",
+      "image_id": "00705.jpg",
+      "image_path": "image/00705.jpg",
+      "width": 2100,
+      "height": 1186,
+      "prefix": "numeric",
+      "category_prompt": "From the image, does the structure exhibit any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: Using the picture, judge whether the structure has any damage. A: Yes, a pothole exists on the road. Q: Describe the damage features based on the image.",
+      "reference_description": "There is a pothole on the road. The surrounding material has cracked and has been crushed and spalled due to pressure.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00705.jpg"
+      ]
+    },
+    {
+      "sample_id": "8cd913943c12",
+      "image_id": "00716.jpg",
+      "image_path": "image/00716.jpg",
+      "width": 1200,
+      "height": 1200,
+      "prefix": "numeric",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: Based on the image, assess if the structure is damaged. A: Yes, a pothole appears on the road. Q: Please describe the damage characteristics as per the image.",
+      "reference_description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, causing breakage and spalling.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [
+        "standing_water"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00716.jpg"
+      ]
+    },
+    {
+      "sample_id": "c8bea9e5e3ca",
+      "image_id": "00720.jpg",
+      "image_path": "image/00720.jpg",
+      "width": 3383,
+      "height": 2393,
+      "prefix": "numeric",
+      "category_prompt": "From the image, does the structure exhibit any damage?",
+      "category_label_text": "Yes, there is a pothole on the road.",
+      "description_prompt": "Q: Using the picture, judge whether the structure has any damage. A: Yes, a pothole is present on the road. Q: Please characterize the damage based on the image.",
+      "reference_description": "There is a pothole on the road. The surrounding material has cracked and has been crushed and spalled due to pressure.",
+      "normalized_categories": [
+        "crack",
+        "pothole",
+        "spalling"
+      ],
+      "primary_category": "pothole",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/00720.jpg"
+      ]
+    },
+    {
+      "sample_id": "accf102caaa9",
+      "image_id": "1.jpg",
+      "image_path": "image/1.jpg",
+      "width": 640,
+      "height": 853,
+      "prefix": "numeric",
+      "category_prompt": "Based on the image, determine if the structure in the picture has any damage?",
+      "category_label_text": "Yes, typical efflorescence is visible on the wall and floor tile surfaces.",
+      "description_prompt": "Q: According to the image, judge whether the structure shows any damage? A: Yes, classic efflorescence can be observed on the tile surfaces. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "Large-area efflorescence appears in the tile joints, with white powdery crystals precipitated. In some areas, the grout has powdered and peeled off. The efflorescence is unevenly distributed along the joints, with rough and fluffy edges.",
+      "normalized_categories": [
+        "efflorescence",
+        "peeling"
+      ],
+      "primary_category": "efflorescence",
+      "attributes": [
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/1.jpg"
+      ]
+    },
+    {
+      "sample_id": "cece785eb92c",
+      "image_id": "10.jpg",
+      "image_path": "image/10.jpg",
+      "width": 3072,
+      "height": 4096,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete surface has honeycomb.",
+      "description_prompt": "Q: From the picture, judge whether the structure is damaged. A: Yes, the concrete surface shows honeycomb. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "This concrete surface has classic honeycomb defects: a large number of irregular cavities are present on the surface, with localized loosening and peeling of the surface material, and the overall compactness is severely inadequate.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "peeling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/10.jpg"
+      ]
+    },
+    {
+      "sample_id": "d879e3a09b3d",
+      "image_id": "25.jpg",
+      "image_path": "image/25.jpg",
+      "width": 3072,
+      "height": 4096,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete surface has honeycomb.",
+      "description_prompt": "Q: From the picture, determine if the structure is damaged. A: Yes, the concrete surface has honeycomb. Q: Describe the damage characteristics based on the image.",
+      "reference_description": "This concrete surface has classic honeycomb defects: many irregular cavities are visible across the surface, with localized surface material loosening and flaking, and the overall compactness is severely lacking.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "dense",
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/25.jpg"
+      ]
+    },
+    {
+      "sample_id": "3b7708faf9e6",
+      "image_id": "30.jpg",
+      "image_path": "image/30.jpg",
+      "width": 3072,
+      "height": 4096,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete surface has honeycomb.",
+      "description_prompt": "Q: From the picture, determine if the structure is damaged. A: Yes, the concrete surface has honeycomb. Q: Please describe the damage features based on the image.",
+      "reference_description": "The concrete surface displays typical honeycomb defects: a large number of irregular holes are distributed over the surface, accompanied by local loosening and spalling of the surface material, and the overall structural compactness is seriously insufficient.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/30.jpg"
+      ]
+    },
+    {
+      "sample_id": "f6a03683afb6",
+      "image_id": "33.jpg",
+      "image_path": "image/33.jpg",
+      "width": 3072,
+      "height": 4096,
+      "prefix": "numeric",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, there is honeycomb on the concrete surface.",
+      "description_prompt": "Q: Based on the image, judge whether the structure has any damage. A: Yes, the concrete surface has honeycomb. Q: Describe the damage features as seen.",
+      "reference_description": "This concrete surface has classic honeycomb defects: many irregular cavities are visible across the surface, with localized surface material loosening and flaking, and the overall compactness is severely lacking.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "dense",
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/33.jpg"
+      ]
+    },
+    {
+      "sample_id": "a12755437250",
+      "image_id": "50.jpg",
+      "image_path": "image/50.jpg",
+      "width": 4608,
+      "height": 3456,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, honeycomb is present on the concrete surface.",
+      "description_prompt": "Q: From the picture, determine if the structure is damaged. A: Yes, the concrete surface has honeycomb. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete surface displays typical honeycomb defects: a large number of irregular holes are distributed over the surface, accompanied by local loosening and spalling of the surface material, and the overall structural compactness is seriously insufficient.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/50.jpg"
+      ]
+    },
+    {
+      "sample_id": "d4a257e8a8db",
+      "image_id": "53.jpg",
+      "image_path": "image/53.jpg",
+      "width": 4608,
+      "height": 3456,
+      "prefix": "numeric",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, honeycomb is visible on the concrete surface.",
+      "description_prompt": "Q: Based on the image, decide if the structure has damage. A: Yes, the concrete surface has honeycomb. Q: Describe the damage characteristics as seen.",
+      "reference_description": "This concrete surface has classic honeycomb defects: many irregular cavities are visible across the surface, with localized surface material loosening and flaking, and the overall compactness is severely lacking.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "dense",
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/53.jpg"
+      ]
+    },
+    {
+      "sample_id": "f0d8386452fb",
+      "image_id": "55.jpg",
+      "image_path": "image/55.jpg",
+      "width": 3264,
+      "height": 2448,
+      "prefix": "numeric",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete surface has honeycomb.",
+      "description_prompt": "Q: From the picture, determine if the structure is damaged. A: Yes, the concrete surface has honeycomb. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "This concrete surface exhibits classic honeycomb defects: numerous irregular cavities are scattered across the surface, with localized surface material loosening and flaking, and the overall compactness is severely lacking.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "dense",
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/55.jpg"
+      ]
+    },
+    {
+      "sample_id": "94e7a7901331",
+      "image_id": "58.jpg",
+      "image_path": "image/58.jpg",
+      "width": 4608,
+      "height": 3456,
+      "prefix": "numeric",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the concrete surface has honeycomb.",
+      "description_prompt": "Q: Based on the image, judge whether the structure has any damage. A: Yes, the concrete surface has honeycomb. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete surface displays typical honeycomb defects: a large number of irregular holes are distributed over the surface, accompanied by local loosening and spalling of the surface material, and the overall structural compactness is seriously insufficient.",
+      "normalized_categories": [
+        "honeycomb",
+        "looseness",
+        "spalling",
+        "void"
+      ],
+      "primary_category": "honeycomb",
+      "attributes": [
+        "irregular",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/58.jpg"
+      ]
+    },
+    {
+      "sample_id": "ba8525166863",
+      "image_id": "63.jpg",
+      "image_path": "image/63.jpg",
+      "width": 594,
+      "height": 416,
+      "prefix": "numeric",
+      "category_prompt": "Examine the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, there is loose concrete on the surface.",
+      "description_prompt": "Q: Based on the image, determine if the structure has any damage. A: Yes, the concrete surface is loose. Q: Describe the damage features as seen.",
+      "reference_description": "The concrete surface displays a looseness defect: surface aggregate is bare, the mortar bond is weak, accompanied by local peeling, and the overall solidity is deficient.",
+      "normalized_categories": [
+        "looseness",
+        "peeling"
+      ],
+      "primary_category": "peeling",
+      "attributes": [
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/63.jpg"
+      ]
+    },
+    {
+      "sample_id": "646c96fda654",
+      "image_id": "65.jpeg",
+      "image_path": "image/65.jpeg",
+      "width": 719,
+      "height": 494,
+      "prefix": "numeric",
+      "category_prompt": "Based on the picture, is there any damage to the structure?",
+      "category_label_text": "Yes, the concrete surface is loose.",
+      "description_prompt": "Q: Using the image, assess if the structure has damage. A: Yes, the concrete surface is loose. Q: Describe the damage features as per the image.",
+      "reference_description": "The concrete surface exhibits looseness: surface aggregate is exposed, mortar bond is loose, with local spalling, and the overall structural density is low.",
+      "normalized_categories": [
+        "looseness",
+        "spalling"
+      ],
+      "primary_category": "spalling",
+      "attributes": [
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/65.jpg"
+      ]
+    },
+    {
+      "sample_id": "faa30a2db079",
+      "image_id": "71.jpg",
+      "image_path": "image/71.jpg",
+      "width": 4608,
+      "height": 3456,
+      "prefix": "numeric",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, the concrete surface is loose.",
+      "description_prompt": "Q: According to the picture, determine if the structure is damaged. A: Yes, the concrete surface is loose. Q: Describe the damage characteristics from the image.",
+      "reference_description": "This concrete surface has a loose defect: surface aggregate is bare, mortar bonding is friable, with local spalling, and overall density is insufficient.",
+      "normalized_categories": [
+        "looseness",
+        "spalling"
+      ],
+      "primary_category": "spalling",
+      "attributes": [
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/71.jpg"
+      ]
+    },
+    {
+      "sample_id": "614e78e67e60",
+      "image_id": "85.png",
+      "image_path": "image/85.png",
+      "width": 828,
+      "height": 595,
+      "prefix": "numeric",
+      "category_prompt": "Based on the picture, is there any damage to the structure?",
+      "category_label_text": "Yes, the concrete surface is loose.",
+      "description_prompt": "Q: Using the image, assess if the structure has damage. A: Yes, the concrete surface is loose. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "This concrete surface presents a looseness defect: surface aggregate is exposed, the mortar binding is weak, with local spalling, and overall compactness is low.",
+      "normalized_categories": [
+        "looseness",
+        "spalling"
+      ],
+      "primary_category": "spalling",
+      "attributes": [
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/85.jpg"
+      ]
+    },
+    {
+      "sample_id": "62eeb6793d16",
+      "image_id": "crack_0230.jpg",
+      "image_path": "image/crack_0230.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "Examine the image – does the structure show any damage?",
+      "category_label_text": "Yes, there is a crack on the concrete surface.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, a crack can be observed on the concrete surface. Q: Please describe the damage characteristics as seen.",
+      "reference_description": "The concrete surface has a top-to-bottom crack, shaped as an irregular curve.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "irregular"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0230.jpg"
+      ]
+    },
+    {
+      "sample_id": "f1bf5c183a47",
+      "image_id": "crack_0520.jpg",
+      "image_path": "image/crack_0520.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, there is a crack on the concrete surface.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has any damage? A: Yes, a crack appears on the concrete surface. Q: Please describe the damage characteristics from the picture.",
+      "reference_description": "A diagonal crack with an irregular curved shape appears on the concrete surface, winding from top-left to bottom-right.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "diagonal",
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0520.jpg"
+      ]
+    },
+    {
+      "sample_id": "f6037d8dcef3",
+      "image_id": "crack_0521.jpg",
+      "image_path": "image/crack_0521.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "Using the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the concrete surface.",
+      "description_prompt": "Q: According to the image, judge whether the structure shows damage? A: Yes, a crack exists on the concrete surface. Q: Please describe the damage features as seen.",
+      "reference_description": "A diagonal crack with an irregular curved shape appears on the concrete surface, winding from top-left to bottom-right.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "diagonal",
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0521.jpg"
+      ]
+    },
+    {
+      "sample_id": "abb25a753a29",
+      "image_id": "crack_0522.jpg",
+      "image_path": "image/crack_0522.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "From the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is observable on the concrete surface.",
+      "description_prompt": "Q: Based on the image, decide if the structure has any damage? A: Yes, a crack can be seen on the concrete surface. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "On the concrete surface, a crack winds along a left-high-right-low trajectory, showing an irregular curved shape.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "irregular"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0522.jpg"
+      ]
+    },
+    {
+      "sample_id": "3b0b031a1f54",
+      "image_id": "crack_0523.jpg",
+      "image_path": "image/crack_0523.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is visible on the concrete surface.",
+      "description_prompt": "Q: Using the picture, assess if the structure has damage? A: Yes, a crack appears on the concrete surface. Q: Please describe the damage features from the image.",
+      "reference_description": "On the concrete surface, a crack extending from top-left to bottom-right is observed, with an irregular curved trajectory.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0523.jpg"
+      ]
+    },
+    {
+      "sample_id": "d4807402b316",
+      "image_id": "crack_0524.jpg",
+      "image_path": "image/crack_0524.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the concrete surface.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack can be observed on the concrete surface. Q: Please describe the damage characteristics as per the image.",
+      "reference_description": "On the concrete surface, a diagonal crack winds from top-left to bottom-right, with an irregular curved shape.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "diagonal",
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0524.jpg"
+      ]
+    },
+    {
+      "sample_id": "0ed0ebfb2fa3",
+      "image_id": "crack_0525.jpg",
+      "image_path": "image/crack_0525.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, there is a crack on the concrete surface.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has any damage? A: Yes, a crack is present on the concrete surface. Q: Please describe the damage features as seen.",
+      "reference_description": "On the concrete surface, a diagonal crack extending from top-left to bottom-right is observed, with a winding and irregular shape.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "diagonal",
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0525.jpg"
+      ]
+    },
+    {
+      "sample_id": "4694d91a2b94",
+      "image_id": "crack_0526.jpg",
+      "image_path": "image/crack_0526.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "Using the image, does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the concrete surface.",
+      "description_prompt": "Q: According to the picture, assess if the structure has damage? A: Yes, a crack appears on the concrete surface. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "On the concrete surface, a crack winding from top-left to bottom-right is observed, with an irregular curved shape.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0526.jpg"
+      ]
+    },
+    {
+      "sample_id": "809dfb99a29d",
+      "image_id": "crack_0527.jpg",
+      "image_path": "image/crack_0527.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is visible on the concrete surface.",
+      "description_prompt": "Q: Based on the picture, decide if the structure shows damage? A: Yes, a crack exists on the concrete surface. Q: Please describe the damage features based on the image.",
+      "reference_description": "The concrete surface shows a diagonal crack extending from top-left to bottom-right, with a non-linear curved shape.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "diagonal",
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0527.jpg"
+      ]
+    },
+    {
+      "sample_id": "4e65336068a3",
+      "image_id": "crack_0528.jpg",
+      "image_path": "image/crack_0528.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "Look at this image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the concrete surface.",
+      "description_prompt": "Q: Using the image, judge whether the structure has any damage? A: Yes, a crack can be seen on the concrete surface. Q: Please describe the damage characteristics as per the image.",
+      "reference_description": "On the concrete surface, a diagonal crack extending from top-left to bottom-right is observed, showing a non-linear winding shape.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "diagonal",
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0528.jpg"
+      ]
+    },
+    {
+      "sample_id": "e0780235763c",
+      "image_id": "crack_0529.jpg",
+      "image_path": "image/crack_0529.jpg",
+      "width": 448,
+      "height": 448,
+      "prefix": "crack",
+      "category_prompt": "According to the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the concrete surface.",
+      "description_prompt": "Q: From the image, assess if the structure shows damage? A: Yes, a crack appears on the concrete surface. Q: Please describe the damage features from the image.",
+      "reference_description": "On the concrete surface, a diagonal crack winds from top-left to bottom-right, taking an irregular curved shape.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "diagonal",
+        "irregular",
+        "top_left_to_bottom_right"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/crack_0529.jpg"
+      ]
+    },
+    {
+      "sample_id": "e39086815ffe",
+      "image_id": "gangf_090.jpg",
+      "image_path": "image/gangf_090.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack is revealed on the steel component's surface near the weld. This situation could bring a major impact on the overall load-bearing capacity of the structure.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_090.jpg"
+      ]
+    },
+    {
+      "sample_id": "9685527bd6c7",
+      "image_id": "gangf_091.jpg",
+      "image_path": "image/gangf_091.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A slight crack is found on the steel component's surface near the weld. This crack could severely impair the structure's load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_091.jpg"
+      ]
+    },
+    {
+      "sample_id": "4f4e83ab13b6",
+      "image_id": "gangf_092.jpg",
+      "image_path": "image/gangf_092.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "A fine crack is revealed on the steel component's surface near the weld mark. This condition could severely weaken the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_092.jpg"
+      ]
+    },
+    {
+      "sample_id": "30df45d73146",
+      "image_id": "gangf_093.jpg",
+      "image_path": "image/gangf_093.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A barely visible fine crack is found on the steel component's surface near the weld, which could have a significant negative impact on the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_093.jpg"
+      ]
+    },
+    {
+      "sample_id": "6a9448b4c84d",
+      "image_id": "gangf_094.jpg",
+      "image_path": "image/gangf_094.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the image, determine if the structure has damage? A: Yes, a crack exists on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack appears on the steel component's surface near the weld. This imperfection has the potential to greatly affect the structure's load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_094.jpg"
+      ]
+    },
+    {
+      "sample_id": "0dd4e6d8a771",
+      "image_id": "gangf_095.jpg",
+      "image_path": "image/gangf_095.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: From the picture, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage characteristics as per the image.",
+      "reference_description": "On the steel component's surface, near the weld area, fine cracks appear. Such cracks could severely affect the structural strength.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_095.jpg"
+      ]
+    },
+    {
+      "sample_id": "b1a4db3c4bfd",
+      "image_id": "gangf_096.jpg",
+      "image_path": "image/gangf_096.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A tiny crack is found on the steel component's surface near the weld. This slight fissure could cause a notable negative impact on the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_096.jpg"
+      ]
+    },
+    {
+      "sample_id": "8be44c91f96c",
+      "image_id": "gangf_097.jpg",
+      "image_path": "image/gangf_097.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is visible on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "On the steel component's surface, near the weld area, a fine crack is observed. This crack could significantly and adversely affect the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_097.jpg"
+      ]
+    },
+    {
+      "sample_id": "6761d067a8e9",
+      "image_id": "gangf_098.jpg",
+      "image_path": "image/gangf_098.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, a crack exists on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "A tiny crack is found on the steel component's surface near the weld, and this crack could have a major negative effect on the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_098.jpg"
+      ]
+    },
+    {
+      "sample_id": "75967237a180",
+      "image_id": "gangf_099.jpg",
+      "image_path": "image/gangf_099.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A slight crack is discovered on the steel component's surface immediately adjacent to the weld. This flaw could severely impair its structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_099.jpg"
+      ]
+    },
+    {
+      "sample_id": "9bba21cce9c1",
+      "image_id": "gangf_160.jpg",
+      "image_path": "image/gangf_160.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is visible on the steel component.",
+      "description_prompt": "Q: Using the image, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack is found on the steel component's surface near the weld. This crack could seriously threaten the structural integrity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_160.jpg"
+      ]
+    },
+    {
+      "sample_id": "b5a57b2a6a47",
+      "image_id": "gangf_161.jpg",
+      "image_path": "image/gangf_161.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "According to the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: From the image, determine if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as per the image.",
+      "reference_description": "A fine crack is found on the steel component's surface near the weld. This crack could seriously threaten the structural integrity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_161.jpg"
+      ]
+    },
+    {
+      "sample_id": "9d4bc8858033",
+      "image_id": "gangf_162.jpg",
+      "image_path": "image/gangf_162.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "On the steel component's surface, near the weld area, a fine crack is observed. This condition could seriously weaken the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_162.jpg"
+      ]
+    },
+    {
+      "sample_id": "7abfcb26d1ef",
+      "image_id": "gangf_163.jpg",
+      "image_path": "image/gangf_163.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A tiny crack is found on the steel component's surface near the weld. This slight fissure could cause a notable negative impact on the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_163.jpg"
+      ]
+    },
+    {
+      "sample_id": "353fd0b70f24",
+      "image_id": "gangf_164.jpg",
+      "image_path": "image/gangf_164.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "A fine crack is discovered on the steel component's surface near the weld. This condition may significantly and negatively impact the structure's stability and load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_164.jpg"
+      ]
+    },
+    {
+      "sample_id": "ba242ad52685",
+      "image_id": "gangf_165.jpg",
+      "image_path": "image/gangf_165.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack has been detected on the surface of the steel member near the weld zone. This condition could potentially have a serious negative effect on the structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_165.jpg"
+      ]
+    },
+    {
+      "sample_id": "7a96d59266da",
+      "image_id": "gangf_166.jpg",
+      "image_path": "image/gangf_166.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is visible on the steel component.",
+      "description_prompt": "Q: Using the image, determine if the structure has damage? A: Yes, a crack exists on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "On the steel component's surface, near the weld area, a fine crack is observed. This crack could significantly and adversely affect the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_166.jpg"
+      ]
+    },
+    {
+      "sample_id": "71aaf36cb71b",
+      "image_id": "gangf_167.jpg",
+      "image_path": "image/gangf_167.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "According to the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: From the image, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as per the image.",
+      "reference_description": "A small crack is found on the steel component's surface immediately next to the weld. This crack could seriously affect the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_167.jpg"
+      ]
+    },
+    {
+      "sample_id": "a01c7b3b5953",
+      "image_id": "gangf_168.jpg",
+      "image_path": "image/gangf_168.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack is exposed on the surface of the steel component near the weld area. This fissure could significantly affect the structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_168.jpg"
+      ]
+    },
+    {
+      "sample_id": "5cf0e85b8ae9",
+      "image_id": "gangf_169.jpg",
+      "image_path": "image/gangf_169.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A tiny crack is found on the steel component's surface near the weld. This slight fissure could cause a notable negative impact on the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_169.jpg"
+      ]
+    },
+    {
+      "sample_id": "c6336c1463c2",
+      "image_id": "gangf_190.jpg",
+      "image_path": "image/gangf_190.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is visible on the steel component.",
+      "description_prompt": "Q: Using the image, determine if the structure has damage? A: Yes, a crack exists on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A small crack is found on the steel component's surface near the weld. This crack has the potential to seriously threaten the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_190.jpg"
+      ]
+    },
+    {
+      "sample_id": "15c055da8960",
+      "image_id": "gangf_191.jpg",
+      "image_path": "image/gangf_191.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "According to the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: From the image, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as per the image.",
+      "reference_description": "A small crack is found on the steel component's surface near the weld. The presence of this crack could pose a major threat to the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_191.jpg"
+      ]
+    },
+    {
+      "sample_id": "3099163051ba",
+      "image_id": "gangf_192.jpg",
+      "image_path": "image/gangf_192.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack is discovered on the steel component's surface adjacent to the weld. This crack may severely impair the structure's load-carrying ability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_192.jpg"
+      ]
+    },
+    {
+      "sample_id": "5032cb3b404f",
+      "image_id": "gangf_193.jpg",
+      "image_path": "image/gangf_193.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A tiny crack is found on the steel component's surface near the weld. This slight fissure could cause a notable negative impact on the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_193.jpg"
+      ]
+    },
+    {
+      "sample_id": "de7f7ae16752",
+      "image_id": "gangf_194.jpg",
+      "image_path": "image/gangf_194.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "A barely visible fine crack is found on the steel component's surface near the weld, which could have a significant negative impact on the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_194.jpg"
+      ]
+    },
+    {
+      "sample_id": "6a5877a74f0f",
+      "image_id": "gangf_195.jpg",
+      "image_path": "image/gangf_195.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A small crack appears on the steel component's surface near the welded area, which could seriously threaten the structural integrity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_195.jpg"
+      ]
+    },
+    {
+      "sample_id": "43b91aaf87b2",
+      "image_id": "gangf_196.jpg",
+      "image_path": "image/gangf_196.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is visible on the steel component.",
+      "description_prompt": "Q: Using the image, assess if the structure has damage? A: Yes, a crack exists on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack is exposed on the surface of the steel component near the weld area. This fissure could significantly affect the structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_196.jpg"
+      ]
+    },
+    {
+      "sample_id": "ae22dece91df",
+      "image_id": "gangf_197.jpg",
+      "image_path": "image/gangf_197.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "According to the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: From the image, determine if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as per the image.",
+      "reference_description": "A fine crack has been detected on the surface of the steel member near the weld zone, a condition that could severely affect the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_197.jpg"
+      ]
+    },
+    {
+      "sample_id": "02f37c18e1c5",
+      "image_id": "gangf_198.jpg",
+      "image_path": "image/gangf_198.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack is observed on the steel component's surface near the weld area, a situation that could significantly affect the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_198.jpg"
+      ]
+    },
+    {
+      "sample_id": "0e91fe2fa5c2",
+      "image_id": "gangf_199.jpg",
+      "image_path": "image/gangf_199.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack is exposed on the surface of the steel component near the weld area. This fissure could significantly affect the structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_199.jpg"
+      ]
+    },
+    {
+      "sample_id": "b4d79d1c8440",
+      "image_id": "gangf_210.jpg",
+      "image_path": "image/gangf_210.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack is detected on the steel component's surface near the weld. This condition could severely affect the load-bearing capacity of the structure.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_210.jpg"
+      ]
+    },
+    {
+      "sample_id": "ba08473a6353",
+      "image_id": "gangf_211.jpg",
+      "image_path": "image/gangf_211.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack is discovered on the steel component's surface adjacent to the weld. This crack may severely impair the structure's load-carrying ability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_211.jpg"
+      ]
+    },
+    {
+      "sample_id": "4b88bebc4d34",
+      "image_id": "gangf_212.jpg",
+      "image_path": "image/gangf_212.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "On the steel component's surface, near the weld area, a fine crack is observed. This condition could seriously weaken the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_212.jpg"
+      ]
+    },
+    {
+      "sample_id": "4153e9698414",
+      "image_id": "gangf_213.jpg",
+      "image_path": "image/gangf_213.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "On the steel component's surface, near the welded joint, a fine crack is observed. This condition could have a significant negative impact on the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_213.jpg"
+      ]
+    },
+    {
+      "sample_id": "ae8489e94d95",
+      "image_id": "gangf_214.jpg",
+      "image_path": "image/gangf_214.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is visible on the steel component.",
+      "description_prompt": "Q: Using the image, determine if the structure has damage? A: Yes, a crack exists on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A slight crack is discovered on the steel component's surface immediately adjacent to the weld. This flaw could severely impair its structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_214.jpg"
+      ]
+    },
+    {
+      "sample_id": "85f2cd495fb5",
+      "image_id": "gangf_215.jpg",
+      "image_path": "image/gangf_215.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "According to the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: From the image, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as per the image.",
+      "reference_description": "On the steel component's surface, near the weld area, a fine crack is visible. This crack could pose a serious threat to the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_215.jpg"
+      ]
+    },
+    {
+      "sample_id": "dcb05e821554",
+      "image_id": "gangf_216.jpg",
+      "image_path": "image/gangf_216.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack appears on the steel component's surface due to welding. This situation could have a major impact on the overall strength of the structure.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_216.jpg"
+      ]
+    },
+    {
+      "sample_id": "07c00ee52bd1",
+      "image_id": "gangf_217.jpg",
+      "image_path": "image/gangf_217.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack appears on the steel component's surface near the weld area. This type of crack could pose a major risk to the overall stability of the structure.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_217.jpg"
+      ]
+    },
+    {
+      "sample_id": "e57d53040c19",
+      "image_id": "gangf_218.jpg",
+      "image_path": "image/gangf_218.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "A fine crack is revealed on the steel component's surface near the weld. This situation could bring a major impact on the overall load-bearing capacity of the structure.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_218.jpg"
+      ]
+    },
+    {
+      "sample_id": "9ddf73ca088e",
+      "image_id": "gangf_219.jpg",
+      "image_path": "image/gangf_219.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A barely visible fine crack is found on the steel component's surface near the weld, which could have a significant negative impact on the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_219.jpg"
+      ]
+    },
+    {
+      "sample_id": "e8ae5ad277d3",
+      "image_id": "gangf_240.jpg",
+      "image_path": "image/gangf_240.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A tiny crack is found on the steel component's surface near the weld, and this crack could have a major negative effect on the load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_240.jpg"
+      ]
+    },
+    {
+      "sample_id": "aa0faef9cf88",
+      "image_id": "gangf_241.jpg",
+      "image_path": "image/gangf_241.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "On the steel component's surface, near the weld area, a fine crack is observed. This condition could seriously weaken the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_241.jpg"
+      ]
+    },
+    {
+      "sample_id": "b3bbba24f61c",
+      "image_id": "gangf_242.jpg",
+      "image_path": "image/gangf_242.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "A slight crack is found on the steel component's surface near the weld. This crack could severely impair the structure's load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_242.jpg"
+      ]
+    },
+    {
+      "sample_id": "11d56b5e6d50",
+      "image_id": "gangf_243.jpg",
+      "image_path": "image/gangf_243.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "On the steel component's surface, near the weld area, fine cracks appear. Such cracks could severely affect the structural strength.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_243.jpg"
+      ]
+    },
+    {
+      "sample_id": "70a1231d7e25",
+      "image_id": "gangf_244.jpg",
+      "image_path": "image/gangf_244.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, a crack is visible on the steel component.",
+      "description_prompt": "Q: Using the image, assess if the structure has damage? A: Yes, a crack exists on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack is revealed on the steel component's surface near the weld. This situation could bring a major impact on the overall load-bearing capacity of the structure.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_244.jpg"
+      ]
+    },
+    {
+      "sample_id": "4c29cd22ccbe",
+      "image_id": "gangf_245.jpg",
+      "image_path": "image/gangf_245.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "According to the picture, does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: From the image, determine if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as per the image.",
+      "reference_description": "On the steel component's surface, near the welded joint, a fine crack appears, a phenomenon that could significantly affect the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_245.jpg"
+      ]
+    },
+    {
+      "sample_id": "b0df70191d9f",
+      "image_id": "gangf_246.jpg",
+      "image_path": "image/gangf_246.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: From the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A fine crack is observed on the steel component's surface near the weld area, a situation that could significantly affect the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_246.jpg"
+      ]
+    },
+    {
+      "sample_id": "df373c8f77be",
+      "image_id": "gangf_247.jpg",
+      "image_path": "image/gangf_247.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Look at the image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, a crack is observable on the steel component.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, a crack is visible on the steel component. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "A fine crack appears on the steel component's surface near the weld. This situation could have a major impact on the overall strength of the structure.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_247.jpg"
+      ]
+    },
+    {
+      "sample_id": "06601757449d",
+      "image_id": "gangf_248.jpg",
+      "image_path": "image/gangf_248.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, a crack is present on the steel component.",
+      "description_prompt": "Q: Based on the picture, assess if the structure has damage? A: Yes, a crack can be seen on the steel component. Q: Please describe the damage features as seen.",
+      "reference_description": "A fine crack appears on the steel component's surface near the weld. This imperfection has the potential to greatly affect the structure's load-bearing capacity.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_248.jpg"
+      ]
+    },
+    {
+      "sample_id": "d6e4832cba3d",
+      "image_id": "gangf_249.jpg",
+      "image_path": "image/gangf_249.jpg",
+      "width": 768,
+      "height": 512,
+      "prefix": "gangf",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, a crack exists on the steel component.",
+      "description_prompt": "Q: Based on the picture, judge whether the structure shows damage? A: Yes, a crack appears on the steel component. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "A small crack is found on the steel component's surface near the weld. This crack has the potential to seriously threaten the overall structural stability.",
+      "normalized_categories": [
+        "crack"
+      ],
+      "primary_category": "crack",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/gangf_249.jpg"
+      ]
+    },
+    {
+      "sample_id": "4b629c596af6",
+      "image_id": "kong_0062.jpg",
+      "image_path": "image/kong_0062.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, determine if the structure has any damage?",
+      "category_label_text": "Yes, there are voids/holes in the concrete.",
+      "description_prompt": "Q: Based on the image, does the structure show any damage? A: Yes, there are voids in the concrete. Q: Please describe the damage characteristics based on the image.",
+      "reference_description": "The concrete surface is scattered with numerous fine holes, and in some areas larger voids or material peeling are visible. These defects may weaken the structural load-bearing capacity.",
+      "normalized_categories": [
+        "peeling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0062.jpg"
+      ]
+    },
+    {
+      "sample_id": "1363f9341ecf",
+      "image_id": "kong_0063.jpg",
+      "image_path": "image/kong_0063.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "From the image, does the structure exhibit damage?",
+      "category_label_text": "Yes, voids are present in the concrete.",
+      "description_prompt": "Q: Using the image, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Describe the damage features as seen.",
+      "reference_description": "The concrete surface displays many tiny pores, and in some regions larger holes or spalling appear. This condition could potentially reduce the structure's load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0063.jpg"
+      ]
+    },
+    {
+      "sample_id": "ba21ce36de58",
+      "image_id": "kong_0064.jpg",
+      "image_path": "image/kong_0064.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at the image – does the structure have any damage?",
+      "category_label_text": "Yes, the concrete has voids.",
+      "description_prompt": "Q: According to the picture, judge if the structure is damaged. A: Yes, voids exist in the concrete. Q: Please characterize the damage from the image.",
+      "reference_description": "The concrete surface shows numerous fine holes, and in some areas larger voids or spalling are evident. This situation may adversely affect the overall load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0064.jpg"
+      ]
+    },
+    {
+      "sample_id": "54c9f9162038",
+      "image_id": "kong_0065.jpg",
+      "image_path": "image/kong_0065.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure show any damage?",
+      "category_label_text": "Yes, voids are visible in the concrete.",
+      "description_prompt": "Q: Based on the image, decide if the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage features based on the image.",
+      "reference_description": "The concrete surface is covered with numerous fine voids, and in some locations larger holes or spalling can be seen. These defects may compromise the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0065.jpg"
+      ]
+    },
+    {
+      "sample_id": "d2a397a8dc5c",
+      "image_id": "kong_0066.jpg",
+      "image_path": "image/kong_0066.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: From the picture, determine if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage characteristics as per the image.",
+      "reference_description": "The concrete surface is dotted with numerous fine holes, and in some sections larger voids or material spalling are present. These flaws might weaken the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0066.jpg"
+      ]
+    },
+    {
+      "sample_id": "6cdc88f291fe",
+      "image_id": "kong_0067.jpg",
+      "image_path": "image/kong_0067.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids appear in the concrete.",
+      "description_prompt": "Q: Based on the picture, assess if the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage features as seen.",
+      "reference_description": "The concrete surface exhibits many fine holes, and in some areas larger voids or spalling are visible. This condition may negatively impact the overall load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0067.jpg"
+      ]
+    },
+    {
+      "sample_id": "98ae23d177af",
+      "image_id": "kong_0068.jpg",
+      "image_path": "image/kong_0068.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at this image – does the structure exhibit damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: Using the image, judge whether the structure is damaged. A: Yes, voids exist in the concrete. Q: Please describe the damage features from the image.",
+      "reference_description": "The concrete surface is full of numerous fine voids, and in some places larger holes or spalling are observed. These defects may impair the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0068.jpg"
+      ]
+    },
+    {
+      "sample_id": "0708c122ed08",
+      "image_id": "kong_0069.jpg",
+      "image_path": "image/kong_0069.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids are present in the concrete.",
+      "description_prompt": "Q: According to the picture, decide if the structure has damage. A: Yes, the concrete contains voids. Q: Describe the damage characteristics based on the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in some areas larger holes or peeling are visible. These defects may affect the structural solidity.",
+      "normalized_categories": [
+        "peeling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0069.jpg"
+      ]
+    },
+    {
+      "sample_id": "77b597f42e6c",
+      "image_id": "kong_0110.jpg",
+      "image_path": "image/kong_0110.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids are visible in the concrete.",
+      "description_prompt": "Q: According to the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Please describe the damage features based on the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in some areas larger voids or material spalling are visible. These defects may weaken its load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0110.jpg"
+      ]
+    },
+    {
+      "sample_id": "bba7fcf16b23",
+      "image_id": "kong_0111.jpg",
+      "image_path": "image/kong_0111.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Please characterize the damage from the image.",
+      "reference_description": "The concrete surface presents many fine pores, and in some areas larger holes or surface spalling appear. This may adversely affect structural stability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0111.jpg"
+      ]
+    },
+    {
+      "sample_id": "3a73d8868401",
+      "image_id": "kong_0112.jpg",
+      "image_path": "image/kong_0112.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: Based on the image, judge whether the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "The concrete surface displays many fine pores, and in some areas larger holes or material spalling are observed. This situation may adversely affect the overall load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0112.jpg"
+      ]
+    },
+    {
+      "sample_id": "69a55d17cf20",
+      "image_id": "kong_0113.jpg",
+      "image_path": "image/kong_0113.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids appear in the concrete.",
+      "description_prompt": "Q: Using the picture, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage features based on the image.",
+      "reference_description": "The concrete surface is scattered with many fine pores, and in specific areas larger holes or spalling occur. This may adversely affect its load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0113.jpg"
+      ]
+    },
+    {
+      "sample_id": "3dbbf234b6c4",
+      "image_id": "kong_0114.jpg",
+      "image_path": "image/kong_0114.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure exhibit damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Please describe the damage features as seen.",
+      "reference_description": "The concrete surface shows many fine holes, and in some areas larger holes or spalling marks are visible. This may negatively impact structural stability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0114.jpg"
+      ]
+    },
+    {
+      "sample_id": "c931d885d256",
+      "image_id": "kong_0115.jpg",
+      "image_path": "image/kong_0115.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at this image – does the structure have any damage?",
+      "category_label_text": "Yes, voids are present in the concrete.",
+      "description_prompt": "Q: According to the image, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Describe the damage characteristics from the image.",
+      "reference_description": "The concrete surface shows many fine holes, and in some areas larger holes or spalling are visible. This may weaken structural durability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0115.jpg"
+      ]
+    },
+    {
+      "sample_id": "57207c657376",
+      "image_id": "kong_0116.jpg",
+      "image_path": "image/kong_0116.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: From the picture, judge whether the structure has damage. A: Yes, the concrete has voids. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete surface is covered with numerous fine holes, and in some areas larger holes or spalling appear. This condition may weaken the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0116.jpg"
+      ]
+    },
+    {
+      "sample_id": "d03b74b82c1f",
+      "image_id": "kong_0117.jpg",
+      "image_path": "image/kong_0117.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure show any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: Using the image, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage features as per the image.",
+      "reference_description": "The concrete surface displays many fine pores, and in some areas larger holes or material spalling are also visible. These conditions may weaken the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0117.jpg"
+      ]
+    },
+    {
+      "sample_id": "2195418c12f5",
+      "image_id": "kong_0118.jpg",
+      "image_path": "image/kong_0118.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids are visible in the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage characteristics as seen.",
+      "reference_description": "The concrete surface is full of numerous fine pores, and in some areas larger voids or spalling are observed. These defects may reduce the building structure's load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0118.jpg"
+      ]
+    },
+    {
+      "sample_id": "7a28b1bfa762",
+      "image_id": "kong_0119.jpg",
+      "image_path": "image/kong_0119.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at the image – does the structure have any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage features based on the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in some areas larger holes or spalling are evident. This condition may weaken the load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0119.jpg"
+      ]
+    },
+    {
+      "sample_id": "52e72acbd2cd",
+      "image_id": "kong_0120.jpg",
+      "image_path": "image/kong_0120.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure exhibit damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: According to the image, judge whether the structure has damage. A: Yes, the concrete has voids. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in some locations larger holes or material spalling are observed. These defects may negatively affect the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0120.jpg"
+      ]
+    },
+    {
+      "sample_id": "35cc0566f801",
+      "image_id": "kong_0121.jpg",
+      "image_path": "image/kong_0121.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids appear in the concrete.",
+      "description_prompt": "Q: Using the picture, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Describe the damage features as per the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in specific areas larger holes or even material spalling are evident. This defect may weaken the overall load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0121.jpg"
+      ]
+    },
+    {
+      "sample_id": "a035b2fc193a",
+      "image_id": "kong_0122.jpg",
+      "image_path": "image/kong_0122.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete surface is full of numerous fine pores, and in some areas larger voids or spalling are observed. These defects may reduce the building structure's load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0122.jpg"
+      ]
+    },
+    {
+      "sample_id": "177e6c162f80",
+      "image_id": "kong_0123.jpg",
+      "image_path": "image/kong_0123.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at this image – does the structure show any damage?",
+      "category_label_text": "Yes, voids are present in the concrete.",
+      "description_prompt": "Q: According to the image, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage features as seen.",
+      "reference_description": "The concrete surface is scattered with numerous fine voids, while in some areas larger holes or material spalling are visible. This may adversely affect the load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0123.jpg"
+      ]
+    },
+    {
+      "sample_id": "31b18e1dcd1e",
+      "image_id": "kong_0124.jpg",
+      "image_path": "image/kong_0124.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: From the picture, judge whether the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage characteristics from the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in some places larger holes or material spalling can be seen. This situation may negatively affect building structural stability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0124.jpg"
+      ]
+    },
+    {
+      "sample_id": "f285c26a368d",
+      "image_id": "kong_0125.jpg",
+      "image_path": "image/kong_0125.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure exhibit damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: Using the image, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage features based on the image.",
+      "reference_description": "The concrete surface presents many fine pores, and in some areas larger holes or surface spalling appear. This may adversely affect structural stability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0125.jpg"
+      ]
+    },
+    {
+      "sample_id": "f677076401ed",
+      "image_id": "kong_0126.jpg",
+      "image_path": "image/kong_0126.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids are visible in the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Please characterize the damage as per the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in local areas larger holes or even material spalling occur. These defects may weaken the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0126.jpg"
+      ]
+    },
+    {
+      "sample_id": "b41a6ed34a71",
+      "image_id": "kong_0127.jpg",
+      "image_path": "image/kong_0127.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage features as seen.",
+      "reference_description": "The concrete surface shows many fine holes, and in some areas larger holes or spalling marks are visible. This may negatively impact structural stability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0127.jpg"
+      ]
+    },
+    {
+      "sample_id": "e13e7c1cd078",
+      "image_id": "kong_0128.jpg",
+      "image_path": "image/kong_0128.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: According to the image, judge whether the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage characteristics from the image.",
+      "reference_description": "The concrete surface displays many fine pores, and in certain areas larger holes or spalling occur. This situation may negatively affect the overall structural strength.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0128.jpg"
+      ]
+    },
+    {
+      "sample_id": "f4d555faee34",
+      "image_id": "kong_0129.jpg",
+      "image_path": "image/kong_0129.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "From the image, does the structure exhibit damage?",
+      "category_label_text": "Yes, voids appear in the concrete.",
+      "description_prompt": "Q: Using the picture, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage features as per the image.",
+      "reference_description": "The concrete surface shows many fine pores, and in some areas larger holes or surface spalling can be seen. This situation may adversely affect structural stability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0129.jpg"
+      ]
+    },
+    {
+      "sample_id": "c7a1577c3282",
+      "image_id": "kong_0360.jpg",
+      "image_path": "image/kong_0360.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure show any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: Using the image, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Describe the damage characteristics from the image.",
+      "reference_description": "The concrete surface presents many fine pores, and in specific areas larger holes or spalling are noted. These may adversely affect structural durability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0360.jpg"
+      ]
+    },
+    {
+      "sample_id": "9cfa1c189d25",
+      "image_id": "kong_0361.jpg",
+      "image_path": "image/kong_0361.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids appear in the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Please describe the damage features as per the image.",
+      "reference_description": "The concrete surface presents many fine holes, while in some areas larger holes or material spalling are observed. This situation may adversely affect the load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0361.jpg"
+      ]
+    },
+    {
+      "sample_id": "706cf57742fd",
+      "image_id": "kong_0362.jpg",
+      "image_path": "image/kong_0362.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at the image – does the structure have any damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete surface is covered with fine pores and locally visible larger holes or spalling. This condition could potentially reduce the structural load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0362.jpg"
+      ]
+    },
+    {
+      "sample_id": "8396d718de6d",
+      "image_id": "kong_0363.jpg",
+      "image_path": "image/kong_0363.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: According to the image, judge whether the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage characteristics as seen.",
+      "reference_description": "The concrete surface shows many fine holes, and in some areas larger voids or spalling are evident. This situation may adversely affect the overall load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0363.jpg"
+      ]
+    },
+    {
+      "sample_id": "67ceb2aa6110",
+      "image_id": "kong_0364.jpg",
+      "image_path": "image/kong_0364.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure exhibit damage?",
+      "category_label_text": "Yes, voids appear in the concrete.",
+      "description_prompt": "Q: Using the picture, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "The concrete surface shows many fine pores, while some parts have larger holes or material spalling. This may negatively affect the load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0364.jpg"
+      ]
+    },
+    {
+      "sample_id": "af3b8e069ca9",
+      "image_id": "kong_0365.jpg",
+      "image_path": "image/kong_0365.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete surface presents many fine holes, and in some areas larger voids or material spalling occur. This may negatively affect structural stability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0365.jpg"
+      ]
+    },
+    {
+      "sample_id": "0ebab76c3b55",
+      "image_id": "kong_0366.jpg",
+      "image_path": "image/kong_0366.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Look at this image – does the structure have any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: According to the image, assess if the structure is damaged. A: Yes, the concrete contains voids. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "The concrete surface shows many fine holes, and in some areas larger holes or spalling are visible. This may weaken structural durability.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0366.jpg"
+      ]
+    },
+    {
+      "sample_id": "4e4031109c0b",
+      "image_id": "kong_0367.jpg",
+      "image_path": "image/kong_0367.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, voids appear in the concrete.",
+      "description_prompt": "Q: From the picture, judge whether the structure has damage. A: Yes, the concrete has voids. Q: Please describe the damage features as seen.",
+      "reference_description": "The concrete surface is scattered with numerous fine voids, and in some areas larger voids or spalling appear. These defects may weaken the load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0367.jpg"
+      ]
+    },
+    {
+      "sample_id": "5cc86204f8c2",
+      "image_id": "kong_0368.jpg",
+      "image_path": "image/kong_0368.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "Examine the image – does the structure show any damage?",
+      "category_label_text": "Yes, voids exist in the concrete.",
+      "description_prompt": "Q: Using the image, decide if the structure is damaged. A: Yes, the concrete contains voids. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete surface is full of many fine holes, and in some areas even larger holes or spalling appear. This may weaken the load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0368.jpg"
+      ]
+    },
+    {
+      "sample_id": "2b6cbe21303f",
+      "image_id": "kong_0369.jpg",
+      "image_path": "image/kong_0369.jpg",
+      "width": 256,
+      "height": 256,
+      "prefix": "kong",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, there are voids in the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage. A: Yes, the concrete has voids. Q: Describe the damage characteristics from the image.",
+      "reference_description": "The concrete surface shows many fine holes, and in some parts larger holes or spalling are visible. This may affect structural durability and load-bearing capacity.",
+      "normalized_categories": [
+        "spalling",
+        "void"
+      ],
+      "primary_category": "void",
+      "attributes": [
+        "dense",
+        "load_bearing_risk",
+        "localized"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/kong_0369.jpg"
+      ]
+    },
+    {
+      "sample_id": "33a8a3e17f1d",
+      "image_id": "lou_0161.jpg",
+      "image_path": "image/lou_0161.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the concrete has spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "Extensive spalling has occurred on the structural surface, leading to exposure of aggregate and load-bearing rebar. The exposed rebar also shows severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0161.jpg"
+      ]
+    },
+    {
+      "sample_id": "ae9956a5f595",
+      "image_id": "lou_0162.jpg",
+      "image_path": "image/lou_0162.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged? A: Yes, spalling and exposed rebar appear on the concrete. Q: Describe the damage features as per the image.",
+      "reference_description": "The structure in the image shows obvious damage, specifically extensive spalling of the concrete cover, exposing the internal aggregate and load-bearing rebar. Additionally, these exposed rebars have suffered severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0162.jpg"
+      ]
+    },
+    {
+      "sample_id": "cb1d544e4044",
+      "image_id": "lou_0163.jpg",
+      "image_path": "image/lou_0163.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete exhibits spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has damage? A: Yes, spalling and exposed rebar are visible on the concrete. Q: Please describe the damage features from the image.",
+      "reference_description": "Large-area concrete spalling appears on the structural surface, exposing internal aggregate and supporting rebar, and the rebar shows obvious rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0163.jpg"
+      ]
+    },
+    {
+      "sample_id": "b315dc4b2c85",
+      "image_id": "lou_0164.jpg",
+      "image_path": "image/lou_0164.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: According to the image, determine if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Based on the image, describe the damage characteristics.",
+      "reference_description": "Extensive spalling has occurred on the concrete surface, exposing the internal aggregate and supporting rebar. Additionally, these rebars show severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0164.jpg"
+      ]
+    },
+    {
+      "sample_id": "5edc7ccf35e2",
+      "image_id": "lou_0165.jpg",
+      "image_path": "image/lou_0165.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, the concrete has spalling and exposed reinforcement.",
+      "description_prompt": "Q: Using the picture, assess if the structure is damaged? A: Yes, spalling and exposed rebar appear on the concrete. Q: Please describe the damage features as per the image.",
+      "reference_description": "Extensive concrete spalling on the structural surface has led to exposure of aggregate and load-bearing rebar, and these rebars have experienced severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0165.jpg"
+      ]
+    },
+    {
+      "sample_id": "ec7775577a1b",
+      "image_id": "lou_0167.jpg",
+      "image_path": "image/lou_0167.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are visible on the concrete.",
+      "description_prompt": "Q: Based on the picture, decide if the structure has damage? A: Yes, spalling and exposed rebar are observed on the concrete. Q: Describe the damage features as seen.",
+      "reference_description": "Severe spalling of the concrete surface has exposed aggregate and load-bearing rebar, and obvious rusting of the rebar is evident.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0167.jpg"
+      ]
+    },
+    {
+      "sample_id": "d181faee2f4d",
+      "image_id": "lou_0168.jpg",
+      "image_path": "image/lou_0168.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete shows spalling and exposed reinforcement.",
+      "description_prompt": "Q: From the picture, judge if the structure has any damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "A large amount of concrete spalling has occurred on the structural surface, exposing the aggregate and reinforcing steel, which have also suffered severe rust damage.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0168.jpg"
+      ]
+    },
+    {
+      "sample_id": "801d47086983",
+      "image_id": "lou_0169.jpg",
+      "image_path": "image/lou_0169.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Please describe the damage features from the image.",
+      "reference_description": "Extensive concrete spalling has occurred on the structural surface, exposing the internal aggregate and main load-bearing rebar, and severe rusting is observed on the rebar.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0169.jpg"
+      ]
+    },
+    {
+      "sample_id": "9c8b77551b7c",
+      "image_id": "lou_0228.jpg",
+      "image_path": "image/lou_0228.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete shows spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Describe the damage features from the image.",
+      "reference_description": "Large-area concrete spalling on the structural surface has exposed aggregate and supporting load-bearing rebar, and these rebars have suffered severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0228.jpg"
+      ]
+    },
+    {
+      "sample_id": "be7a94987b9f",
+      "image_id": "lou_0303.jpg",
+      "image_path": "image/lou_0303.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Look at this image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: Using the image, decide if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Extensive peeling has occurred on the structural surface, exposing the internal aggregate and load-bearing rebar. Furthermore, these rebars show severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "peeling",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0303.jpg"
+      ]
+    },
+    {
+      "sample_id": "179f23d7571d",
+      "image_id": "lou_0304.jpg",
+      "image_path": "image/lou_0304.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the concrete has spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Please describe the damage features from the image.",
+      "reference_description": "Extensive spalling has occurred on the concrete surface, exposing aggregate and pressure-bearing rebar, and these rebars have been seriously rusted.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0304.jpg"
+      ]
+    },
+    {
+      "sample_id": "b3f44ef16441",
+      "image_id": "lou_0305.jpg",
+      "image_path": "image/lou_0305.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are visible on the concrete.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged? A: Yes, spalling and exposed rebar exist on the concrete. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "The concrete on the structural surface has undergone severe erosion, exposing the internal aggregate and supporting rebar, which also show significant signs of rust.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0305.jpg"
+      ]
+    },
+    {
+      "sample_id": "b2e534ec09e0",
+      "image_id": "lou_0306.jpg",
+      "image_path": "image/lou_0306.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete shows spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "Extensive concrete spalling has occurred on the structural surface, exposing aggregate and load-bearing rebar, and these rebars have already been severely rusted.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0306.jpg"
+      ]
+    },
+    {
+      "sample_id": "ce2eba0461f2",
+      "image_id": "lou_0309.jpg",
+      "image_path": "image/lou_0309.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: According to the image, judge if the structure has any damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Extensive concrete spalling appears on the structural surface, exposing the underlying aggregate and main load-bearing rebar, and the rebar shows severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0309.jpg"
+      ]
+    },
+    {
+      "sample_id": "1bbaa7406f9c",
+      "image_id": "lou_0350.jpg",
+      "image_path": "image/lou_0350.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the concrete shows spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar are observed on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "Extensive concrete spalling has occurred on the structural surface, exposing internal aggregate and load-bearing rebar, while these rebars have suffered severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0350.jpg"
+      ]
+    },
+    {
+      "sample_id": "eccea1c33f19",
+      "image_id": "lou_0351.jpg",
+      "image_path": "image/lou_0351.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged? A: Yes, spalling and exposed rebar appear on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Extensive concrete spalling appears on the structural surface, exposing aggregate and load-bearing rebar, and severe rusting is observed on the rebar.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0351.jpg"
+      ]
+    },
+    {
+      "sample_id": "adb05e27ab67",
+      "image_id": "lou_0352.jpg",
+      "image_path": "image/lou_0352.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete exhibits spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please describe the damage features from the image.",
+      "reference_description": "Significant spalling has occurred on the structural surface, exposing the internal aggregate and pressure-bearing rebar. At the same time, these rebars show serious rust problems.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0352.jpg"
+      ]
+    },
+    {
+      "sample_id": "ab38fb3adfff",
+      "image_id": "lou_0353.jpg",
+      "image_path": "image/lou_0353.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are visible on the concrete.",
+      "description_prompt": "Q: According to the image, determine if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "Significant spalling has occurred on the structural surface, exposing aggregate and load-bearing rebar. Meanwhile, these rebars show signs of heavy corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0353.jpg"
+      ]
+    },
+    {
+      "sample_id": "2d15ee0e4d2f",
+      "image_id": "lou_0355.jpg",
+      "image_path": "image/lou_0355.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, the concrete has spalling and exposed reinforcement.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Severe spalling of the concrete surface has exposed aggregate and main load-bearing rebar, and the rebar also shows severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0355.jpg"
+      ]
+    },
+    {
+      "sample_id": "cda183c17450",
+      "image_id": "lou_0356.jpg",
+      "image_path": "image/lou_0356.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: Based on the picture, assess if the structure is damaged? A: Yes, spalling and exposed rebar appear on the concrete. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "Extensive concrete spalling appears on the structural surface, exposing aggregate and load-bearing rebar, and severe rusting is observed on the rebar.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0356.jpg"
+      ]
+    },
+    {
+      "sample_id": "19a164601d60",
+      "image_id": "lou_0357.jpg",
+      "image_path": "image/lou_0357.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete exhibits spalling and exposed reinforcement.",
+      "description_prompt": "Q: From the picture, judge if the structure has any damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "Extensive concrete spalling on the structural surface has led to exposure of aggregate and load-bearing rebar, and these rebars have experienced severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0357.jpg"
+      ]
+    },
+    {
+      "sample_id": "65fbdfc89a95",
+      "image_id": "lou_0358.jpg",
+      "image_path": "image/lou_0358.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are visible on the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Extensive spalling has occurred on the structural surface, leading to exposure of aggregate and main load-bearing rebar, and these rebars show severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0358.jpg"
+      ]
+    },
+    {
+      "sample_id": "cebc7eb3517a",
+      "image_id": "lou_0359.jpg",
+      "image_path": "image/lou_0359.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete has spalling and exposed reinforcement.",
+      "description_prompt": "Q: According to the image, assess if the structure is damaged? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please describe the damage features from the image.",
+      "reference_description": "Extensive concrete spalling appears on the structural surface, exposing the underlying aggregate and main load-bearing rebar, and the rebar shows severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0359.jpg"
+      ]
+    },
+    {
+      "sample_id": "6396909604ef",
+      "image_id": "lou_0361.jpg",
+      "image_path": "image/lou_0361.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Look at this image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: Using the image, decide if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Describe the damage characteristics from the image.",
+      "reference_description": "The structure in the image shows obvious damage, specifically extensive spalling of the concrete cover, exposing the internal aggregate and load-bearing rebar. Additionally, these exposed rebars have suffered severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0361.jpg"
+      ]
+    },
+    {
+      "sample_id": "bb761f5f95c9",
+      "image_id": "lou_0362.jpg",
+      "image_path": "image/lou_0362.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the concrete shows spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "The concrete on the structural surface has undergone severe erosion, exposing the internal aggregate and supporting rebar, which also show significant signs of rust.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0362.jpg"
+      ]
+    },
+    {
+      "sample_id": "5216de7207c2",
+      "image_id": "lou_0363.jpg",
+      "image_path": "image/lou_0363.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are visible on the concrete.",
+      "description_prompt": "Q: From the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Large-area concrete spalling on the structural surface has exposed aggregate and supporting load-bearing rebar, and these rebars have suffered severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0363.jpg"
+      ]
+    },
+    {
+      "sample_id": "ac19776369d8",
+      "image_id": "lou_0364.jpg",
+      "image_path": "image/lou_0364.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the concrete exhibits spalling and exposed reinforcement.",
+      "description_prompt": "Q: Based on the picture, assess if the structure is damaged? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please describe the damage features from the image.",
+      "reference_description": "Extensive concrete spalling has occurred on the structural surface, exposing the internal aggregate and main load-bearing rebar, and severe rusting is observed on the rebar.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0364.jpg"
+      ]
+    },
+    {
+      "sample_id": "e9d0a9859bc8",
+      "image_id": "lou_0365.jpg",
+      "image_path": "image/lou_0365.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are seen on the concrete.",
+      "description_prompt": "Q: According to the image, judge if the structure has any damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "Large-area concrete spalling appears on the structural surface, exposing internal aggregate and supporting rebar, and the rebar shows obvious rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0365.jpg"
+      ]
+    },
+    {
+      "sample_id": "1297c30c15bc",
+      "image_id": "lou_0367.jpg",
+      "image_path": "image/lou_0367.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, the concrete has spalling and exposed reinforcement.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "Extensive concrete spalling appears on the structural surface, exposing aggregate and load-bearing rebar, and obvious rusting is observed on the rebar.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0367.jpg"
+      ]
+    },
+    {
+      "sample_id": "9083bff75421",
+      "image_id": "lou_0368.jpg",
+      "image_path": "image/lou_0368.jpg",
+      "width": 512,
+      "height": 512,
+      "prefix": "lou",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, spalling and exposed reinforcement are visible on the concrete.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Extensive concrete spalling on the structural surface has led to exposure of aggregate and load-bearing rebar, and these rebars have experienced severe rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "exposed_rebar",
+        "spalling"
+      ],
+      "primary_category": "exposed_rebar",
+      "attributes": [
+        "load_bearing_risk"
+      ],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/lou_0368.jpg"
+      ]
+    },
+    {
+      "sample_id": "c8f155b0db70",
+      "image_id": "xiu_100.jpg",
+      "image_path": "image/xiu_100.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged? A: Yes, the component has corroded. Q: Please describe the damage features from the image.",
+      "reference_description": "The surface protective layer of the component has spalled off, exposing the component, which has subsequently caused severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_100.jpg"
+      ]
+    },
+    {
+      "sample_id": "0f0fb14fd0ce",
+      "image_id": "xiu_101.jpg",
+      "image_path": "image/xiu_101.jpg",
+      "width": 1583,
+      "height": 923,
+      "prefix": "xiu",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has any damage? A: Yes, the component has corroded. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "The surface protection of the component has peeled off, leading to exposure and subsequently causing severe rust issues.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_101.jpg"
+      ]
+    },
+    {
+      "sample_id": "b71673151283",
+      "image_id": "xiu_102.jpg",
+      "image_path": "image/xiu_102.jpg",
+      "width": 641,
+      "height": 481,
+      "prefix": "xiu",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: According to the image, determine if the structure has damage? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "Because the protective coating on the component surface has come off, the component is exposed and has suffered severe corrosion.",
+      "normalized_categories": [
+        "corrosion"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_102.jpg"
+      ]
+    },
+    {
+      "sample_id": "1fe865907e3a",
+      "image_id": "xiu_103.jpg",
+      "image_path": "image/xiu_103.jpg",
+      "width": 739,
+      "height": 572,
+      "prefix": "xiu",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, the component has corroded. Q: Please characterize the damage based on the image.",
+      "reference_description": "The protective layer on the component surface has spalled off, exposing the component, which has then triggered severe rust issues.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_103.jpg"
+      ]
+    },
+    {
+      "sample_id": "d362b0cd0d31",
+      "image_id": "xiu_104.jpg",
+      "image_path": "image/xiu_104.jpg",
+      "width": 525,
+      "height": 394,
+      "prefix": "xiu",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, assess if the structure is damaged? A: Yes, the component has corroded. Q: Describe the damage features as per the image.",
+      "reference_description": "The protective coating of the component has spalled off, leaving the component exposed and suffering severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_104.jpg"
+      ]
+    },
+    {
+      "sample_id": "e72b270a775a",
+      "image_id": "xiu_105.jpg",
+      "image_path": "image/xiu_105.jpg",
+      "width": 1920,
+      "height": 1080,
+      "prefix": "xiu",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: From the picture, judge if the structure has any damage? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "Because the protective coating on the component surface has come off, the component is exposed and has suffered severe corrosion.",
+      "normalized_categories": [
+        "corrosion"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_105.jpg"
+      ]
+    },
+    {
+      "sample_id": "0642c323b029",
+      "image_id": "xiu_106.jpg",
+      "image_path": "image/xiu_106.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, the component has corroded. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "Due to the spalling of the protective layer on the component surface, the component is left exposed, which has led to severe rust problems.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_106.jpg"
+      ]
+    },
+    {
+      "sample_id": "fb8646e97ee9",
+      "image_id": "xiu_107.jpg",
+      "image_path": "image/xiu_107.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: According to the image, assess if the structure is damaged? A: Yes, the component has corroded. Q: Describe the damage features as per the image.",
+      "reference_description": "The surface protection of the component has peeled off, causing the component to lose its protection and become directly exposed, leading to severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_107.jpg"
+      ]
+    },
+    {
+      "sample_id": "cef30bc3c1d5",
+      "image_id": "xiu_108.jpg",
+      "image_path": "image/xiu_108.jpg",
+      "width": 500,
+      "height": 375,
+      "prefix": "xiu",
+      "category_prompt": "Look at this image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Using the image, decide if the structure has damage? A: Yes, the component has corroded. Q: Please characterize the damage based on the image.",
+      "reference_description": "The protective film on the component surface has spalled off, exposing the component and causing severe rust damage.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_108.jpg"
+      ]
+    },
+    {
+      "sample_id": "8e481588890a",
+      "image_id": "xiu_109.jpg",
+      "image_path": "image/xiu_109.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has any damage? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "The outer protective layer of the component has spalled off, exposing its internal structure and causing severe rusting issues.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_109.jpg"
+      ]
+    },
+    {
+      "sample_id": "a259b7d0f85e",
+      "image_id": "xiu_180.jpg",
+      "image_path": "image/xiu_180.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: From the picture, judge if the structure has any damage? A: Yes, the component has corroded. Q: Please describe the damage features from the image.",
+      "reference_description": "The layer protecting the component surface has spalled off, leaving the component exposed and suffering severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_180.jpg"
+      ]
+    },
+    {
+      "sample_id": "48dc4b349606",
+      "image_id": "xiu_181.jpg",
+      "image_path": "image/xiu_181.jpg",
+      "width": 1160,
+      "height": 781,
+      "prefix": "xiu",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, the component has corroded. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "Because the protective coating on the component surface has come off, the component is exposed and has suffered severe corrosion.",
+      "normalized_categories": [
+        "corrosion"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_181.jpg"
+      ]
+    },
+    {
+      "sample_id": "9a5f7f278083",
+      "image_id": "xiu_182.jpg",
+      "image_path": "image/xiu_182.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: According to the image, assess if the structure is damaged? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "The outer protective layer of the component has spalled off, leaving the component exposed, which has then suffered severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_182.jpg"
+      ]
+    },
+    {
+      "sample_id": "b634281a1d74",
+      "image_id": "xiu_183.jpg",
+      "image_path": "image/xiu_183.jpg",
+      "width": 804,
+      "height": 804,
+      "prefix": "xiu",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, the component has corroded. Q: Please characterize the damage based on the image.",
+      "reference_description": "The outer protective layer of the component has peeled off, leaving the component exposed and suffering severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_183.jpg"
+      ]
+    },
+    {
+      "sample_id": "375194875fdf",
+      "image_id": "xiu_184.jpg",
+      "image_path": "image/xiu_184.jpg",
+      "width": 750,
+      "height": 394,
+      "prefix": "xiu",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has any damage? A: Yes, the component has corroded. Q: Describe the damage features as per the image.",
+      "reference_description": "The surface protection of the component has peeled off, causing the component to lose its protection and become directly exposed, leading to severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_184.jpg"
+      ]
+    },
+    {
+      "sample_id": "a8acb9fea817",
+      "image_id": "xiu_185.jpg",
+      "image_path": "image/xiu_185.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: From the picture, determine if the structure has damage? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "The protective film on the component surface has spalled off, exposing the component and causing severe rust damage.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_185.jpg"
+      ]
+    },
+    {
+      "sample_id": "a659c0c93fd3",
+      "image_id": "xiu_186.jpg",
+      "image_path": "image/xiu_186.jpg",
+      "width": 1920,
+      "height": 1080,
+      "prefix": "xiu",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, assess if the structure is damaged? A: Yes, the component has corroded. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "The surface protective layer of the component has spalled off, leaving the internal structure exposed, and has consequently suffered severe rust damage.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_186.jpg"
+      ]
+    },
+    {
+      "sample_id": "1340070a9d58",
+      "image_id": "xiu_187.jpg",
+      "image_path": "image/xiu_187.jpg",
+      "width": 375,
+      "height": 500,
+      "prefix": "xiu",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: According to the image, judge if the structure has any damage? A: Yes, the component has corroded. Q: Describe the damage features as per the image.",
+      "reference_description": "The surface protection material of the component has spalled off, exposing the component and causing it to suffer severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_187.jpg"
+      ]
+    },
+    {
+      "sample_id": "860c6b8e0155",
+      "image_id": "xiu_188.jpg",
+      "image_path": "image/xiu_188.jpg",
+      "width": 782,
+      "height": 439,
+      "prefix": "xiu",
+      "category_prompt": "Look at this image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Using the image, decide if the structure has damage? A: Yes, the component has corroded. Q: Please characterize the damage based on the image.",
+      "reference_description": "The surface protection material of the component has spalled off, exposing the component and causing it to suffer severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_188.jpg"
+      ]
+    },
+    {
+      "sample_id": "1742b9b22a8d",
+      "image_id": "xiu_189.jpg",
+      "image_path": "image/xiu_189.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "Because the protective coating on the component surface has come off, the component is exposed and has suffered severe corrosion.",
+      "normalized_categories": [
+        "corrosion"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_189.jpg"
+      ]
+    },
+    {
+      "sample_id": "68dd4b59a2bc",
+      "image_id": "xiu_200.jpg",
+      "image_path": "image/xiu_200.jpg",
+      "width": 400,
+      "height": 259,
+      "prefix": "xiu",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: From the picture, determine if the structure has damage? A: Yes, the component has corroded. Q: Please describe the damage features from the image.",
+      "reference_description": "The surface protection material of the component has spalled off, exposing the component and causing it to suffer severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_200.jpg"
+      ]
+    },
+    {
+      "sample_id": "f34195632f02",
+      "image_id": "xiu_201.jpg",
+      "image_path": "image/xiu_201.jpg",
+      "width": 375,
+      "height": 500,
+      "prefix": "xiu",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, assess if the structure is damaged? A: Yes, the component has corroded. Q: Describe the damage characteristics as per the image.",
+      "reference_description": "The surface protection of the component has peeled off, causing the component to lose its protection and become directly exposed, leading to severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_201.jpg"
+      ]
+    },
+    {
+      "sample_id": "8bfb11093d2c",
+      "image_id": "xiu_202.jpg",
+      "image_path": "image/xiu_202.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: According to the image, judge if the structure has any damage? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "The protective layer on the component surface has spalled off, exposing the component, which has then triggered severe rust issues.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_202.jpg"
+      ]
+    },
+    {
+      "sample_id": "a5dc55056cb7",
+      "image_id": "xiu_203.jpg",
+      "image_path": "image/xiu_203.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "Look at the image – does the structure show any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Using the picture, decide if the structure has damage? A: Yes, the component has corroded. Q: Please characterize the damage based on the image.",
+      "reference_description": "The protective layer has peeled off from the component surface, leaving the component exposed and resulting in severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_203.jpg"
+      ]
+    },
+    {
+      "sample_id": "06010235dea1",
+      "image_id": "xiu_204.jpg",
+      "image_path": "image/xiu_204.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, determine if the structure has damage? A: Yes, the component has corroded. Q: Describe the damage features as per the image.",
+      "reference_description": "The surface protection of the component has peeled off, causing the component to lose its protection and become directly exposed, leading to severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_204.jpg"
+      ]
+    },
+    {
+      "sample_id": "fa0f89b3a4e0",
+      "image_id": "xiu_205.jpg",
+      "image_path": "image/xiu_205.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "According to the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: From the picture, assess if the structure is damaged? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "Because the protective layer has peeled off from the component surface, the component is exposed and has suffered severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_205.jpg"
+      ]
+    },
+    {
+      "sample_id": "f6e5913ef8ee",
+      "image_id": "xiu_206.jpg",
+      "image_path": "image/xiu_206.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "Based on the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has any damage? A: Yes, the component has corroded. Q: Please describe the damage characteristics from the image.",
+      "reference_description": "The protective layer of the component has spalled off, exposing the component, which has then suffered intense rusting.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_206.jpg"
+      ]
+    },
+    {
+      "sample_id": "b08cf706c672",
+      "image_id": "xiu_207.jpg",
+      "image_path": "image/xiu_207.jpg",
+      "width": 563,
+      "height": 375,
+      "prefix": "xiu",
+      "category_prompt": "From the image, does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: According to the image, determine if the structure has damage? A: Yes, the component has corroded. Q: Describe the damage features as per the image.",
+      "reference_description": "The protective layer has peeled off from the component surface, leaving the component exposed and resulting in severe corrosion.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_207.jpg"
+      ]
+    },
+    {
+      "sample_id": "69067a092af6",
+      "image_id": "xiu_208.jpg",
+      "image_path": "image/xiu_208.jpg",
+      "width": 224,
+      "height": 224,
+      "prefix": "xiu",
+      "category_prompt": "Look at this image – does the structure exhibit any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Using the image, decide if the structure has damage? A: Yes, the component has corroded. Q: Please characterize the damage based on the image.",
+      "reference_description": "The outer protective layer of the component has spalled off, exposing its internal structure and causing severe rusting issues.",
+      "normalized_categories": [
+        "corrosion",
+        "spalling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_208.jpg"
+      ]
+    },
+    {
+      "sample_id": "af8235e902b0",
+      "image_id": "xiu_209.jpg",
+      "image_path": "image/xiu_209.jpg",
+      "width": 375,
+      "height": 500,
+      "prefix": "xiu",
+      "category_prompt": "Examine the image – does the structure have any damage?",
+      "category_label_text": "Yes, the component has corroded.",
+      "description_prompt": "Q: Based on the picture, assess if the structure is damaged? A: Yes, the component has corroded. Q: Based on the image, describe the damage features.",
+      "reference_description": "The surface protection of the component has peeled off, causing the component to lose its protection and become directly exposed, leading to severe rust.",
+      "normalized_categories": [
+        "corrosion",
+        "peeling"
+      ],
+      "primary_category": "corrosion",
+      "attributes": [],
+      "annotation_count": 2,
+      "source_annotation_paths": [
+        "image/xiu_209.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "format_version": "1.0",
+  "method": "DARC",
+  "passed": true,
+  "checks": {
+    "configuration": {
+      "passed": true,
+      "detail": "frozen DARC algorithm matches implementation"
+    },
+    "data_protocol": {
+      "passed": true,
+      "detail": {
+        "grouped_counts": {
+          "train": 836,
+          "val": 182,
+          "test": 182
+        },
+        "competition_count": 1200
+      }
+    },
+    "frozen_research_features": {
+      "passed": true,
+      "detail": "5 frozen research feature files match server hashes"
+    },
+    "research_runtime": {
+      "passed": true,
+      "detail": {
+        "fingerprint": "0fb19348b9e253f4297ea14053ea82f2b8ca9c566cfca2775e7dec24e5a8e33d",
+        "sample_count": 836
+      }
+    },
+    "competition_runtime": {
+      "passed": true,
+      "detail": {
+        "fingerprint": "f6cc13ad9ace52c40ddf879166a497cd270f2728209687b649bc96a8b4e0f596",
+        "sample_count": 1200
+      }
+    },
+    "research_predictions": {
+      "passed": true,
+      "detail": "182 strict prediction records"
+    },
+    "research_metrics": {
+      "passed": true,
+      "detail": {
+        "exact_match_accuracy": 0.7362637362637363,
+        "primary_category_accuracy": 0.978021978021978,
+        "micro_f1": 0.896,
+        "macro_f1_fixed_11_classes": 0.6654943444956265,
+        "mean_description_token_f1": 0.6016195093949901,
+        "mean_description_jaccard": 0.4431408560546276
+      }
+    },
+    "release_manifest": {
+      "passed": true,
+      "detail": "49 distributable file hashes match"
+    },
+    "local_clip_model": {
+      "passed": true,
+      "detail": "not requested"
+    }
+  }
+}
