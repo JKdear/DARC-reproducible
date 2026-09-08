@@ -42,6 +42,26 @@ def sequence_sha256(values: Iterable[str]) -> str:
     return canonical_json_sha256([str(value) for value in values])
 
 
+def npz_content_sha256(path: str | Path) -> str:
+    """Hash an .npz by array content so the digest survives repacking.
+
+    Compressed archives embed metadata and depend on the local zlib build, so
+    identical data yields different file bytes on different machines.
+    """
+    with np.load(path, allow_pickle=False) as payload:
+        arrays = {
+            name: {
+                "dtype": np.asarray(payload[name]).dtype.str,
+                "shape": list(np.asarray(payload[name]).shape),
+                "sha256": hashlib.sha256(
+                    np.ascontiguousarray(payload[name]).tobytes(order="C")
+                ).hexdigest(),
+            }
+            for name in sorted(payload.files)
+        }
+    return canonical_json_sha256(arrays)
+
+
 def normalize_rows(values: np.ndarray) -> np.ndarray:
     array = np.asarray(values, dtype=np.float32)
     if array.ndim != 2 or array.shape[0] == 0 or array.shape[1] == 0:

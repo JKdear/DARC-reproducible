@@ -174,7 +174,7 @@ PASS research_metrics
 PASS release_manifest
 ```
 
-`RELEASE_MANIFEST.json` 由交付方生成，记录所有可分发文件的大小和 SHA-256。接收方第一次验收前不要重新生成该文件；只有在明确修改并重新发布交付包时，才运行 `python scripts/build_release_manifest.py` 更新清单。
+`RELEASE_MANIFEST.json` 记录所有可分发文件的校验值：普通文件按精确字节和大小校验，`.npz` 按数组内容校验。因此本地重建 artifact 后校验仍然通过，即使压缩容器字节改变。只有在真正修改并重新发布交付包时，才需要运行 `python scripts/build_release_manifest.py` 更新清单。
 
 如果本地 CLIP 模型已经同步，还应执行：
 
@@ -206,8 +206,10 @@ python scripts/build_artifact.py research
 命令会输出外部 artifact fingerprint。当前已保存 artifact 的 fingerprint 为：
 
 ```text
-0fb19348b9e253f4297ea14053ea82f2b8ca9c566cfca2775e7dec24e5a8e33d
+cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a
 ```
+
+fingerprint 由 `runtime_config.json` 的规范化内容哈希和检索索引的**数组内容**哈希组成，不依赖 `.npz` 容器字节。因此在不同机器上用相同输入重建 artifact 会得到相同 fingerprint，即使压缩后的 `.npz` 文件字节不同。这一点已在 macOS 与 Linux A100 服务器上交叉验证。
 
 在预测阶段只传入不含标签的 `test.npz`：
 
@@ -215,7 +217,7 @@ python scripts/build_artifact.py research
 python scripts/predict_features.py \
   --features artifacts/features/research/test.npz \
   --artifact artifacts/runtime/research \
-  --fingerprint 0fb19348b9e253f4297ea14053ea82f2b8ca9c566cfca2775e7dec24e5a8e33d \
+  --fingerprint cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a \
   --output artifacts/predictions/darc_grouped_test.json
 ```
 
@@ -272,7 +274,7 @@ python scripts/build_artifact.py competition
 当前 1200 图比赛 artifact fingerprint：
 
 ```text
-f6cc13ad9ace52c40ddf879166a497cd270f2728209687b649bc96a8b4e0f596
+4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564
 ```
 
 ### 方法 B：从 1200 张原图直接重新编码
@@ -290,7 +292,7 @@ python scripts/export_features.py competition \
 python scripts/build_artifact.py competition
 ```
 
-两种方法应得到相同的图片顺序和 CLIP embedding 数值；压缩 NPZ 的字节哈希可能因 NumPy/ZIP 实现而变化，因此跨机器主要校验数组内容、样本序列、图片内容和模型文件哈希。
+两种方法应得到相同的图片顺序和 CLIP embedding 数值。artifact fingerprint 基于数组内容而非 `.npz` 容器字节，因此跨机器重建会得到一致的 fingerprint；压缩文件本身的字节可能因 zlib 实现不同而变化，属于预期现象。
 
 ## 11. 预测未知比赛图片
 
@@ -300,7 +302,7 @@ python scripts/build_artifact.py competition
 python scripts/predict.py \
   --input data/unseen_test \
   --artifact artifacts/runtime/competition \
-  --fingerprint f6cc13ad9ace52c40ddf879166a497cd270f2728209687b649bc96a8b4e0f596 \
+  --fingerprint 4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564 \
   --model models/clip-vit-base-patch32 \
   --output outputs/result.json \
   --device cuda \
@@ -364,7 +366,7 @@ python scripts/build_artifact.py research
 python scripts/predict_features.py \
   --features artifacts/features/research/test.npz \
   --artifact artifacts/runtime/research \
-  --fingerprint 0fb19348b9e253f4297ea14053ea82f2b8ca9c566cfca2775e7dec24e5a8e33d \
+  --fingerprint cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a \
   --output artifacts/predictions/darc_grouped_test.json
 python scripts/evaluate.py \
   --predictions artifacts/predictions/darc_grouped_test.json

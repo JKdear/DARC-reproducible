@@ -9,7 +9,15 @@ from typing import Any
 
 import numpy as np
 
-from .common import file_sha256, normalize_rows, read_json, sequence_sha256, write_json
+from .common import (
+    canonical_json_sha256,
+    file_sha256,
+    normalize_rows,
+    npz_content_sha256,
+    read_json,
+    sequence_sha256,
+    write_json,
+)
 
 FEATURE_FORMAT_VERSION = "1.0"
 MODEL_FILES = (
@@ -145,7 +153,8 @@ def save_features(
     np.savez_compressed(destination, **arrays)
     return {
         "path": destination.as_posix(),
-        "sha256": file_sha256(destination),
+        "hash_kind": "npz_content",
+        "sha256": npz_content_sha256(destination),
         "sample_count": len(samples),
         "embedding_dim": int(arrays["embeddings"].shape[1]),
         "contains_labels": include_labels,
@@ -293,7 +302,8 @@ def export_features(
             )
             provenance["artifacts"]["test_labels"] = {
                 "path": labels_path.as_posix(),
-                "sha256": file_sha256(labels_path),
+                "hash_kind": "npz_content",
+                "sha256": npz_content_sha256(labels_path),
                 "sample_count": len(samples),
                 "image_ids_sha256": sequence_sha256(identities[name]["image_ids"].astype(str)),
                 "sample_ids_sha256": sequence_sha256(identities[name]["sample_ids"].astype(str)),
@@ -350,7 +360,9 @@ def combine_research_features(
         name: np.asarray([rows[sample_id][name] for sample_id in expected_ids])
         for name in ("image_ids", "sample_ids", "image_sha256s", "embeddings", "labels")
     }
-    combined["embeddings"] = normalize_rows(combined["embeddings"]).astype(np.float32)
+    # Rows are copied verbatim from already-normalized research features; a second
+    # normalization would perturb float bits and break cross-machine identity.
+    combined["embeddings"] = np.asarray(combined["embeddings"], dtype=np.float32)
     combined["labels"] = combined["labels"].astype(np.uint8)
     combined["categories"] = categories.astype(np.str_)
     validate_feature_arrays(combined, require_labels=True)
@@ -376,7 +388,8 @@ def combine_research_features(
         "artifacts": {
             "all_labeled": {
                 "path": destination.as_posix(),
-                "sha256": file_sha256(destination),
+                "hash_kind": "npz_content",
+                "sha256": npz_content_sha256(destination),
                 "sample_count": len(expected_ids),
                 "embedding_dim": int(combined["embeddings"].shape[1]),
                 "contains_labels": True,
@@ -386,11 +399,13 @@ def combine_research_features(
                 "split_sha256": file_sha256(all_labeled_split_path),
             }
         },
+        # Source .npz files are hashed by array content so this provenance file is
+        # byte-identical on every machine that combines the same frozen inputs.
         "sources": {
-            "train_sha256": file_sha256(train_path),
-            "val_sha256": file_sha256(val_path),
-            "test_sha256": file_sha256(test_path),
-            "test_labels_sha256": file_sha256(test_labels_path),
+            "train_content_sha256": npz_content_sha256(train_path),
+            "val_content_sha256": npz_content_sha256(val_path),
+            "test_content_sha256": npz_content_sha256(test_path),
+            "test_labels_content_sha256": npz_content_sha256(test_labels_path),
             "research_provenance_sha256": file_sha256(research_provenance_path),
         },
         "policy": {

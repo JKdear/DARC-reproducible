@@ -25,14 +25,14 @@
     "research_runtime": {
       "passed": true,
       "detail": {
-        "fingerprint": "0fb19348b9e253f4297ea14053ea82f2b8ca9c566cfca2775e7dec24e5a8e33d",
+        "fingerprint": "cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a",
         "sample_count": 836
       }
     },
     "competition_runtime": {
       "passed": true,
       "detail": {
-        "fingerprint": "f6cc13ad9ace52c40ddf879166a497cd270f2728209687b649bc96a8b4e0f596",
+        "fingerprint": "4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564",
         "sample_count": 1200
       }
     },
@@ -53,7 +53,7 @@
     },
     "release_manifest": {
       "passed": true,
-      "detail": "49 distributable file hashes match"
+      "detail": "49 distributable files match (file_bytes, npz_content)"
     },
     "local_clip_model": {
       "passed": true,

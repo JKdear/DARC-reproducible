@@ -6,7 +6,13 @@ import pytest
 
 from src.evaluation import evaluate, token_f1, token_jaccard
 from src.features import combine_research_features, export_features
-from src.runtime import DARC_PARAMETERS, load_artifact, predict_from_embeddings
+from src.runtime import (
+    DARC_PARAMETERS,
+    artifact_fingerprint,
+    index_content_sha256,
+    load_artifact,
+    predict_from_embeddings,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -48,6 +54,40 @@ def test_prediction_uses_weighted_relative_vote_and_nearest_description():
         }
     ]
     assert evidence[0]["description_source_image_id"] == "a.jpg"
+
+
+def test_artifact_fingerprint_ignores_npz_container_bytes(tmp_path):
+    """A repacked index with identical arrays must keep the same fingerprint."""
+    source = ROOT / "artifacts/runtime/research"
+    original = artifact_fingerprint(source)
+    copy = tmp_path / "research"
+    copy.mkdir()
+    (copy / "runtime_config.json").write_bytes((source / "runtime_config.json").read_bytes())
+    with np.load(source / "retrieval_index.npz", allow_pickle=False) as payload:
+        arrays = {name: np.asarray(payload[name]) for name in payload.files}
+    np.savez(copy / "retrieval_index.npz", **arrays)
+
+    assert (source / "retrieval_index.npz").read_bytes() != (copy / "retrieval_index.npz").read_bytes()
+    assert artifact_fingerprint(copy) == original
+    config, index = load_artifact(copy, original)
+    assert index_content_sha256(index) == config["index_content_sha256"]
+    assert index["embeddings"].dtype == np.float32
+
+
+def test_artifact_fingerprint_detects_modified_arrays(tmp_path):
+    source = ROOT / "artifacts/runtime/research"
+    copy = tmp_path / "tampered"
+    copy.mkdir()
+    (copy / "runtime_config.json").write_bytes((source / "runtime_config.json").read_bytes())
+    with np.load(source / "retrieval_index.npz", allow_pickle=False) as payload:
+        arrays = {name: np.asarray(payload[name]) for name in payload.files}
+    arrays["reference_descriptions"] = arrays["reference_descriptions"].copy()
+    arrays["reference_descriptions"][0] = "tampered description"
+    np.savez_compressed(copy / "retrieval_index.npz", **arrays)
+
+    assert artifact_fingerprint(copy) != artifact_fingerprint(source)
+    with pytest.raises(ValueError, match="fingerprint mismatch"):
+        load_artifact(copy, artifact_fingerprint(source))
 
 
 def test_full_data_build_requires_explicit_frozen_parameter_confirmation(tmp_path):

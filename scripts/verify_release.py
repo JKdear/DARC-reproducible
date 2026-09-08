@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from src.common import file_sha256, read_json, sequence_sha256, write_json
+from src.common import file_sha256, npz_content_sha256, read_json, sequence_sha256, write_json
 from src.runtime import DARC_PARAMETERS, load_artifact
 
 
@@ -114,9 +114,16 @@ def main() -> None:
             path = ROOT / record["path"]
             if not path.is_file():
                 raise FileNotFoundError(path)
-            if path.stat().st_size != record["size_bytes"] or file_sha256(path) != record["sha256"]:
+            if record.get("hash_kind") == "npz_content":
+                observed = npz_content_sha256(path)
+            else:
+                if path.stat().st_size != record["size_bytes"]:
+                    raise ValueError(f"release file size differs: {record['path']}")
+                observed = file_sha256(path)
+            if observed != record["sha256"]:
                 raise ValueError(f"release file differs: {record['path']}")
-        return f"{len(records)} distributable file hashes match"
+        kinds = {record.get("hash_kind", "file_bytes") for record in records}
+        return f"{len(records)} distributable files match ({', '.join(sorted(kinds))})"
 
     def verify_model():
         if not args.model:

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 from pathlib import Path
 from typing import Any
 
@@ -11,6 +12,7 @@ from .common import (
     canonical_json_sha256,
     file_sha256,
     normalize_rows,
+    npz_content_sha256,
     read_json,
     require_lower_sha256,
     sequence_sha256,
@@ -131,7 +133,10 @@ def build_artifact(
         if policy.get("eligible_for_original_grouped_test_evaluation") is not False:
             raise ValueError("competition provenance does not prohibit grouped-test evaluation")
     contract = _contract_for(provenance, expected_name)
-    if contract.get("sha256") != file_sha256(features_path):
+    # Shipped research provenance (format 1.0) pinned the .npz by file bytes;
+    # newer provenance pins it by array content. Accept either recorded contract.
+    expected_digest = contract.get("sha256")
+    if expected_digest not in {npz_content_sha256(features_path), file_sha256(features_path)}:
         raise ValueError("feature file does not match provenance")
     if contract.get("sample_ids_sha256") != sequence_sha256(sample_ids):
         raise ValueError("feature sample roster does not match provenance")
@@ -146,16 +151,19 @@ def build_artifact(
     output = Path(output_dir)
     output.mkdir(parents=True, exist_ok=True)
     index_path = output / "retrieval_index.npz"
-    np.savez_compressed(
-        index_path,
-        image_ids=np.asarray(image_ids, dtype=np.str_),
-        sample_ids=np.asarray(sample_ids, dtype=np.str_),
-        image_sha256s=arrays["image_sha256s"].astype(np.str_),
-        embeddings=normalize_rows(arrays["embeddings"]).astype(np.float32),
-        labels=labels,
-        categories=np.asarray(categories, dtype=np.str_),
-        reference_descriptions=np.asarray(descriptions, dtype=np.str_),
-    )
+    # The source embeddings are already validated as L2-normalized, so they are
+    # stored verbatim. Re-normalizing would perturb the last float bits and make
+    # the artifact identity depend on the local BLAS implementation.
+    index_arrays = {
+        "image_ids": np.asarray(image_ids, dtype=np.str_),
+        "sample_ids": np.asarray(sample_ids, dtype=np.str_),
+        "image_sha256s": arrays["image_sha256s"].astype(np.str_),
+        "embeddings": np.asarray(arrays["embeddings"], dtype=np.float32),
+        "labels": labels,
+        "categories": np.asarray(categories, dtype=np.str_),
+        "reference_descriptions": np.asarray(descriptions, dtype=np.str_),
+    }
+    np.savez_compressed(index_path, **index_arrays)
     config = {
         "format_version": ARTIFACT_FORMAT_VERSION,
         "method": "DARC",
@@ -168,7 +176,7 @@ def build_artifact(
         "processor_class": provenance.get("processor_class"),
         "model_class": provenance.get("model_class"),
         "local_model_file_sha256": model_hashes,
-        "index_sha256": file_sha256(index_path),
+        "index_content_sha256": index_content_sha256(index_arrays),
         "sample_ids_sha256": sequence_sha256(sample_ids),
         "policy": {
             "eligible_for_original_grouped_test_evaluation": data_scope == "research",
@@ -179,7 +187,7 @@ def build_artifact(
             ),
         },
         "sources": {
-            "features_sha256": file_sha256(features_path),
+            "features_content_sha256": npz_content_sha256(features_path),
             "split_sample_ids_sha256": sequence_sha256(split_sample_ids),
             "provenance_sha256": file_sha256(provenance_path),
             "split_summary_sha256": file_sha256(split_summary_path) if split_summary_path else None,
@@ -200,7 +208,46 @@ def build_artifact(
     }
 
 
+def index_content_sha256(arrays: dict[str, np.ndarray]) -> str:
+    """Hash the retrieval index by array content, not by container bytes.
+
+    `np.savez_compressed` embeds archive metadata and depends on the local zlib
+    build, so file digests differ between machines even for identical data.
+    Hashing the arrays keeps the artifact identity portable.
+    """
+    payload = {
+        "image_ids": arrays["image_ids"].astype(str).tolist(),
+        "sample_ids": arrays["sample_ids"].astype(str).tolist(),
+        "image_sha256s": arrays["image_sha256s"].astype(str).tolist(),
+        "categories": arrays["categories"].astype(str).tolist(),
+        "reference_descriptions": arrays["reference_descriptions"].astype(str).tolist(),
+        "embedding_shape": list(np.asarray(arrays["embeddings"]).shape),
+        "embeddings_sha256": hashlib.sha256(
+            np.asarray(arrays["embeddings"], dtype=np.float32).tobytes(order="C")
+        ).hexdigest(),
+        "labels_sha256": hashlib.sha256(
+            np.asarray(arrays["labels"], dtype=np.uint8).tobytes(order="C")
+        ).hexdigest(),
+    }
+    return canonical_json_sha256(payload)
+
+
 def artifact_fingerprint(artifact_dir: str | Path) -> str:
+    """Compute the external, machine-independent artifact fingerprint."""
+    root = Path(artifact_dir)
+    config = read_json(root / "runtime_config.json")
+    with np.load(root / "retrieval_index.npz", allow_pickle=False) as payload:
+        arrays = {name: np.asarray(payload[name]) for name in payload.files}
+    return canonical_json_sha256(
+        {
+            "runtime_config_sha256": config.get("config_payload_sha256"),
+            "retrieval_index_content_sha256": index_content_sha256(arrays),
+        }
+    )
+
+
+def _legacy_fingerprint(artifact_dir: str | Path) -> str:
+    """Byte-level digest kept only to document the superseded, non-portable scheme."""
     root = Path(artifact_dir)
     return canonical_json_sha256(
         {
@@ -228,8 +275,6 @@ def load_artifact(
         raise ValueError("runtime artifact changes the frozen DARC algorithm")
     if config.get("data_scope") not in {"research", "competition"}:
         raise ValueError("runtime artifact has an invalid data scope")
-    if file_sha256(root / "retrieval_index.npz") != config.get("index_sha256"):
-        raise ValueError("retrieval index integrity check failed")
     with np.load(root / "retrieval_index.npz", allow_pickle=False) as payload:
         required = {
             "image_ids", "sample_ids", "image_sha256s", "embeddings", "labels",
@@ -239,8 +284,18 @@ def load_artifact(
         if missing:
             raise ValueError(f"retrieval index is missing arrays: {sorted(missing)}")
         index = {name: np.asarray(payload[name]) for name in required}
+    if index_content_sha256(index) != config.get("index_content_sha256"):
+        raise ValueError("retrieval index integrity check failed")
     count = len(index["image_ids"])
-    index["embeddings"] = normalize_rows(index["embeddings"])
+    # The stored embeddings are already unit-norm and hash-verified above, so they
+    # are validated in place rather than re-normalized; dividing again would make
+    # retrieval scores depend on the local floating-point implementation.
+    embeddings = np.asarray(index["embeddings"], dtype=np.float32)
+    if not np.isfinite(embeddings).all():
+        raise ValueError("retrieval index contains non-finite embeddings")
+    if not np.allclose(np.linalg.norm(embeddings, axis=1), 1.0, atol=1e-5):
+        raise ValueError("retrieval index embeddings are not L2-normalized")
+    index["embeddings"] = embeddings
     index["labels"] = np.asarray(index["labels"], dtype=np.uint8)
     if count != config.get("sample_count"):
         raise ValueError("retrieval index count does not match runtime config")

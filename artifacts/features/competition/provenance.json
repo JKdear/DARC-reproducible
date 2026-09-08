@@ -31,7 +31,8 @@
   "artifacts": {
     "all_labeled": {
       "path": "artifacts/features/competition/all_labeled.npz",
-      "sha256": "42d754c6cd93906d94781e1b40cb581a4bc8e182d96d01e2d50113c764125d63",
+      "hash_kind": "npz_content",
+      "sha256": "3e529df6c6afa78349131230c6f7c4b703f07d9580d06ccf027886204ff69a31",
       "sample_count": 1200,
       "embedding_dim": 512,
       "contains_labels": true,
@@ -42,10 +43,10 @@
     }
   },
   "sources": {
-    "train_sha256": "7390fcd86079011ac8010d8414cf9ed664c558400c3675473b3f6d7a154b9963",
-    "val_sha256": "59159226faa2b4c81771bba63de10eb492b8c632156ef65d7f7aba8ecfa8b947",
-    "test_sha256": "2b6734118014d6ad3d7acf64cb0eacefc1a3a65ae4795677a48cf0305b1384ca",
-    "test_labels_sha256": "a1bc43107b87a1b9a6bc0d0e91516e2b948a119823212be080de9b27152e35fe",
+    "train_content_sha256": "a74b9291d0d59e060cb82ff35d8da94048fda6ebf9fd08ab9f07e3e1dcb43df9",
+    "val_content_sha256": "7fda602fafc302292d96656392f149e93a0e10c67fa85880b5fb04759596d58a",
+    "test_content_sha256": "3159320d5dfd7f34a742168fb49d502214eb3eaad129eab766b2a2d17bd0e8c2",
+    "test_labels_content_sha256": "ebd36dcd8b8712d71a592bacff00254b71d195f5d757ff3d1013dd59775635c3",
     "research_provenance_sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084"
   },
   "policy": {

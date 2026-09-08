@@ -1,5 +1,5 @@
 {
-  "artifact_fingerprint": "0fb19348b9e253f4297ea14053ea82f2b8ca9c566cfca2775e7dec24e5a8e33d",
+  "artifact_fingerprint": "cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a",
   "data_scope": "research",
   "records": [
     {
@@ -1002,7 +1002,7 @@
       "retrieval_evidence": [
         {
           "image_id": "44.JPG",
-          "score": 0.9516205191612244,
+          "score": 0.9516205787658691,
           "damage_categories": [
             "honeycomb",
             "looseness",
@@ -2146,7 +2146,7 @@
         },
         {
           "image_id": "crack_0201.jpg",
-          "score": 0.9254920482635498,
+          "score": 0.925491988658905,
           "damage_categories": [
             "crack"
           ]
@@ -2352,7 +2352,7 @@
         },
         {
           "image_id": "crack_0227.jpg",
-          "score": 0.8869382739067078,
+          "score": 0.8869383335113525,
           "damage_categories": [
             "crack"
           ]
@@ -2653,7 +2653,7 @@
         },
         {
           "image_id": "gangf_225.jpg",
-          "score": 0.9123530387878418,
+          "score": 0.9123529195785522,
           "damage_categories": [
             "crack"
           ]
@@ -3206,7 +3206,7 @@
         },
         {
           "image_id": "gangf_064.jpg",
-          "score": 0.8392743468284607,
+          "score": 0.8392744064331055,
           "damage_categories": [
             "crack"
           ]
@@ -4304,7 +4304,7 @@
         },
         {
           "image_id": "kong_0313.jpg",
-          "score": 0.9567590951919556,
+          "score": 0.9567590355873108,
           "damage_categories": [
             "spalling",
             "void"
@@ -4367,7 +4367,7 @@
         },
         {
           "image_id": "kong_0313.jpg",
-          "score": 0.946216881275177,
+          "score": 0.9462167620658875,
           "damage_categories": [
             "spalling",
             "void"
@@ -4476,7 +4476,7 @@
       "retrieval_evidence": [
         {
           "image_id": "kong_0304.jpg",
-          "score": 0.9375214576721191,
+          "score": 0.9375213980674744,
           "damage_categories": [
             "spalling",
             "void"
@@ -4555,7 +4555,7 @@
         },
         {
           "image_id": "kong_0134.jpg",
-          "score": 0.952436089515686,
+          "score": 0.9524360299110413,
           "damage_categories": [
             "spalling",
             "void"
@@ -4782,7 +4782,7 @@
         },
         {
           "image_id": "kong_0134.jpg",
-          "score": 0.9409320950508118,
+          "score": 0.9409319758415222,
           "damage_categories": [
             "spalling",
             "void"
@@ -5048,7 +5048,7 @@
         },
         {
           "image_id": "kong_0379.jpg",
-          "score": 0.9352365732192993,
+          "score": 0.9352363348007202,
           "damage_categories": [
             "spalling",
             "void"
@@ -5103,7 +5103,7 @@
         },
         {
           "image_id": "kong_0378.jpg",
-          "score": 0.9188448190689087,
+          "score": 0.9188448786735535,
           "damage_categories": [
             "spalling",
             "void"
@@ -5181,7 +5181,7 @@
       "retrieval_evidence": [
         {
           "image_id": "kong_0379.jpg",
-          "score": 0.9260655641555786,
+          "score": 0.9260655045509338,
           "damage_categories": [
             "spalling",
             "void"
@@ -5322,7 +5322,7 @@
       "retrieval_evidence": [
         {
           "image_id": "kong_0378.jpg",
-          "score": 0.9631091356277466,
+          "score": 0.9631091952323914,
           "damage_categories": [
             "spalling",
             "void"
@@ -5385,7 +5385,7 @@
         },
         {
           "image_id": "kong_0356.jpg",
-          "score": 0.9363970756530762,
+          "score": 0.9363970160484314,
           "damage_categories": [
             "spalling",
             "void"
@@ -5495,7 +5495,7 @@
         },
         {
           "image_id": "kong_0356.jpg",
-          "score": 0.9281798601150513,
+          "score": 0.9281798005104065,
           "damage_categories": [
             "spalling",
             "void"
@@ -5589,7 +5589,7 @@
         },
         {
           "image_id": "kong_0379.jpg",
-          "score": 0.924270749092102,
+          "score": 0.9242706298828125,
           "damage_categories": [
             "spalling",
             "void"
@@ -5604,7 +5604,7 @@
       "retrieval_evidence": [
         {
           "image_id": "lou_0337.jpg",
-          "score": 0.9372662901878357,
+          "score": 0.9372663497924805,
           "damage_categories": [
             "corrosion",
             "exposed_rebar",
@@ -6443,7 +6443,7 @@
         },
         {
           "image_id": "lou_0396.jpg",
-          "score": 0.9136924743652344,
+          "score": 0.9136923551559448,
           "damage_categories": [
             "corrosion",
             "exposed_rebar",
@@ -6599,7 +6599,7 @@
         },
         {
           "image_id": "lou_0378.jpg",
-          "score": 0.9331466555595398,
+          "score": 0.9331467151641846,
           "damage_categories": [
             "corrosion",
             "exposed_rebar",
@@ -6764,7 +6764,7 @@
         },
         {
           "image_id": "lou_0337.jpg",
-          "score": 0.9172494411468506,
+          "score": 0.9172496199607849,
           "damage_categories": [
             "corrosion",
             "exposed_rebar",
@@ -6860,7 +6860,7 @@
         },
         {
           "image_id": "lou_0378.jpg",
-          "score": 0.9142208099365234,
+          "score": 0.9142208695411682,
           "damage_categories": [
             "corrosion",
             "exposed_rebar",
@@ -7241,7 +7241,7 @@
         },
         {
           "image_id": "xiu_039.jpg",
-          "score": 0.722413182258606,
+          "score": 0.7224131226539612,
           "damage_categories": [
             "corrosion",
             "peeling"
@@ -7273,7 +7273,7 @@
         },
         {
           "image_id": "xiu_091.jpg",
-          "score": 0.8200534582138062,
+          "score": 0.8200535178184509,
           "damage_categories": [
             "corrosion",
             "spalling"
