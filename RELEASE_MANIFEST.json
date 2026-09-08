@@ -12,8 +12,8 @@
     {
       "path": "README.md",
       "hash_kind": "file_bytes",
-      "size_bytes": 13550,
-      "sha256": "12d1fd2e0e271213b52250f689b0b4fe1155201e9fa6949c989e58a1b9268106"
+      "size_bytes": 15242,
+      "sha256": "7ca9ff404c03cae3884339f7071ba9760a3fe5b89d79d7c1cd54ddef0f13eea3"
     },
     {
       "path": "artifacts/data/dataset_manifest.json",
@@ -203,14 +203,14 @@
     {
       "path": "scripts/predict.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 4863,
-      "sha256": "e662235536d89d9f917de759d94e36a5cc1cc22b433f01d146fe8b7410951137"
+      "size_bytes": 5598,
+      "sha256": "479788cfb2975fb08d62d01849ba1299586b61ab0a3ce52a332e3ffc47400307"
     },
     {
       "path": "scripts/predict_features.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 1764,
-      "sha256": "79e1a8c24512d1fb379b76339db3cc9782f2646260373015dfda8c875a3785d3"
+      "size_bytes": 2348,
+      "sha256": "81c07e3bf2386828f3b729c9e9494ffdaa83ee24bc4194e198b4b02fc1b64bad"
     },
     {
       "path": "scripts/prepare_data.py",
@@ -263,8 +263,8 @@
     {
       "path": "src/runtime.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 18164,
-      "sha256": "baca4a3dc060389ecaacfd01b720bd3d2b0ea17e55da06eaf11eb59a0e71f40b"
+      "size_bytes": 19756,
+      "sha256": "e274eecc367fa0c966bd3ea1580054a6cd2323338fcbc098c687451e32f939e1"
     },
     {
       "path": "src/taxonomy.py",
@@ -281,8 +281,8 @@
     {
       "path": "tests/test_algorithm.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 6657,
-      "sha256": "2f3e95b203b5efe93371a3925365a02387b49b010e28ee8e691f3f61f9193d16"
+      "size_bytes": 10948,
+      "sha256": "7855b0730d3cf6346284d72608d7ee3fe35ca6f22167467c01ca4ca425064277"
     },
     {
       "path": "tests/test_data_protocol.py",

@@ -318,6 +318,31 @@ outputs/result.evidence.json  # 检索证据和来源，不提交给比赛系统
 
 若比赛要求的字段名或外层 JSON 结构不同，只应在最终序列化层转换；不要修改 DARC 检索和投票逻辑。
 
+### 11.1 可选：要求描述来源与预测类别有交集
+
+DARC 的类别来自 top-5 加权投票，描述直接取最近的非空参考描述，两者可能指向不同缺陷。域外图片上这种错配更明显。`scripts/predict.py` 和 `scripts/predict_features.py` 提供一个**默认关闭**的开关：
+
+```bash
+python scripts/predict.py \
+  --input data/unseen_test \
+  --artifact artifacts/runtime/competition \
+  --fingerprint 4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564 \
+  --model models/clip-vit-base-patch32 \
+  --output outputs/result.json \
+  --device cuda \
+  --require-category-overlap
+```
+
+启用后，描述改为取 top-5 中**第一个自身类别与预测类别有交集**的非空描述；若没有邻居满足，则退回冻结行为并在 evidence 里记 `description_overlap_fallback: true`。
+
+边界说明：
+
+- 该开关**只影响描述文本**，不改变 `damage_categories`，也不改变检索、投票或阈值。
+- `DARC_PARAMETERS` 未变动，因此两个 artifact 和它们的 fingerprint 都不受影响，无需重建。
+- 复现正式 grouped-test 结果时必须保持关闭；开启不属于冻结算法定义。
+- 该选项没有在隔离测试集上验证过收益，只用于提升域外输入的可读性。
+- 判据是"交集非空"，因此只能挡住完全跑偏的来源，挡不住主类别错配。在一批 15 张域外病害图片上实测：13 条描述不变、2 条被纠正、0 条退回；此前 7 条类别/描述不一致中的另外 5 条属于部分重叠，仍保持不变。
+
 ## 12. 从服务器导入冻结特征
 
 服务器同步清单和准确 SHA-256 位于 `config/server_sync_manifest.json`。如果文件先同步到一个 staging 根目录，可执行：
@@ -351,6 +376,7 @@ python -m pip freeze > artifacts/pip-freeze-server.txt
 ## 13. 可复现性和提交注意事项
 
 - 研究分数必须来自 research artifact，不能来自 1200 图 competition artifact。
+- 复现研究分数时不要启用 `--require-category-overlap`；它只影响描述文本，不属于冻结算法。
 - competition artifact 只面向与 1200 张训练图分离的未知图片。
 - 不要在参数选择、阈值选择或错误分析过程中查看 182 张测试图标签。
 - 每次重新导出特征或构建 artifact 后都要保存 provenance 和 fingerprint。

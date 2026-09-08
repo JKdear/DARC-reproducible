@@ -308,11 +308,43 @@ def load_artifact(
     return config, index
 
 
+def _description_source(
+    neighbors: np.ndarray,
+    descriptions: np.ndarray,
+    neighbor_labels: np.ndarray,
+    predicted_columns: list[int],
+    require_category_overlap: bool,
+) -> tuple[int | None, bool]:
+    """Pick the description donor among the retrieved neighbors.
+
+    The frozen behaviour takes the nearest neighbor with a non-empty reference
+    description. With `require_category_overlap` the nearest donor whose own
+    categories intersect the predicted set is preferred, which avoids pairing a
+    prediction with a description about an unrelated defect. When no neighbor
+    qualifies the frozen behaviour is used, so a description is always produced.
+    """
+    available = [
+        (position, int(neighbor))
+        for position, neighbor in enumerate(neighbors)
+        if descriptions[neighbor].strip()
+    ]
+    if not available:
+        return None, False
+    if require_category_overlap and predicted_columns:
+        predicted = set(predicted_columns)
+        for position, neighbor in available:
+            if predicted & set(np.flatnonzero(neighbor_labels[position]).tolist()):
+                return neighbor, False
+        return available[0][1], True
+    return available[0][1], False
+
+
 def predict_from_embeddings(
     query_embeddings: np.ndarray,
     image_ids: list[str],
     config: dict,
     index: dict[str, np.ndarray],
+    require_category_overlap: bool = False,
 ) -> tuple[list[dict], list[dict]]:
     query = normalize_rows(query_embeddings)
     if len(query) != len(image_ids) or len(image_ids) != len(set(image_ids)):
@@ -341,9 +373,12 @@ def predict_from_embeddings(
         columns = np.flatnonzero(selected[row]).tolist()
         columns.sort(key=lambda column: (-float(votes[row, column]), categories[column]))
         predicted_categories = [categories[column] for column in columns]
-        description_source = next(
-            (neighbor for neighbor in top_indices[row] if descriptions[neighbor].strip()),
-            None,
+        description_source, overlap_fallback = _description_source(
+            top_indices[row],
+            descriptions,
+            neighbor_labels[row],
+            columns,
+            require_category_overlap,
         )
         if description_source is None:
             readable = ", ".join(category.replace("_", " ") for category in predicted_categories)
@@ -359,22 +394,26 @@ def predict_from_embeddings(
                 "description": description,
             }
         )
-        evidence.append(
-            {
-                "image_id": image_id,
-                "data_scope": config["data_scope"],
-                "description_source_image_id": source_image_id,
-                "retrieval_evidence": [
-                    {
-                        "image_id": str(train_image_ids[neighbor]),
-                        "score": float(score),
-                        "damage_categories": [
-                            categories[column]
-                            for column in np.flatnonzero(index["labels"][neighbor])
-                        ],
-                    }
-                    for neighbor, score in zip(top_indices[row], top_similarities[row])
-                ],
-            }
-        )
+        record = {
+            "image_id": image_id,
+            "data_scope": config["data_scope"],
+            "description_source_image_id": source_image_id,
+            "retrieval_evidence": [
+                {
+                    "image_id": str(train_image_ids[neighbor]),
+                    "score": float(score),
+                    "damage_categories": [
+                        categories[column]
+                        for column in np.flatnonzero(index["labels"][neighbor])
+                    ],
+                }
+                for neighbor, score in zip(top_indices[row], top_similarities[row])
+            ],
+        }
+        if require_category_overlap:
+            # Recorded only when the option is active so the frozen research
+            # evidence file stays byte-identical.
+            record["description_selector"] = "nearest_category_overlap"
+            record["description_overlap_fallback"] = overlap_fallback
+        evidence.append(record)
     return predictions, evidence

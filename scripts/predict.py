@@ -94,27 +94,41 @@ def main() -> None:
     parser.add_argument("--evidence-output", default=None)
     parser.add_argument("--device", default="cuda", choices=("cuda", "cpu"))
     parser.add_argument("--batch-size", type=int, default=32)
+    parser.add_argument(
+        "--require-category-overlap",
+        action="store_true",
+        help="Prefer a description whose donor categories intersect the predicted set. "
+        "Off by default; it does not change predicted categories or the frozen algorithm.",
+    )
     args = parser.parse_args()
     config, index = load_artifact(args.artifact, args.fingerprint)
     verify_model(args.model, config["local_model_file_sha256"])
     paths = discover_images(args.input)
     embeddings = encode_images(paths, args.model, args.device, args.batch_size)
     predictions, evidence = predict_from_embeddings(
-        embeddings, [path.name for path in paths], config, index
+        embeddings,
+        [path.name for path in paths],
+        config,
+        index,
+        require_category_overlap=args.require_category_overlap,
     )
     write_json(args.output, predictions)
     evidence_path = args.evidence_output or str(Path(args.output).with_suffix(".evidence.json"))
-    write_json(
-        evidence_path,
-        {
-            "artifact_fingerprint": args.fingerprint,
-            "data_scope": config["data_scope"],
-            "device": args.device,
-            "records": evidence,
-        },
-    )
+    sidecar = {
+        "artifact_fingerprint": args.fingerprint,
+        "data_scope": config["data_scope"],
+        "device": args.device,
+        "records": evidence,
+    }
+    if args.require_category_overlap:
+        sidecar["require_category_overlap"] = True
+        fallbacks = sum(1 for record in evidence if record["description_overlap_fallback"])
+        sidecar["description_overlap_fallback_count"] = fallbacks
+    write_json(evidence_path, sidecar)
     print(f"Wrote {len(predictions)} competition records to {args.output}")
     print(f"Wrote retrieval evidence to {evidence_path}")
+    if args.require_category_overlap:
+        print(f"Category-overlap description selector active; fallbacks: {fallbacks}/{len(evidence)}")
 
 
 if __name__ == "__main__":

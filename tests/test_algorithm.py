@@ -56,6 +56,113 @@ def test_prediction_uses_weighted_relative_vote_and_nearest_description():
     assert evidence[0]["description_source_image_id"] == "a.jpg"
 
 
+def _overlap_fixture():
+    """Top-1 donor describes a defect that the vote excludes from the prediction.
+
+    One pothole neighbor is the closest match, but four crack neighbors outvote it,
+    so the predicted category is `crack` while the frozen selector still copies the
+    pothole description.
+    """
+    config = {"data_scope": "research"}
+    similarities = [1.00, 0.99, 0.98, 0.97, 0.96]
+    embeddings = np.asarray(
+        [[value, float(np.sqrt(max(1.0 - value * value, 0.0)))] for value in similarities],
+        dtype=np.float32,
+    )
+    index = {
+        "embeddings": embeddings,
+        "labels": np.asarray([[0, 1], [1, 0], [1, 0], [1, 0], [1, 0]], dtype=np.uint8),
+        "categories": np.asarray(["crack", "pothole"]),
+        "image_ids": np.asarray(
+            ["pothole_top1.jpg", "crack_a.jpg", "crack_b.jpg", "crack_c.jpg", "crack_d.jpg"]
+        ),
+        "reference_descriptions": np.asarray(
+            [
+                "A pothole with standing water.",
+                "A crack crosses the slab.",
+                "A fine crack is visible.",
+                "A diagonal crack appears.",
+                "A hairline crack runs along the edge.",
+            ]
+        ),
+    }
+    return config, index
+
+
+def test_category_overlap_selector_is_off_by_default():
+    config, index = _overlap_fixture()
+    predictions, evidence = predict_from_embeddings(
+        np.asarray([[1.0, 0.0]], dtype=np.float32), ["q.jpg"], config, index
+    )
+    assert predictions[0]["damage_categories"] == ["crack"]
+    assert predictions[0]["description"] == "A pothole with standing water."
+    assert evidence[0]["description_source_image_id"] == "pothole_top1.jpg"
+    assert "description_selector" not in evidence[0]
+    assert "description_overlap_fallback" not in evidence[0]
+
+
+def test_category_overlap_selector_prefers_an_intersecting_donor():
+    config, index = _overlap_fixture()
+    predictions, evidence = predict_from_embeddings(
+        np.asarray([[1.0, 0.0]], dtype=np.float32),
+        ["q.jpg"],
+        config,
+        index,
+        require_category_overlap=True,
+    )
+    assert predictions[0]["damage_categories"] == ["crack"]
+    assert predictions[0]["description"] == "A crack crosses the slab."
+    assert evidence[0]["description_source_image_id"] == "crack_a.jpg"
+    assert evidence[0]["description_selector"] == "nearest_category_overlap"
+    assert evidence[0]["description_overlap_fallback"] is False
+
+
+def test_category_overlap_selector_falls_back_when_nothing_intersects():
+    config, index = _overlap_fixture()
+    index["reference_descriptions"] = np.asarray(
+        ["A pothole with standing water.", "", "", "", ""]
+    )
+    predictions, evidence = predict_from_embeddings(
+        np.asarray([[1.0, 0.0]], dtype=np.float32),
+        ["q.jpg"],
+        config,
+        index,
+        require_category_overlap=True,
+    )
+    assert predictions[0]["damage_categories"] == ["crack"]
+    assert predictions[0]["description"] == "A pothole with standing water."
+    assert evidence[0]["description_overlap_fallback"] is True
+
+    index["reference_descriptions"] = np.asarray(["", "", "", "", ""])
+    predictions, evidence = predict_from_embeddings(
+        np.asarray([[1.0, 0.0]], dtype=np.float32),
+        ["q.jpg"],
+        config,
+        index,
+        require_category_overlap=True,
+    )
+    assert evidence[0]["description_source_image_id"] == ""
+    assert predictions[0]["description"].startswith("Retrieval evidence indicates")
+
+
+def test_category_overlap_selector_never_changes_predicted_categories():
+    config, index = _overlap_fixture()
+    query = np.asarray([[1.0, 0.0], [0.0, 1.0]], dtype=np.float32)
+    baseline, _ = predict_from_embeddings(query, ["a.jpg", "b.jpg"], config, index)
+    filtered, _ = predict_from_embeddings(
+        query, ["a.jpg", "b.jpg"], config, index, require_category_overlap=True
+    )
+    assert [record["damage_categories"] for record in baseline] == [
+        record["damage_categories"] for record in filtered
+    ]
+
+
+def test_frozen_algorithm_definition_is_unchanged_by_the_option():
+    assert "description_selector" in DARC_PARAMETERS
+    assert DARC_PARAMETERS["description_selector"] == "nearest_nonempty_reference"
+    assert "require_category_overlap" not in DARC_PARAMETERS
+
+
 def test_artifact_fingerprint_ignores_npz_container_bytes(tmp_path):
     """A repacked index with identical arrays must keep the same fingerprint."""
     source = ROOT / "artifacts/runtime/research"
