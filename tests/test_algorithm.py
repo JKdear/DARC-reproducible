@@ -232,9 +232,9 @@ def test_both_runtime_scopes_are_integrity_checked():
 
 def test_frozen_research_metrics_match_expected_values():
     result = json.loads((ROOT / "artifacts/metrics/darc_grouped_test.json").read_text(encoding="utf-8"))
-    assert result["category_metrics"]["micro_f1"] == 0.896
-    assert result["category_metrics"]["primary_category_accuracy"] == pytest.approx(0.978021978021978)
-    assert result["description_metrics"]["mean_token_f1"] == pytest.approx(0.6016195093949901)
+    assert result["category_metrics"]["micro_f1"] == pytest.approx(0.882591093117409)
+    assert result["category_metrics"]["primary_category_accuracy"] == pytest.approx(0.9725274725274725)
+    assert result["description_metrics"]["mean_token_f1"] == pytest.approx(0.5973337308394249)
 
 
 def test_text_metrics_have_expected_bounds():

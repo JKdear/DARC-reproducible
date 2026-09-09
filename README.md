@@ -17,6 +17,8 @@ DARC 没有梯度训练过程。“训练 DARC”实际是：
 - `research`：只用 836 张 grouped-train 图片构建索引，用于复现 182 张隔离测试集上的正式指标。
 - `competition`：模型选择和参数冻结后，用赛事方提供的全部 1200 张有标注图片构建索引，只用于预测另外提供的未知比赛图片。
 
+当前发布已使用修订后的 1200 张图片和标注重建：32 张内容发生变化的图片重新提取了 CLIP embedding，其余 1168 张沿用位级一致的冻结 embedding；所有 train/validation/test 标签均从新版 manifest 重新生成。
+
 **可以使用全部 1200 张图片构建最终比赛模型，前提是最终评分图片不是这 1200 张中的图片，并且所有算法参数已经根据 train/validation 固定。**
 
 不能用 1200 图索引重新预测原 182 张测试图，再把该结果报告为泛化性能；那些测试图已经进入检索库，会形成直接数据泄漏。代码在 competition artifact 中写入了 `eligible_for_original_grouped_test_evaluation=false`，用于防止混淆。
@@ -117,7 +119,8 @@ data/dataset/
 ```bash
 python scripts/prepare_data.py \
   --dataset data/dataset \
-  --output artifacts/data
+  --output artifacts/data \
+  --freeze-splits-from artifacts/data/splits_grouped
 ```
 
 预期输出：
@@ -127,7 +130,7 @@ Prepared 1200 labeled images
 Frozen grouped split: {'train': 836, 'val': 182, 'test': 182}
 ```
 
-分组规则使用 seed 2026、文件名窗口 10，并把序列邻近图片和精确重复图片保持在同一组。生成结果必须通过 `config/darc.json` 中的三份 sample-ID 序列哈希。
+分组规则使用 seed 2026、文件名窗口 10，并把序列邻近图片和精确重复图片保持在同一组。修订标注会改变按类别分层的重新分配结果，因此本次发布通过 `--freeze-splits-from` 按已发布的 image-ID roster 保留 836/182/182 成员；生成结果仍必须通过 `config/darc.json` 中的三份 sample-ID 序列哈希。
 
 ## 6. CLIP 模型
 
@@ -163,7 +166,7 @@ python scripts/verify_release.py
 预期：
 
 ```text
-10 passed
+18 passed
 PASS configuration
 PASS data_protocol
 PASS frozen_research_features
@@ -187,12 +190,12 @@ python scripts/verify_release.py \
 
 ```text
 Test images:                 182
-Exact-match accuracy:       0.7362637363
-Primary-category accuracy:  0.9780219780
-Micro-F1:                   0.8960000000
-Macro-F1 (fixed 11 class):  0.6654943445
-Description token F1:       0.6016195094
-Description token Jaccard:  0.4431408561
+Exact-match accuracy:       0.7142857143
+Primary-category accuracy:  0.9725274725
+Micro-F1:                   0.8825910931
+Macro-F1 (fixed 11 class):  0.6616346534
+Description token F1:       0.5973337308
+Description token Jaccard:  0.4393743333
 ```
 
 ## 8. 从冻结特征复现正式结果
@@ -206,7 +209,7 @@ python scripts/build_artifact.py research
 命令会输出外部 artifact fingerprint。当前已保存 artifact 的 fingerprint 为：
 
 ```text
-cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a
+92f8a5bf5c41040d214ae8b9b8ab82df29015303ce05217f44f88a8a63a1d1c2
 ```
 
 fingerprint 由 `runtime_config.json` 的规范化内容哈希和检索索引的**数组内容**哈希组成，不依赖 `.npz` 容器字节。因此在不同机器上用相同输入重建 artifact 会得到相同 fingerprint，即使压缩后的 `.npz` 文件字节不同。这一点已在 macOS 与 Linux A100 服务器上交叉验证。
@@ -217,7 +220,7 @@ fingerprint 由 `runtime_config.json` 的规范化内容哈希和检索索引的
 python scripts/predict_features.py \
   --features artifacts/features/research/test.npz \
   --artifact artifacts/runtime/research \
-  --fingerprint cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a \
+  --fingerprint 92f8a5bf5c41040d214ae8b9b8ab82df29015303ce05217f44f88a8a63a1d1c2 \
   --output artifacts/predictions/darc_grouped_test.json
 ```
 
@@ -274,7 +277,7 @@ python scripts/build_artifact.py competition
 当前 1200 图比赛 artifact fingerprint：
 
 ```text
-4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564
+2e9e20a1aefeb01143ddc6f367f0398a923db938a85329f0c4b39bc6724ba6c7
 ```
 
 ### 方法 B：从 1200 张原图直接重新编码
@@ -302,7 +305,7 @@ python scripts/build_artifact.py competition
 python scripts/predict.py \
   --input data/unseen_test \
   --artifact artifacts/runtime/competition \
-  --fingerprint 4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564 \
+  --fingerprint 2e9e20a1aefeb01143ddc6f367f0398a923db938a85329f0c4b39bc6724ba6c7 \
   --model models/clip-vit-base-patch32 \
   --output outputs/result.json \
   --device cuda \
@@ -316,6 +319,8 @@ outputs/result.json           # 严格比赛格式
 outputs/result.evidence.json  # 检索证据和来源，不提交给比赛系统
 ```
 
+赛事方尚未提供未知测试图片，因此本次发布只包含已重建的 competition artifact，不包含 `outputs/result.json`。
+
 若比赛要求的字段名或外层 JSON 结构不同，只应在最终序列化层转换；不要修改 DARC 检索和投票逻辑。
 
 ### 11.1 可选：要求描述来源与预测类别有交集
@@ -326,7 +331,7 @@ DARC 的类别来自 top-5 加权投票，描述直接取最近的非空参考�
 python scripts/predict.py \
   --input data/unseen_test \
   --artifact artifacts/runtime/competition \
-  --fingerprint 4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564 \
+  --fingerprint 2e9e20a1aefeb01143ddc6f367f0398a923db938a85329f0c4b39bc6724ba6c7 \
   --model models/clip-vit-base-patch32 \
   --output outputs/result.json \
   --device cuda \
@@ -345,21 +350,32 @@ python scripts/predict.py \
 
 ## 12. 从服务器导入冻结特征
 
-服务器同步清单和准确 SHA-256 位于 `config/server_sync_manifest.json`。如果文件先同步到一个 staging 根目录，可执行：
+服务器同步清单和准确 SHA-256 位于 `config/server_sync_manifest.json`。新版服务器 `.npz` 中的 embedding 已刷新，但 train/validation 标签数组仍来自旧标注；不能直接覆盖发布特征。先验证并同步三份原始特征到 staging，再用新版 split 重建标签：
 
 ```bash
 python scripts/sync_verified_artifacts.py \
   --source-root /path/to/server-or-staging-root \
+  --destination /path/to/refreshed/features/research \
   --dry-run
 
 python scripts/sync_verified_artifacts.py \
-  --source-root /path/to/server-or-staging-root
+  --source-root /path/to/server-or-staging-root \
+  --destination /path/to/refreshed/features/research
+
+python scripts/import_refreshed_features.py \
+  --source-features /path/to/refreshed/features/research \
+  --source-provenance /path/to/server/provenance.json \
+  --taxonomy artifacts/data/label_taxonomy.json \
+  --data-artifacts artifacts/data \
+  --dataset data/dataset \
+  --output artifacts/features/research \
+  --changed-image-rows 32
 ```
 
-该脚本只接受清单中的 5 个文件，并在复制前后验证 SHA-256。当前代码已经完整收录，不需要再从服务器复制 DARC 源码。仍建议从服务器保存：
+同步脚本只接受清单中的 3 份刷新特征，并在复制前后验证 SHA-256。导入脚本随后丢弃历史 train/validation 标签，依据新版 manifest 重建 train、validation 和独立 test labels，同时保留 embedding float32 位值。当前代码已经完整收录，不需要再从服务器复制 DARC 源码。仍建议保存：
 
-- `outputs/features/clip_vit_b32_grouped/{train,val,test,test_labels}.npz`
-- `outputs/features/clip_vit_b32_grouped/provenance.json`
+- 刷新后的 `{train,val,test}.npz`
+- 原始 CLIP 导出 provenance
 - 本地 CLIP ViT-B/32 模型目录
 - `python -m pip freeze` 输出
 - Python、CUDA、GPU 和驱动信息
@@ -387,12 +403,15 @@ python -m pip freeze > artifacts/pip-freeze-server.txt
 ## 14. 完整验收顺序
 
 ```bash
-python scripts/prepare_data.py --dataset data/dataset --output artifacts/data
+python scripts/prepare_data.py \
+  --dataset data/dataset \
+  --output artifacts/data \
+  --freeze-splits-from artifacts/data/splits_grouped
 python scripts/build_artifact.py research
 python scripts/predict_features.py \
   --features artifacts/features/research/test.npz \
   --artifact artifacts/runtime/research \
-  --fingerprint cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a \
+  --fingerprint 92f8a5bf5c41040d214ae8b9b8ab82df29015303ce05217f44f88a8a63a1d1c2 \
   --output artifacts/predictions/darc_grouped_test.json
 python scripts/evaluate.py \
   --predictions artifacts/predictions/darc_grouped_test.json

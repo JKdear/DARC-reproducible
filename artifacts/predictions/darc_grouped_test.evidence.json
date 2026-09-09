@@ -1,5 +1,5 @@
 {
-  "artifact_fingerprint": "cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a",
+  "artifact_fingerprint": "92f8a5bf5c41040d214ae8b9b8ab82df29015303ce05217f44f88a8a63a1d1c2",
   "data_scope": "research",
   "records": [
     {
@@ -38,7 +38,7 @@
           "image_id": "00020.jpg",
           "score": 0.8215457797050476,
           "damage_categories": [
-            "crack",
+            "pothole",
             "spalling"
           ]
         },
@@ -165,7 +165,6 @@
           "image_id": "00066.jpg",
           "score": 0.878600001335144,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -192,7 +191,6 @@
           "image_id": "00061.jpg",
           "score": 0.8680368065834045,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -235,7 +233,6 @@
           "image_id": "00691.jpg",
           "score": 0.9120155572891235,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -409,7 +406,6 @@
           "image_id": "00691.jpg",
           "score": 0.899305522441864,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -477,7 +473,6 @@
           "image_id": "00691.jpg",
           "score": 0.892126739025116,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -504,7 +499,6 @@
           "image_id": "00689.jpg",
           "score": 0.8684078454971313,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -529,7 +523,6 @@
           "image_id": "00657.jpg",
           "score": 0.9346491694450378,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -538,7 +531,6 @@
           "image_id": "00066.jpg",
           "score": 0.9139218926429749,
           "damage_categories": [
-            "crack",
             "pothole",
             "spalling"
           ]
@@ -1344,8 +1336,6 @@
           "image_id": "lou_0285.jpg",
           "score": 0.8848238587379456,
           "damage_categories": [
-            "corrosion",
-            "exposed_rebar",
             "spalling"
           ]
         },
@@ -6103,8 +6093,6 @@
           "image_id": "lou_0343.jpg",
           "score": 0.8967146277427673,
           "damage_categories": [
-            "corrosion",
-            "exposed_rebar",
             "spalling"
           ]
         },
@@ -6497,8 +6485,6 @@
           "image_id": "lou_0285.jpg",
           "score": 0.9169619083404541,
           "damage_categories": [
-            "corrosion",
-            "exposed_rebar",
             "spalling"
           ]
         },
@@ -7313,14 +7299,6 @@
           ]
         },
         {
-          "image_id": "xiu_193.jpg",
-          "score": 0.9028571248054504,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
-          ]
-        },
-        {
           "image_id": "xiu_052.jpg",
           "score": 0.9027270078659058,
           "damage_categories": [
@@ -7329,19 +7307,27 @@
           ]
         },
         {
-          "image_id": "xiu_094.jpg",
-          "score": 0.8996212482452393,
-          "damage_categories": [
-            "corrosion",
-            "peeling"
-          ]
-        },
-        {
           "image_id": "xiu_179.jpg",
-          "score": 0.894713282585144,
+          "score": 0.8977652192115784,
           "damage_categories": [
             "corrosion",
             "spalling"
+          ]
+        },
+        {
+          "image_id": "xiu_193.jpg",
+          "score": 0.8954547047615051,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
+          ]
+        },
+        {
+          "image_id": "xiu_094.jpg",
+          "score": 0.8924170136451721,
+          "damage_categories": [
+            "corrosion",
+            "peeling"
           ]
         }
       ]
@@ -7376,19 +7362,19 @@
           ]
         },
         {
-          "image_id": "xiu_099.jpg",
-          "score": 0.8625046610832214,
+          "image_id": "xiu_079.jpg",
+          "score": 0.862835705280304,
           "damage_categories": [
             "corrosion",
             "spalling"
           ]
         },
         {
-          "image_id": "xiu_073.jpg",
-          "score": 0.8601929545402527,
+          "image_id": "xiu_099.jpg",
+          "score": 0.8625046610832214,
           "damage_categories": [
             "corrosion",
-            "peeling"
+            "spalling"
           ]
         }
       ]
@@ -7423,16 +7409,16 @@
           ]
         },
         {
-          "image_id": "xiu_176.jpg",
-          "score": 0.8532395958900452,
+          "image_id": "xiu_149.jpg",
+          "score": 0.8546733856201172,
           "damage_categories": [
             "corrosion",
             "spalling"
           ]
         },
         {
-          "image_id": "xiu_032.jpg",
-          "score": 0.8488085865974426,
+          "image_id": "xiu_176.jpg",
+          "score": 0.8532395958900452,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -7478,8 +7464,8 @@
           ]
         },
         {
-          "image_id": "xiu_052.jpg",
-          "score": 0.7669773101806641,
+          "image_id": "xiu_094.jpg",
+          "score": 0.7677373290061951,
           "damage_categories": [
             "corrosion",
             "peeling"
@@ -7498,6 +7484,14 @@
           "damage_categories": [
             "corrosion",
             "spalling"
+          ]
+        },
+        {
+          "image_id": "xiu_076.jpg",
+          "score": 0.8574578762054443,
+          "damage_categories": [
+            "corrosion",
+            "peeling"
           ]
         },
         {
@@ -7521,15 +7515,6 @@
           "score": 0.8352246880531311,
           "damage_categories": [
             "corrosion",
-            "spalling"
-          ]
-        },
-        {
-          "image_id": "lou_0112.jpg",
-          "score": 0.8321062326431274,
-          "damage_categories": [
-            "corrosion",
-            "exposed_rebar",
             "spalling"
           ]
         }
@@ -7557,16 +7542,8 @@
           ]
         },
         {
-          "image_id": "xiu_127.jpg",
-          "score": 0.8813918232917786,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
-          ]
-        },
-        {
           "image_id": "xiu_076.jpg",
-          "score": 0.8676456809043884,
+          "score": 0.8942327499389648,
           "damage_categories": [
             "corrosion",
             "peeling"
@@ -7574,10 +7551,18 @@
         },
         {
           "image_id": "xiu_053.jpg",
-          "score": 0.8669983744621277,
+          "score": 0.8847756385803223,
           "damage_categories": [
             "corrosion",
             "peeling"
+          ]
+        },
+        {
+          "image_id": "xiu_127.jpg",
+          "score": 0.8813918232917786,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
           ]
         }
       ]
@@ -7585,16 +7570,8 @@
     {
       "image_id": "xiu_069.jpg",
       "data_scope": "research",
-      "description_source_image_id": "xiu_193.jpg",
+      "description_source_image_id": "xiu_088.jpg",
       "retrieval_evidence": [
-        {
-          "image_id": "xiu_193.jpg",
-          "score": 0.8679003119468689,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
-          ]
-        },
         {
           "image_id": "xiu_088.jpg",
           "score": 0.8663989305496216,
@@ -7612,8 +7589,8 @@
           ]
         },
         {
-          "image_id": "xiu_223.jpg",
-          "score": 0.8639970421791077,
+          "image_id": "xiu_193.jpg",
+          "score": 0.863782525062561,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -7625,6 +7602,14 @@
           "damage_categories": [
             "spalling",
             "void"
+          ]
+        },
+        {
+          "image_id": "xiu_223.jpg",
+          "score": 0.8533892035484314,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
           ]
         }
       ]
@@ -7842,6 +7827,14 @@
           ]
         },
         {
+          "image_id": "xiu_149.jpg",
+          "score": 0.8753841519355774,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
+          ]
+        },
+        {
           "image_id": "xiu_047.jpg",
           "score": 0.8739263415336609,
           "damage_categories": [
@@ -7855,14 +7848,6 @@
           "damage_categories": [
             "corrosion",
             "peeling"
-          ]
-        },
-        {
-          "image_id": "xiu_090.jpg",
-          "score": 0.8623273968696594,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
           ]
         }
       ]
@@ -7944,19 +7929,19 @@
           ]
         },
         {
-          "image_id": "xiu_094.jpg",
-          "score": 0.869500458240509,
-          "damage_categories": [
-            "corrosion",
-            "peeling"
-          ]
-        },
-        {
           "image_id": "xiu_171.jpg",
           "score": 0.8631343245506287,
           "damage_categories": [
             "corrosion",
             "spalling"
+          ]
+        },
+        {
+          "image_id": "xiu_094.jpg",
+          "score": 0.8591961860656738,
+          "damage_categories": [
+            "corrosion",
+            "peeling"
           ]
         }
       ]
@@ -7976,7 +7961,7 @@
         },
         {
           "image_id": "xiu_070.jpg",
-          "score": 0.8791652917861938,
+          "score": 0.9002842903137207,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -7999,7 +7984,7 @@
         },
         {
           "image_id": "xiu_193.jpg",
-          "score": 0.8247491121292114,
+          "score": 0.8199021816253662,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -8021,6 +8006,14 @@
           ]
         },
         {
+          "image_id": "xiu_229.jpg",
+          "score": 0.8526386022567749,
+          "damage_categories": [
+            "corrosion",
+            "peeling"
+          ]
+        },
+        {
           "image_id": "xiu_033.jpg",
           "score": 0.8526255488395691,
           "damage_categories": [
@@ -8029,24 +8022,16 @@
           ]
         },
         {
-          "image_id": "xiu_099.jpg",
-          "score": 0.8507842421531677,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
-          ]
-        },
-        {
-          "image_id": "xiu_120.jpg",
-          "score": 0.8397970199584961,
+          "image_id": "xiu_076.jpg",
+          "score": 0.8521670699119568,
           "damage_categories": [
             "corrosion",
             "peeling"
           ]
         },
         {
-          "image_id": "xiu_172.jpg",
-          "score": 0.8388429880142212,
+          "image_id": "xiu_099.jpg",
+          "score": 0.8507842421531677,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -8092,11 +8077,11 @@
           ]
         },
         {
-          "image_id": "xiu_094.jpg",
-          "score": 0.8768600225448608,
+          "image_id": "xiu_058.jpg",
+          "score": 0.8748981952667236,
           "damage_categories": [
             "corrosion",
-            "peeling"
+            "spalling"
           ]
         }
       ]
@@ -8104,19 +8089,11 @@
     {
       "image_id": "xiu_150.jpg",
       "data_scope": "research",
-      "description_source_image_id": "xiu_223.jpg",
+      "description_source_image_id": "xiu_198.jpg",
       "retrieval_evidence": [
         {
-          "image_id": "xiu_223.jpg",
-          "score": 0.9081597924232483,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
-          ]
-        },
-        {
           "image_id": "xiu_198.jpg",
-          "score": 0.8932374119758606,
+          "score": 0.9422122836112976,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -8124,15 +8101,23 @@
         },
         {
           "image_id": "xiu_078.jpg",
-          "score": 0.8925803899765015,
+          "score": 0.9288167357444763,
           "damage_categories": [
             "corrosion",
             "peeling"
           ]
         },
         {
+          "image_id": "xiu_223.jpg",
+          "score": 0.9138604998588562,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
+          ]
+        },
+        {
           "image_id": "xiu_193.jpg",
-          "score": 0.8877003192901611,
+          "score": 0.9136921167373657,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -8140,7 +8125,7 @@
         },
         {
           "image_id": "xiu_058.jpg",
-          "score": 0.8514715433120728,
+          "score": 0.8855360746383667,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -8296,7 +8281,7 @@
       "retrieval_evidence": [
         {
           "image_id": "xiu_173.jpg",
-          "score": 0.9482470750808716,
+          "score": 0.9458162188529968,
           "damage_categories": [
             "corrosion",
             "peeling"
@@ -8304,23 +8289,7 @@
         },
         {
           "image_id": "xiu_123.jpg",
-          "score": 0.87355637550354,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
-          ]
-        },
-        {
-          "image_id": "xiu_051.jpg",
-          "score": 0.8461121320724487,
-          "damage_categories": [
-            "corrosion",
-            "peeling"
-          ]
-        },
-        {
-          "image_id": "xiu_226.jpg",
-          "score": 0.842459499835968,
+          "score": 0.8722205758094788,
           "damage_categories": [
             "corrosion",
             "spalling"
@@ -8328,10 +8297,26 @@
         },
         {
           "image_id": "xiu_048.jpg",
-          "score": 0.834397554397583,
+          "score": 0.8450623154640198,
           "damage_categories": [
             "corrosion",
             "peeling"
+          ]
+        },
+        {
+          "image_id": "xiu_092.jpg",
+          "score": 0.8403200507164001,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
+          ]
+        },
+        {
+          "image_id": "xiu_226.jpg",
+          "score": 0.837877631187439,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
           ]
         }
       ]
@@ -8536,14 +8521,6 @@
           ]
         },
         {
-          "image_id": "xiu_193.jpg",
-          "score": 0.9028571248054504,
-          "damage_categories": [
-            "corrosion",
-            "spalling"
-          ]
-        },
-        {
           "image_id": "xiu_052.jpg",
           "score": 0.9027270078659058,
           "damage_categories": [
@@ -8552,19 +8529,27 @@
           ]
         },
         {
-          "image_id": "xiu_094.jpg",
-          "score": 0.8996212482452393,
-          "damage_categories": [
-            "corrosion",
-            "peeling"
-          ]
-        },
-        {
           "image_id": "xiu_179.jpg",
-          "score": 0.894713282585144,
+          "score": 0.8977652192115784,
           "damage_categories": [
             "corrosion",
             "spalling"
+          ]
+        },
+        {
+          "image_id": "xiu_193.jpg",
+          "score": 0.8954547047615051,
+          "damage_categories": [
+            "corrosion",
+            "spalling"
+          ]
+        },
+        {
+          "image_id": "xiu_094.jpg",
+          "score": 0.8924170136451721,
+          "damage_categories": [
+            "corrosion",
+            "peeling"
           ]
         }
       ]

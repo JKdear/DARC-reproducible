@@ -18,8 +18,17 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dataset", default="data/dataset")
     parser.add_argument("--output", default="artifacts/data")
+    parser.add_argument(
+        "--freeze-splits-from",
+        default=None,
+        help="Optional split directory whose image-ID membership must be retained.",
+    )
     args = parser.parse_args()
-    result = prepare_dataset(args.dataset, args.output)
+    result = prepare_dataset(
+        args.dataset,
+        args.output,
+        reference_split_dir=args.freeze_splits_from,
+    )
     counts = {name: len(samples) for name, samples in result["splits"].items()}
     print(f"Prepared {result['manifest']['stats']['sample_count']} labeled images")
     print(f"Frozen grouped split: {counts}")

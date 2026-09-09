@@ -1,7 +1,7 @@
 {
   "format_version": "1.1",
   "method": "DARC",
-  "file_count": 49,
+  "file_count": 50,
   "files": [
     {
       "path": ".gitignore",
@@ -12,151 +12,151 @@
     {
       "path": "README.md",
       "hash_kind": "file_bytes",
-      "size_bytes": 15242,
-      "sha256": "7ca9ff404c03cae3884339f7071ba9760a3fe5b89d79d7c1cd54ddef0f13eea3"
+      "size_bytes": 16648,
+      "sha256": "b920fe590286e78f8d791e799898b2d578963d911072bc51bcf6b3aaf14821f8"
     },
     {
       "path": "artifacts/data/dataset_manifest.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 1221669,
-      "sha256": "a33bb0324530e5c98829262554738d39500fb56eb10ce99963cb4d4949c4697c"
+      "size_bytes": 1219238,
+      "sha256": "88ae3161ed4d630adba2af8f00bf493fe68590894d3555cd6f71071858b8ca2b"
     },
     {
       "path": "artifacts/data/label_taxonomy.json",
       "hash_kind": "file_bytes",
       "size_bytes": 7425,
-      "sha256": "4f8810de2c616cca1ce6be84ab4ad10cf2cc5ad7dfdd58f1390ff14f615d7dec"
+      "sha256": "0b8a7bbcbc6b8de7182d07a0811608fcc9404ae7b84ccb7cb5514d0f752e0278"
     },
     {
       "path": "artifacts/data/splits_competition/all_labeled.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 1207546,
-      "sha256": "9bfd3afffe30256fd6a3912a88b3a8db9d700672405af83733e21d9bc609c7c8"
+      "size_bytes": 1205115,
+      "sha256": "24f60b74935be10c3fe4624a22700bf121a42bdb0a3dd88034f1dd24f3670e45"
     },
     {
       "path": "artifacts/data/splits_grouped/split_summary.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 30697,
-      "sha256": "41ae2c0ce50ac94b2a310b5ad896b3bd53b60b77edd85e3db29e6d812b6ed5b8"
+      "size_bytes": 30770,
+      "sha256": "83307fff89e967d6b35dd2f273d30073d580ee316a9046323673310d1c121220"
     },
     {
       "path": "artifacts/data/splits_grouped/test.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 182262,
-      "sha256": "0832e087ce322687b0bea521a1141e7ecc3fa95372e642bd6dbbed912d5d5250"
+      "size_bytes": 181527,
+      "sha256": "5a9be1b3a22d5c0e19939c87e374de0ae0d5d78b72d688a56bdf8850e07a6332"
     },
     {
       "path": "artifacts/data/splits_grouped/train.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 841109,
-      "sha256": "5b2476c14fe78e51487fa54ca73b0d22861786934aa9821fe493485a1c100419"
+      "size_bytes": 839512,
+      "sha256": "67ad8ee9879e390c01581940237e21071b2b1d3a114ebb22f6fee367cff4f03a"
     },
     {
       "path": "artifacts/data/splits_grouped/val.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 184206,
-      "sha256": "53486ecc7112f86b66bad5a21a8c7392edec39e9da9d37d8d7224f33cd003f3a"
+      "size_bytes": 184107,
+      "sha256": "e3b138b239565ae5570424afbd104bf8d2b357d237d3e2916cfb9eebadfce68e"
     },
     {
       "path": "artifacts/features/competition/all_labeled.npz",
       "hash_kind": "npz_content",
-      "sha256": "3e529df6c6afa78349131230c6f7c4b703f07d9580d06ccf027886204ff69a31"
+      "sha256": "ede0e253dd976bbd4fd9fe7ef1cd1952cf2c8a2479d94859a97c918bbcebddaa"
     },
     {
       "path": "artifacts/features/competition/provenance.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 2588,
-      "sha256": "f3c834b88d551272477ecb797ad771dd302fec2c84421d75738757b902d74d92"
+      "size_bytes": 2563,
+      "sha256": "d37dc09786fd885c6951a2f7b8bd7d55807b70476a41da19b7dc4f16b4d1bb18"
     },
     {
       "path": "artifacts/features/research/provenance.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 5651,
-      "sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084"
+      "size_bytes": 5479,
+      "sha256": "92d35d17874c63266178ab065811ed4f6cd61bf168c9cb0cb61b517cb7d59507"
     },
     {
       "path": "artifacts/features/research/test.npz",
       "hash_kind": "npz_content",
-      "sha256": "3159320d5dfd7f34a742168fb49d502214eb3eaad129eab766b2a2d17bd0e8c2"
+      "sha256": "23802c22c6eaf90b4287019b8901093b2b49f670f04e93418bd37f1a85c0f3da"
     },
     {
       "path": "artifacts/features/research/test_labels.npz",
       "hash_kind": "npz_content",
-      "sha256": "ebd36dcd8b8712d71a592bacff00254b71d195f5d757ff3d1013dd59775635c3"
+      "sha256": "c03bf6fd5d7660db00dbb3daa6ab378f6e8774a3be3caf8d04c3d04b0bd8fa9a"
     },
     {
       "path": "artifacts/features/research/train.npz",
       "hash_kind": "npz_content",
-      "sha256": "a74b9291d0d59e060cb82ff35d8da94048fda6ebf9fd08ab9f07e3e1dcb43df9"
+      "sha256": "0253a04abe5ca7afcf4f4b85d4375eb4e575b107cde25eb082e7daa052bc5b25"
     },
     {
       "path": "artifacts/features/research/val.npz",
       "hash_kind": "npz_content",
-      "sha256": "7fda602fafc302292d96656392f149e93a0e10c67fa85880b5fb04759596d58a"
+      "sha256": "1ab229cbb10c1726130130716961a5a44997598fd2aeeaa899564f8343110e7a"
     },
     {
       "path": "artifacts/metrics/darc_grouped_test.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 70671,
-      "sha256": "be3ee5ae478f6f719725b2db9f65c6949d61042e5beb0898edeb02a055316c74"
+      "size_bytes": 70412,
+      "sha256": "e0bede64c3c3def9f7545c24387974a2d5cf35b3daa258355941143110bdc1ff"
     },
     {
       "path": "artifacts/predictions/darc_grouped_test.evidence.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 203000,
-      "sha256": "dde902be3a0cd67e755ea7ea64ab2c866ac479f8d86e4dca361e76389914e1af"
+      "size_bytes": 202647,
+      "sha256": "698ac2ab3e1a38ad849b00b6d68d5e8cda6bebc252fccf666bf23a8e33294bf1"
     },
     {
       "path": "artifacts/predictions/darc_grouped_test.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 51459,
-      "sha256": "348d47a9caba416513cc43593b74b78dc21586429351d22c909e0bcc49587dd3"
+      "size_bytes": 51435,
+      "sha256": "13360787a8a54e7972d3bde14b53aa25ec660501be9ea22db19495ed88e3a999"
     },
     {
       "path": "artifacts/runtime/competition/artifact_fingerprint.txt",
       "hash_kind": "file_bytes",
       "size_bytes": 65,
-      "sha256": "7466aa3b4aa6e5379cc88e4d9d1df92487f08e5211a51f9fd9f901d74407a287"
+      "sha256": "fd72b0aa03a693f43f9902c58e3e5954199af95853486db5d0114e7597099e59"
     },
     {
       "path": "artifacts/runtime/competition/retrieval_index.npz",
       "hash_kind": "npz_content",
-      "sha256": "7ba03e38bcf2c595f9c07ef2b6113b6199a800d2fe5ef59289053a9b0958d5cd"
+      "sha256": "466c55100a653909d8d4d5b37c2f758b54c22532c4157128f2ba111e159ce800"
     },
     {
       "path": "artifacts/runtime/competition/runtime_config.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 2178,
-      "sha256": "04769383d7267e45800ed52743a0afc9134e93da96c5be967fd88e2a9094602c"
+      "size_bytes": 2153,
+      "sha256": "e53681029cf2dbeef61662dd87374dfdcc32b5c9a8883618225f9261aa4c0730"
     },
     {
       "path": "artifacts/runtime/research/artifact_fingerprint.txt",
       "hash_kind": "file_bytes",
       "size_bytes": 65,
-      "sha256": "62c428fc2e7ebc86ace346c7da81b196f91706c7f43e73e88402a2d7e7575178"
+      "sha256": "968b4c0f40417abb655ac7da292dfce6b428bb95e4216559b01884bbebb9b6b8"
     },
     {
       "path": "artifacts/runtime/research/retrieval_index.npz",
       "hash_kind": "npz_content",
-      "sha256": "b9004a05fbf19141c85feb7410c531fe8aba79e88cf8d5260aecbb779655d350"
+      "sha256": "d9f5c4f1173400a943a9fcce3cffb8ed982ad8ad27b1f974d2d64e7b5c4ec2c0"
     },
     {
       "path": "artifacts/runtime/research/runtime_config.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 2234,
-      "sha256": "072821baa7c0e227ede43fe87f2b67e6fe142002817d7476e37765dcab610eee"
+      "size_bytes": 2209,
+      "sha256": "28ec4d25aa0b16509a6299e3221d87bd53fd262dac7d660a0b2ea5cf5dd74f01"
     },
     {
       "path": "config/darc.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 2431,
-      "sha256": "197d6b2a43b762be31c03bb0a6f9585b4c62fe044e64f0d2b3d27bc67bb47c98"
+      "size_bytes": 2444,
+      "sha256": "2f9c6f8ce9022b60b46472be28d91040b68d6144ba177460680360839cf1f70e"
     },
     {
       "path": "config/server_sync_manifest.json",
       "hash_kind": "file_bytes",
-      "size_bytes": 2432,
-      "sha256": "bb33b69f76b14c7a8f9d66a4ba1a30efcefe9321607f6153db10858b853d0b87"
+      "size_bytes": 3379,
+      "sha256": "cc92ea727aec88b5885505feedad6eb709679c2e9323a6eee5b3cd487e368cc3"
     },
     {
       "path": "requirements.txt",
@@ -201,6 +201,12 @@
       "sha256": "c339ede93e703e9e63e7172c63fe02889d5ddf6752ad28fb6dc75b129d8e5aa5"
     },
     {
+      "path": "scripts/import_refreshed_features.py",
+      "hash_kind": "file_bytes",
+      "size_bytes": 8812,
+      "sha256": "283e0c9d72caee9c4d70812665e161f6469c23c9acdf03614911bade133eac15"
+    },
+    {
       "path": "scripts/predict.py",
       "hash_kind": "file_bytes",
       "size_bytes": 5598,
@@ -215,20 +221,20 @@
     {
       "path": "scripts/prepare_data.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 1032,
-      "sha256": "efa0964c19591e6e34f8335a29f928be67e50ba90779872e76be9294415bb7d9"
+      "size_bytes": 1278,
+      "sha256": "54484ce36ac01f9175334cc4710821e9a278bda39c97bd136ffa22b1832f8f44"
     },
     {
       "path": "scripts/sync_verified_artifacts.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 1931,
-      "sha256": "8303bb020d51a6663a1b75ea2b060ff046c25b4cce53ecb0969ca04fe8393751"
+      "size_bytes": 2340,
+      "sha256": "1cf4ae7d19d49701fcc885fb9343b36acf6def74170f54edc030fd1a46e80023"
     },
     {
       "path": "scripts/verify_release.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 7946,
-      "sha256": "c12eef882d404bc5e1e7a148992827f9f74434834bb455723fa5876b3daa7ecb"
+      "size_bytes": 8251,
+      "sha256": "cdf1d68979ffb1bf569229a694ce3fef5c905261380b2215031d6d99abcd4611"
     },
     {
       "path": "src/__init__.py",
@@ -245,8 +251,8 @@
     {
       "path": "src/data.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 16139,
-      "sha256": "c450efe30cde1fa8b9736ff6d2893fa9624eaab9bfc93d64a3b5b9dfe7a1585c"
+      "size_bytes": 20055,
+      "sha256": "582aef4bafe14556ceaa7ce4b977d4d17a5ec470225bcec77ba93ca846895a30"
     },
     {
       "path": "src/evaluation.py",
@@ -281,14 +287,14 @@
     {
       "path": "tests/test_algorithm.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 10948,
-      "sha256": "7855b0730d3cf6346284d72608d7ee3fe35ca6f22167467c01ca4ca425064277"
+      "size_bytes": 10976,
+      "sha256": "53d35311d0cbc42a41023411eeca50708a7f4c12e98fa7c64d8f2a73a54c70b0"
     },
     {
       "path": "tests/test_data_protocol.py",
       "hash_kind": "file_bytes",
-      "size_bytes": 2054,
-      "sha256": "3715bb0c66a987422fd2dfeda31f649e46568fded65ac41b2f414cf7938401a5"
+      "size_bytes": 2060,
+      "sha256": "29fdd7b8db144b941ee3f1a5f4c7f4cd226764ad20db90cc11018e8c6515e509"
     }
   ],
   "hash_policy": {

@@ -37,12 +37,12 @@
       "test": "42405870b387c6b3e7b050067b724ec457009cb8fe401b076f430ddaa1a30b46"
     },
     "expected_metrics": {
-      "exact_match_accuracy": 0.7362637362637363,
-      "primary_category_accuracy": 0.978021978021978,
-      "micro_f1": 0.896,
-      "macro_f1_fixed_11_classes": 0.6654943444956265,
-      "mean_description_token_f1": 0.6016195093949901,
-      "mean_description_jaccard": 0.4431408560546276
+      "exact_match_accuracy": 0.7142857142857143,
+      "primary_category_accuracy": 0.9725274725274725,
+      "micro_f1": 0.882591093117409,
+      "macro_f1_fixed_11_classes": 0.6616346533514543,
+      "mean_description_token_f1": 0.5973337308394249,
+      "mean_description_jaccard": 0.4393743333058353
     }
   },
   "competition_protocol": {

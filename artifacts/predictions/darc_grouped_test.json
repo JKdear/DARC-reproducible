@@ -2,9 +2,9 @@
   {
     "image_id": "00019.jpg",
     "damage_categories": [
-      "crack",
+      "pothole",
       "spalling",
-      "pothole"
+      "crack"
     ],
     "description": "There is a pothole on the road. The adjacent ground has cracked and has broken and spalled under pressure."
   },
@@ -29,18 +29,18 @@
   {
     "image_id": "00670.jpg",
     "damage_categories": [
-      "crack",
       "pothole",
-      "spalling"
+      "spalling",
+      "crack"
     ],
-    "description": "There is a pothole on the road surface with standing water. The material near the pothole has cracked and has been crushed, resulting in spalling."
+    "description": "There is a pothole on the road surface with standing water. The material near the pothole has been crushed, resulting in spalling."
   },
   {
     "image_id": "00687.jpg",
     "damage_categories": [
-      "crack",
       "pothole",
-      "spalling"
+      "spalling",
+      "crack"
     ],
     "description": "There is a pothole on the road with standing water inside. The surrounding material has developed cracks and has been crushed, leading to spalling."
   },
@@ -65,9 +65,9 @@
   {
     "image_id": "00694.jpg",
     "damage_categories": [
-      "crack",
       "pothole",
-      "spalling"
+      "spalling",
+      "crack"
     ],
     "description": "There is a pothole on the road with standing water inside. The surrounding material has cracked and has been crushed due to pressure, starting to spall."
   },
@@ -83,20 +83,20 @@
   {
     "image_id": "00696.jpg",
     "damage_categories": [
-      "crack",
       "pothole",
-      "spalling"
+      "spalling",
+      "crack"
     ],
-    "description": "A pothole has appeared on the road surface. The surrounding material has cracked and been crushed into fragments, which have then spalled off."
+    "description": "A pothole has appeared on the road surface. The surrounding material has been crushed into fragments, which have then spalled off."
   },
   {
     "image_id": "00698.jpg",
     "damage_categories": [
-      "crack",
       "pothole",
-      "spalling"
+      "spalling",
+      "crack"
     ],
-    "description": "There is a pothole on the road with standing water. The material near the pothole has cracked and has been crushed, resulting in spalling."
+    "description": "There is a pothole on the road with standing water. The material near the pothole has been crushed, resulting in spalling."
   },
   {
     "image_id": "00703.jpg",
@@ -1044,9 +1044,9 @@
   {
     "image_id": "lou_0059.jpg",
     "damage_categories": [
+      "spalling",
       "corrosion",
       "exposed_rebar",
-      "spalling",
       "peeling"
     ],
     "description": "Significant spalling has occurred on the structural surface, exposing the internal aggregate and pressure-bearing rebar. At the same time, these rebars show serious rust problems."
@@ -1117,9 +1117,9 @@
   {
     "image_id": "lou_0143.jpg",
     "damage_categories": [
+      "spalling",
       "corrosion",
-      "exposed_rebar",
-      "spalling"
+      "exposed_rebar"
     ],
     "description": "Extensive spalling appears on the concrete structure surface, exposing internal aggregate and load-bearing rebar, and these rebars have also suffered severe rusting."
   },
@@ -1294,8 +1294,8 @@
     "image_id": "xiu_067.jpg",
     "damage_categories": [
       "corrosion",
-      "spalling",
-      "peeling"
+      "peeling",
+      "spalling"
     ],
     "description": "The outer protective layer of the component has spalled off, exposing the component, leading to severe corrosion."
   },
@@ -1314,7 +1314,7 @@
       "corrosion",
       "spalling"
     ],
-    "description": "The protective coating of the component has spalled off, leaving the component exposed and suffering severe corrosion."
+    "description": "The outer protective layer of the component has peeled off, leaving the component exposed and suffering severe corrosion."
   },
   {
     "image_id": "xiu_130.jpg",
@@ -1390,7 +1390,8 @@
     "image_id": "xiu_138.jpg",
     "damage_categories": [
       "corrosion",
-      "spalling"
+      "spalling",
+      "peeling"
     ],
     "description": "The outer protective layer of the component has spalled off, leaving the component exposed, which has then suffered severe corrosion."
   },
@@ -1398,8 +1399,8 @@
     "image_id": "xiu_139.jpg",
     "damage_categories": [
       "corrosion",
-      "peeling",
-      "spalling"
+      "spalling",
+      "peeling"
     ],
     "description": "The protective layer on the component surface has peeled off, exposing the component, which has subsequently led to severe corrosion problems."
   },
@@ -1441,8 +1442,8 @@
     "image_id": "xiu_154.jpg",
     "damage_categories": [
       "corrosion",
-      "peeling",
-      "spalling"
+      "spalling",
+      "peeling"
     ],
     "description": "The outer protective layer of the component has peeled off, leaving the component exposed and suffering severe corrosion."
   },

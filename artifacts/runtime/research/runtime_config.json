@@ -25,7 +25,7 @@
     "category_threshold": 0.35,
     "description_selector": "nearest_nonempty_reference"
   },
-  "model_identifier": "/mnt/datablob/qizhili/hf_models/clip-vit-base-patch32",
+  "model_identifier": "openai/clip-vit-base-patch32",
   "processor_class": "CLIPProcessor",
   "model_class": "CLIPModel",
   "local_model_file_sha256": {
@@ -37,17 +37,17 @@
     "merges.txt": "f526393189112391ce6f9795d4695f704121ce452c3aad1f5335cc41337eba85",
     "pytorch_model.bin": "a63082132ba4f97a80bea76823f544493bffa8082296d62d71581a4feff1576f"
   },
-  "index_content_sha256": "41384d995b5da12ed13be3a44d6db989dd497b9111d4d1a4ff448b0d2d6c7f91",
+  "index_content_sha256": "91872acf59851cd5df19abd1bac77c94cc9546687f14996f5a03252045022930",
   "sample_ids_sha256": "4b69ef45509fc6b5ee5a2deabf40a37a53ca335f122561a5fd3c5b9ebe2fd26d",
   "policy": {
     "eligible_for_original_grouped_test_evaluation": true,
     "intended_use": "reproduce_frozen_grouped_test_results"
   },
   "sources": {
-    "features_content_sha256": "a74b9291d0d59e060cb82ff35d8da94048fda6ebf9fd08ab9f07e3e1dcb43df9",
+    "features_content_sha256": "0253a04abe5ca7afcf4f4b85d4375eb4e575b107cde25eb082e7daa052bc5b25",
     "split_sample_ids_sha256": "4b69ef45509fc6b5ee5a2deabf40a37a53ca335f122561a5fd3c5b9ebe2fd26d",
-    "provenance_sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084",
-    "split_summary_sha256": "41ae2c0ce50ac94b2a310b5ad896b3bd53b60b77edd85e3db29e6d812b6ed5b8"
+    "provenance_sha256": "92d35d17874c63266178ab065811ed4f6cd61bf168c9cb0cb61b517cb7d59507",
+    "split_summary_sha256": "83307fff89e967d6b35dd2f273d30073d580ee316a9046323673310d1c121220"
   },
-  "config_payload_sha256": "c165bf5e72c5cddadae74bfb8b0cbf66ec6c0985edd2f8dcd31122f4df7e6c89"
+  "config_payload_sha256": "a5a904a9e115ac40537aab294d0ca58b4587fd282edc23e4e29f434a7066881a"
 }

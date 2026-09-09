@@ -1,32 +1,56 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.1",
+  "method": "DARC",
+  "source_revision": "updated_dataset",
   "server_root_example": "/mnt/datablob/qizhili/DARC",
   "local_destination": "artifacts/features/research",
   "required_for_saved_research_feature_reuse": [
     {
-      "server_path": "outputs/features/clip_vit_b32_grouped/train.npz",
+      "source_path": "outputs/updated_dataset/features/research/train.npz",
       "destination_name": "train.npz",
-      "sha256": "7390fcd86079011ac8010d8414cf9ed664c558400c3675473b3f6d7a154b9963"
+      "hash_kind": "file_bytes",
+      "sha256": "02cdf969f459ce77ace0ba13ea112fd3e06fe9fc23680e474d5c3a5fc7df33dd",
+      "content_sha256": "fa2c435609dd734b509dbc43ee8eff46eb6fccbff64c56ba9eb0cc04328432a4"
     },
     {
-      "server_path": "outputs/features/clip_vit_b32_grouped/val.npz",
+      "source_path": "outputs/updated_dataset/features/research/val.npz",
       "destination_name": "val.npz",
-      "sha256": "59159226faa2b4c81771bba63de10eb492b8c632156ef65d7f7aba8ecfa8b947"
+      "hash_kind": "file_bytes",
+      "sha256": "5ec40dfb4ac3424bbe3c8620889501d34370b601605b44bc679489969790f291",
+      "content_sha256": "f1bd3657c4414dd24e3dcf58ec3855f216cd06c36e6f5fa5928dc51e862c10c1"
     },
     {
-      "server_path": "outputs/features/clip_vit_b32_grouped/test.npz",
+      "source_path": "outputs/updated_dataset/features/research/test.npz",
       "destination_name": "test.npz",
-      "sha256": "2b6734118014d6ad3d7acf64cb0eacefc1a3a65ae4795677a48cf0305b1384ca"
+      "hash_kind": "file_bytes",
+      "sha256": "c2e50a185edbf69b3f19a65a1ddc5c3fad01cbd398e4775872942070ff1416e9",
+      "content_sha256": "23802c22c6eaf90b4287019b8901093b2b49f670f04e93418bd37f1a85c0f3da"
+    }
+  ],
+  "source_provenance": {
+    "source_path": "outputs/features/clip_vit_b32_grouped/provenance.json",
+    "sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084"
+  },
+  "release_feature_allowlist": [
+    {
+      "destination_name": "train.npz",
+      "hash_kind": "npz_content",
+      "sha256": "0253a04abe5ca7afcf4f4b85d4375eb4e575b107cde25eb082e7daa052bc5b25"
     },
     {
-      "server_path": "outputs/features/clip_vit_b32_grouped/test_labels.npz",
+      "destination_name": "val.npz",
+      "hash_kind": "npz_content",
+      "sha256": "1ab229cbb10c1726130130716961a5a44997598fd2aeeaa899564f8343110e7a"
+    },
+    {
+      "destination_name": "test.npz",
+      "hash_kind": "npz_content",
+      "sha256": "23802c22c6eaf90b4287019b8901093b2b49f670f04e93418bd37f1a85c0f3da"
+    },
+    {
       "destination_name": "test_labels.npz",
-      "sha256": "a1bc43107b87a1b9a6bc0d0e91516e2b948a119823212be080de9b27152e35fe"
-    },
-    {
-      "server_path": "outputs/features/clip_vit_b32_grouped/provenance.json",
-      "destination_name": "provenance.json",
-      "sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084"
+      "hash_kind": "npz_content",
+      "sha256": "c03bf6fd5d7660db00dbb3daa6ab378f6e8774a3be3caf8d04c3d04b0bd8fa9a"
     }
   ],
   "required_local_clip_model_files": {
@@ -45,5 +69,5 @@
     "python3 -c 'import torch, transformers, numpy, PIL; print(torch.__version__, transformers.__version__, numpy.__version__, PIL.__version__, torch.version.cuda)'"
   ],
   "server_code_needed": false,
-  "note": "The release contains the DARC code. Sync only pinned features, the local CLIP directory, and an environment snapshot unless newer server artifacts are intentionally regenerated."
+  "note": "The refreshed source npz files contain historical train/val labels. Import them with scripts/import_refreshed_features.py so labels are regenerated from the updated manifest before building the release artifacts."
 }

@@ -5,38 +5,38 @@
   "sample_count": 182,
   "prediction_count": 182,
   "category_metrics": {
-    "exact_match_accuracy": 0.7362637362637363,
-    "primary_category_accuracy": 0.978021978021978,
-    "micro_precision": 0.8484848484848485,
-    "micro_recall": 0.9491525423728814,
-    "micro_f1": 0.896,
-    "macro_f1": 0.6654943444956265,
-    "supported_macro_f1": 0.7320437789451891,
+    "exact_match_accuracy": 0.7142857142857143,
+    "primary_category_accuracy": 0.9725274725274725,
+    "micro_precision": 0.8236775818639799,
+    "micro_recall": 0.9505813953488372,
+    "micro_f1": 0.882591093117409,
+    "macro_f1": 0.6616346533514543,
+    "supported_macro_f1": 0.7277981186865998,
     "not_estimable_categories": [
       "fatigue_crack"
     ],
     "per_class": {
       "corrosion": {
-        "tp": 59,
-        "fp": 5,
+        "tp": 56,
+        "fp": 8,
         "fn": 1,
-        "true_support": 60,
+        "true_support": 57,
         "predicted_support": 64,
         "estimable": true,
-        "precision": 0.921875,
-        "recall": 0.9833333333333333,
-        "f1": 0.9516129032258064
+        "precision": 0.875,
+        "recall": 0.9824561403508771,
+        "f1": 0.9256198347107438
       },
       "crack": {
-        "tp": 72,
-        "fp": 2,
+        "tp": 68,
+        "fp": 6,
         "fn": 0,
-        "true_support": 72,
+        "true_support": 68,
         "predicted_support": 74,
         "estimable": true,
-        "precision": 0.972972972972973,
+        "precision": 0.918918918918919,
         "recall": 1.0,
-        "f1": 0.9863013698630138
+        "f1": 0.9577464788732395
       },
       "efflorescence": {
         "tp": 0,
@@ -50,15 +50,15 @@
         "f1": 0.0
       },
       "exposed_rebar": {
-        "tp": 30,
-        "fp": 6,
+        "tp": 27,
+        "fp": 9,
         "fn": 0,
-        "true_support": 30,
+        "true_support": 27,
         "predicted_support": 36,
         "estimable": true,
-        "precision": 0.8333333333333334,
+        "precision": 0.75,
         "recall": 1.0,
-        "f1": 0.9090909090909091
+        "f1": 0.8571428571428571
       },
       "fatigue_crack": {
         "tp": 0,
@@ -94,15 +94,15 @@
         "f1": 0.9166666666666666
       },
       "peeling": {
-        "tp": 2,
+        "tp": 3,
         "fp": 12,
-        "fn": 12,
+        "fn": 11,
         "true_support": 14,
-        "predicted_support": 14,
+        "predicted_support": 15,
         "estimable": true,
-        "precision": 0.14285714285714285,
-        "recall": 0.14285714285714285,
-        "f1": 0.14285714285714285
+        "precision": 0.2,
+        "recall": 0.21428571428571427,
+        "f1": 0.20689655172413796
       },
       "pothole": {
         "tp": 10,
@@ -140,14 +140,13 @@
     }
   },
   "description_metrics": {
-    "mean_token_f1": 0.6016195093949901,
-    "mean_jaccard": 0.4431408560546276
+    "mean_token_f1": 0.5973337308394249,
+    "mean_jaccard": 0.4393743333058353
   },
   "evaluated_samples": [
     {
       "image_id": "00019.jpg",
       "true_categories": [
-        "crack",
         "spalling"
       ],
       "predicted_categories": [
@@ -155,10 +154,10 @@
         "pothole",
         "spalling"
       ],
-      "primary_category": "crack",
+      "primary_category": "spalling",
       "category_exact_match": false,
-      "description_token_f1": 0.46511627906976744,
-      "description_jaccard": 0.23333333333333334
+      "description_token_f1": 0.35,
+      "description_jaccard": 0.2
     },
     {
       "image_id": "00029.jpg",
@@ -180,7 +179,6 @@
     {
       "image_id": "00078.jpg",
       "true_categories": [
-        "crack",
         "spalling"
       ],
       "predicted_categories": [
@@ -188,10 +186,10 @@
         "pothole",
         "spalling"
       ],
-      "primary_category": "crack",
+      "primary_category": "spalling",
       "category_exact_match": false,
-      "description_token_f1": 0.627450980392157,
-      "description_jaccard": 0.40625
+      "description_token_f1": 0.5416666666666666,
+      "description_jaccard": 0.375
     },
     {
       "image_id": "00670.jpg",
@@ -207,8 +205,8 @@
       ],
       "primary_category": "pothole",
       "category_exact_match": true,
-      "description_token_f1": 0.8085106382978724,
-      "description_jaccard": 0.7083333333333334
+      "description_token_f1": 0.7272727272727273,
+      "description_jaccard": 0.625
     },
     {
       "image_id": "00687.jpg",
@@ -298,7 +296,6 @@
     {
       "image_id": "00696.jpg",
       "true_categories": [
-        "crack",
         "pothole",
         "spalling"
       ],
@@ -308,14 +305,13 @@
         "spalling"
       ],
       "primary_category": "pothole",
-      "category_exact_match": true,
-      "description_token_f1": 0.6511627906976744,
-      "description_jaccard": 0.5
+      "category_exact_match": false,
+      "description_token_f1": 0.6842105263157895,
+      "description_jaccard": 0.5217391304347826
     },
     {
       "image_id": "00698.jpg",
       "true_categories": [
-        "crack",
         "pothole",
         "spalling"
       ],
@@ -325,9 +321,9 @@
         "spalling"
       ],
       "primary_category": "pothole",
-      "category_exact_match": true,
-      "description_token_f1": 0.75,
-      "description_jaccard": 0.6153846153846154
+      "category_exact_match": false,
+      "description_token_f1": 0.7804878048780488,
+      "description_jaccard": 0.6818181818181818
     },
     {
       "image_id": "00703.jpg",
@@ -2317,8 +2313,6 @@
     {
       "image_id": "lou_0401.jpg",
       "true_categories": [
-        "corrosion",
-        "exposed_rebar",
         "peeling",
         "spalling"
       ],
@@ -2327,16 +2321,14 @@
         "exposed_rebar",
         "spalling"
       ],
-      "primary_category": "exposed_rebar",
+      "primary_category": "peeling",
       "category_exact_match": false,
-      "description_token_f1": 0.7346938775510203,
-      "description_jaccard": 0.6428571428571429
+      "description_token_f1": 0.4571428571428571,
+      "description_jaccard": 0.32
     },
     {
       "image_id": "lou_0402.jpg",
       "true_categories": [
-        "corrosion",
-        "exposed_rebar",
         "spalling"
       ],
       "predicted_categories": [
@@ -2344,16 +2336,14 @@
         "exposed_rebar",
         "spalling"
       ],
-      "primary_category": "exposed_rebar",
-      "category_exact_match": true,
-      "description_token_f1": 0.49056603773584906,
-      "description_jaccard": 0.32432432432432434
+      "primary_category": "spalling",
+      "category_exact_match": false,
+      "description_token_f1": 0.4102564102564103,
+      "description_jaccard": 0.2413793103448276
     },
     {
       "image_id": "lou_0403.jpg",
       "true_categories": [
-        "corrosion",
-        "exposed_rebar",
         "spalling"
       ],
       "predicted_categories": [
@@ -2361,10 +2351,10 @@
         "exposed_rebar",
         "spalling"
       ],
-      "primary_category": "exposed_rebar",
-      "category_exact_match": true,
-      "description_token_f1": 0.711111111111111,
-      "description_jaccard": 0.5925925925925926
+      "primary_category": "spalling",
+      "category_exact_match": false,
+      "description_token_f1": 0.4705882352941177,
+      "description_jaccard": 0.32
     },
     {
       "image_id": "lou_0404.jpg",
@@ -2584,8 +2574,8 @@
       ],
       "primary_category": "corrosion",
       "category_exact_match": true,
-      "description_token_f1": 0.7058823529411765,
-      "description_jaccard": 0.47368421052631576
+      "description_token_f1": 0.7428571428571428,
+      "description_jaccard": 0.5263157894736842
     },
     {
       "image_id": "xiu_130.jpg",
@@ -2720,6 +2710,7 @@
       ],
       "predicted_categories": [
         "corrosion",
+        "peeling",
         "spalling"
       ],
       "primary_category": "corrosion",

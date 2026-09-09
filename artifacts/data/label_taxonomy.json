@@ -258,16 +258,16 @@
       "count": 399
     },
     {
-      "token": "exposed",
-      "count": 377
+      "token": "load-bearing",
+      "count": 368
     },
     {
-      "token": "load-bearing",
-      "count": 376
+      "token": "exposed",
+      "count": 367
     },
     {
       "token": "severe",
-      "count": 341
+      "count": 335
     },
     {
       "token": "voids",
@@ -283,7 +283,7 @@
     },
     {
       "token": "rebar",
-      "count": 260
+      "count": 249
     },
     {
       "token": "may",
@@ -327,11 +327,7 @@
     },
     {
       "token": "corroded",
-      "count": 211
-    },
-    {
-      "token": "reinforcement",
-      "count": 205
+      "count": 210
     },
     {
       "token": "many",
@@ -342,16 +338,20 @@
       "count": 197
     },
     {
+      "token": "reinforcement",
+      "count": 196
+    },
+    {
       "token": "areas",
       "count": 193
     },
     {
-      "token": "these",
-      "count": 192
-    },
-    {
       "token": "irregular",
       "count": 187
+    },
+    {
+      "token": "these",
+      "count": 186
     },
     {
       "token": "some",
@@ -367,23 +367,19 @@
     },
     {
       "token": "rusting",
-      "count": 154
+      "count": 148
     },
     {
       "token": "layer",
       "count": 147
     },
     {
+      "token": "pothole",
+      "count": 144
+    },
+    {
       "token": "pores",
       "count": 143
-    },
-    {
-      "token": "pothole",
-      "count": 142
-    },
-    {
-      "token": "suffered",
-      "count": 135
     },
     {
       "token": "spalled",
@@ -394,8 +390,12 @@
       "count": 130
     },
     {
+      "token": "suffered",
+      "count": 129
+    },
+    {
       "token": "which",
-      "count": 124
+      "count": 123
     }
   ]
 }

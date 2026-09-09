@@ -1,7 +1,8 @@
 {
   "format_version": "1.0",
-  "model_identifier": "/mnt/datablob/qizhili/hf_models/clip-vit-base-patch32",
-  "model_config_name_or_path": "/mnt/datablob/qizhili/hf_models/clip-vit-base-patch32",
+  "method": "DARC",
+  "construction": "refreshed_image_embeddings_with_labels_regenerated_from_updated_manifest",
+  "model_identifier": "openai/clip-vit-base-patch32",
   "processor_class": "CLIPProcessor",
   "model_class": "CLIPModel",
   "local_model_file_sha256": {
@@ -27,9 +28,8 @@
     "spalling",
     "void"
   ],
-  "taxonomy_path": "outputs/label_taxonomy.json",
-  "taxonomy_sha256": "dd72bc617b05938e1ba7e0ad84a63c8ea5616420a8defdc5eb765c4849986fef",
-  "limit": null,
+  "taxonomy_path": "artifacts/data/label_taxonomy.json",
+  "taxonomy_sha256": "0b8a7bbcbc6b8de7182d07a0811608fcc9404ae7b84ccb7cb5514d0f752e0278",
   "runtime": {
     "python": "3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]",
     "platform": "Linux-3.10.0-1160.el7.x86_64-x86_64-with-glibc2.17",
@@ -41,116 +41,78 @@
     "cuda": "12.4",
     "gpu": "NVIDIA A100 80GB PCIe"
   },
-  "splits": {
+  "artifacts": {
     "train": {
+      "path": "artifacts/features/research/train.npz",
+      "hash_kind": "npz_content",
+      "sha256": "0253a04abe5ca7afcf4f4b85d4375eb4e575b107cde25eb082e7daa052bc5b25",
+      "file_sha256": "3238275f498c55f3f64745b5dbfea0ece525d3a499a2399ec813fb74db1dc959",
       "sample_count": 836,
       "embedding_dim": 512,
-      "category_count": 11,
-      "norm_min": 0.9999998807907104,
-      "norm_max": 1.0000001192092896,
       "contains_labels": true,
-      "path": "outputs/features/clip_vit_b32_grouped/train.npz",
-      "sha256": "7390fcd86079011ac8010d8414cf9ed664c558400c3675473b3f6d7a154b9963",
       "image_ids_sha256": "84a0069ffaee7a60173bde057bb85b0d33c83af7cc81775e2ea235d962646dad",
       "sample_ids_sha256": "4b69ef45509fc6b5ee5a2deabf40a37a53ca335f122561a5fd3c5b9ebe2fd26d",
-      "image_content_sha256": "4f7326ae74160d05bd1db624383b2221f59925e2660b8879e45f33bf115b7305",
-      "categories": [
-        "corrosion",
-        "crack",
-        "efflorescence",
-        "exposed_rebar",
-        "fatigue_crack",
-        "honeycomb",
-        "looseness",
-        "peeling",
-        "pothole",
-        "spalling",
-        "void"
-      ],
-      "split_path": "outputs/splits_grouped/train.json",
-      "split_sha256": "6e495eb8b13757c6ef9767fad5d11dc9d818dee5c0793e8e79849afe66b39309"
+      "image_content_sha256": "1af6d05ff117a56e5f12c9f4d833452dd9a7eae377a59f487a1cae6eef824d34"
     },
     "val": {
+      "path": "artifacts/features/research/val.npz",
+      "hash_kind": "npz_content",
+      "sha256": "1ab229cbb10c1726130130716961a5a44997598fd2aeeaa899564f8343110e7a",
+      "file_sha256": "78b2872427c5f24a1f9d152c3099b49a0da2ca5a2f0b5dc733f09c7f9fbf0a27",
       "sample_count": 182,
       "embedding_dim": 512,
-      "category_count": 11,
-      "norm_min": 0.9999998807907104,
-      "norm_max": 1.0000001192092896,
       "contains_labels": true,
-      "path": "outputs/features/clip_vit_b32_grouped/val.npz",
-      "sha256": "59159226faa2b4c81771bba63de10eb492b8c632156ef65d7f7aba8ecfa8b947",
       "image_ids_sha256": "3b4819b8b5de53175fc246a5ef6bf1297e0a3fea075f3fd26fc1fe916673a7ee",
       "sample_ids_sha256": "4c6692c701887290889c69c9b050ed8f5a5c5801ed387f59598f50eadd87ca60",
-      "image_content_sha256": "eb0df21f10c9b42d7c65dc9a58cb391bf42f804d20c26b845d6d261273dc22f1",
-      "categories": [
-        "corrosion",
-        "crack",
-        "efflorescence",
-        "exposed_rebar",
-        "fatigue_crack",
-        "honeycomb",
-        "looseness",
-        "peeling",
-        "pothole",
-        "spalling",
-        "void"
-      ],
-      "split_path": "outputs/splits_grouped/val.json",
-      "split_sha256": "ae6a799f2477fd7f58b7ff54b6685eba9dd13f33ef2a3a57c208b77ab65273d1"
+      "image_content_sha256": "c4fb5ebe13fd124d8ff6d66e25c021e16d9d6e638cb442363fa55954be07df68"
     },
     "test": {
+      "path": "artifacts/features/research/test.npz",
+      "hash_kind": "npz_content",
+      "sha256": "23802c22c6eaf90b4287019b8901093b2b49f670f04e93418bd37f1a85c0f3da",
+      "file_sha256": "70f2cbb274757c0d72979f5b116301728e86cf858f995d0596889a9cb02c1152",
       "sample_count": 182,
       "embedding_dim": 512,
-      "category_count": 11,
-      "norm_min": 0.9999999403953552,
-      "norm_max": 1.0000001192092896,
       "contains_labels": false,
-      "path": "outputs/features/clip_vit_b32_grouped/test.npz",
-      "sha256": "2b6734118014d6ad3d7acf64cb0eacefc1a3a65ae4795677a48cf0305b1384ca",
       "image_ids_sha256": "80f3bb437193791342eb5c2d9ee166a8ae420c8ad176e79c04f8cc5dbcc17971",
       "sample_ids_sha256": "42405870b387c6b3e7b050067b724ec457009cb8fe401b076f430ddaa1a30b46",
-      "image_content_sha256": "11acac1a72197c00acabb9dc605cd0978a56efdbfd8b6f446885c764ef19b061",
-      "categories": [
-        "corrosion",
-        "crack",
-        "efflorescence",
-        "exposed_rebar",
-        "fatigue_crack",
-        "honeycomb",
-        "looseness",
-        "peeling",
-        "pothole",
-        "spalling",
-        "void"
-      ],
-      "split_path": "outputs/splits_grouped/test.json",
-      "split_sha256": "f0d9e652547893013930d7e75911c5f9faf4b99429ffade9c4371320c34772db"
+      "image_content_sha256": "534c5c30c3bc355199670b1eb3abb7b6c7531e48beab7c7ace695cd76361c7d4"
+    },
+    "test_labels": {
+      "path": "artifacts/features/research/test_labels.npz",
+      "hash_kind": "npz_content",
+      "sha256": "c03bf6fd5d7660db00dbb3daa6ab378f6e8774a3be3caf8d04c3d04b0bd8fa9a",
+      "file_sha256": "dc29471f3cd7224ea314d4edbbe3fb5b21037f25585993788f374a87d32daa0e",
+      "sample_count": 182,
+      "image_ids_sha256": "80f3bb437193791342eb5c2d9ee166a8ae420c8ad176e79c04f8cc5dbcc17971",
+      "sample_ids_sha256": "42405870b387c6b3e7b050067b724ec457009cb8fe401b076f430ddaa1a30b46"
     }
   },
-  "test_labels": {
-    "path": "outputs/features/clip_vit_b32_grouped/test_labels.npz",
-    "sha256": "a1bc43107b87a1b9a6bc0d0e91516e2b948a119823212be080de9b27152e35fe",
-    "sample_count": 182,
-    "image_ids_sha256": "80f3bb437193791342eb5c2d9ee166a8ae420c8ad176e79c04f8cc5dbcc17971",
-    "sample_ids_sha256": "42405870b387c6b3e7b050067b724ec457009cb8fe401b076f430ddaa1a30b46",
-    "category_count": 11
+  "source_refresh": {
+    "source_provenance_sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084",
+    "source_files": {
+      "train": {
+        "source_label": "refreshed_server_export/research/train.npz",
+        "file_sha256": "02cdf969f459ce77ace0ba13ea112fd3e06fe9fc23680e474d5c3a5fc7df33dd",
+        "content_sha256": "fa2c435609dd734b509dbc43ee8eff46eb6fccbff64c56ba9eb0cc04328432a4"
+      },
+      "val": {
+        "source_label": "refreshed_server_export/research/val.npz",
+        "file_sha256": "5ec40dfb4ac3424bbe3c8620889501d34370b601605b44bc679489969790f291",
+        "content_sha256": "f1bd3657c4414dd24e3dcf58ec3855f216cd06c36e6f5fa5928dc51e862c10c1"
+      },
+      "test": {
+        "source_label": "refreshed_server_export/research/test.npz",
+        "file_sha256": "c2e50a185edbf69b3f19a65a1ddc5c3fad01cbd398e4775872942070ff1416e9",
+        "content_sha256": "23802c22c6eaf90b4287019b8901093b2b49f670f04e93418bd37f1a85c0f3da"
+      }
+    },
+    "changed_image_rows_reencoded": 32,
+    "unchanged_embedding_rows_reused": 1168
   },
-  "taxonomy_text": {
-    "path": "outputs/features/clip_vit_b32_grouped/taxonomy_text.npz",
-    "sha256": "e6d346bc62709af8ac71cb77fd85e740a3c72144c416697cd6cfe1720c30ed85",
-    "embedding_dim": 512,
-    "prompt_count_by_category": [
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3
-    ]
+  "policy": {
+    "parameters_frozen_before_full_index_build": false,
+    "eligible_for_original_grouped_test_evaluation": true,
+    "intended_use": "frozen_grouped_research_evaluation"
   }
 }

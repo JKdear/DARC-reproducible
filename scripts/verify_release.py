@@ -58,14 +58,21 @@ def main() -> None:
         manifest = read_json(ROOT / "config/server_sync_manifest.json")
         source = ROOT / "artifacts/features/research"
         verified = 0
-        for entry in manifest["required_for_saved_research_feature_reuse"]:
+        entries = manifest.get("release_feature_allowlist")
+        if not isinstance(entries, list) or not entries:
+            raise ValueError("release feature allowlist is missing")
+        for entry in entries:
             path = source / entry["destination_name"]
             if not path.is_file():
                 raise FileNotFoundError(path)
-            if file_sha256(path) != entry["sha256"]:
+            if entry.get("hash_kind") == "npz_content":
+                observed = npz_content_sha256(path)
+            else:
+                observed = file_sha256(path)
+            if observed != entry["sha256"]:
                 raise ValueError(f"feature hash mismatch: {path.name}")
             verified += 1
-        return f"{verified} frozen research feature files match server hashes"
+        return f"{verified} released research feature files match content hashes"
 
     def verify_runtime(scope: str):
         root = ROOT / f"artifacts/runtime/{scope}"

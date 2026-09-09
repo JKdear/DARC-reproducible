@@ -12,6 +12,8 @@
   },
   "group_count": 273,
   "largest_group_size": 30,
+  "frozen_from": "published_image_id_roster",
+  "frozen_by": "image_id",
   "splits": {
     "train": {
       "sample_count": 836,
@@ -857,13 +859,13 @@
       "image_ids_sha256": "84a0069ffaee7a60173bde057bb85b0d33c83af7cc81775e2ea235d962646dad",
       "primary_category_counts": {
         "corrosion": 142,
-        "crack": 291,
+        "crack": 289,
         "efflorescence": 3,
-        "exposed_rebar": 145,
+        "exposed_rebar": 139,
         "honeycomb": 38,
         "peeling": 2,
-        "pothole": 47,
-        "spalling": 15,
+        "pothole": 48,
+        "spalling": 22,
         "void": 153
       }
     },
@@ -1257,13 +1259,13 @@
       "image_ids_sha256": "80f3bb437193791342eb5c2d9ee166a8ae420c8ad176e79c04f8cc5dbcc17971",
       "primary_category_counts": {
         "corrosion": 30,
-        "crack": 62,
+        "crack": 60,
         "efflorescence": 1,
-        "exposed_rebar": 30,
+        "exposed_rebar": 27,
         "honeycomb": 8,
-        "peeling": 1,
+        "peeling": 2,
         "pothole": 10,
-        "spalling": 4,
+        "spalling": 8,
         "void": 36
       }
     }

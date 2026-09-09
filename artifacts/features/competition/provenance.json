@@ -3,7 +3,7 @@
   "method": "DARC",
   "mode": "competition",
   "construction": "combined_from_frozen_research_features_after_model_selection",
-  "model_identifier": "/mnt/datablob/qizhili/hf_models/clip-vit-base-patch32",
+  "model_identifier": "openai/clip-vit-base-patch32",
   "processor_class": "CLIPProcessor",
   "model_class": "CLIPModel",
   "local_model_file_sha256": {
@@ -32,22 +32,22 @@
     "all_labeled": {
       "path": "artifacts/features/competition/all_labeled.npz",
       "hash_kind": "npz_content",
-      "sha256": "3e529df6c6afa78349131230c6f7c4b703f07d9580d06ccf027886204ff69a31",
+      "sha256": "ede0e253dd976bbd4fd9fe7ef1cd1952cf2c8a2479d94859a97c918bbcebddaa",
       "sample_count": 1200,
       "embedding_dim": 512,
       "contains_labels": true,
       "image_ids_sha256": "0daafc6d96f63332aaed3803794341a69c5a39c6322eb442fc9530fdaac30198",
       "sample_ids_sha256": "0660f650c5eff639274e91e2db1d927e055fb0809414aa2d03fdc03d1be1e978",
-      "image_content_sha256": "913c366b45a70d595ffe8ebd2762265397c37ba588c5f06a24795a816c7ef37f",
-      "split_sha256": "9bfd3afffe30256fd6a3912a88b3a8db9d700672405af83733e21d9bc609c7c8"
+      "image_content_sha256": "5a1e7a52fe6a4e434ee85c518c975bba37474886676a374998283ac8202ac0b0",
+      "split_sha256": "24f60b74935be10c3fe4624a22700bf121a42bdb0a3dd88034f1dd24f3670e45"
     }
   },
   "sources": {
-    "train_content_sha256": "a74b9291d0d59e060cb82ff35d8da94048fda6ebf9fd08ab9f07e3e1dcb43df9",
-    "val_content_sha256": "7fda602fafc302292d96656392f149e93a0e10c67fa85880b5fb04759596d58a",
-    "test_content_sha256": "3159320d5dfd7f34a742168fb49d502214eb3eaad129eab766b2a2d17bd0e8c2",
-    "test_labels_content_sha256": "ebd36dcd8b8712d71a592bacff00254b71d195f5d757ff3d1013dd59775635c3",
-    "research_provenance_sha256": "cd79c39fd2adcdd41b1ed43eb4ec1cb7605a1a1597a2ba94e68b107ea5a9c084"
+    "train_content_sha256": "0253a04abe5ca7afcf4f4b85d4375eb4e575b107cde25eb082e7daa052bc5b25",
+    "val_content_sha256": "1ab229cbb10c1726130130716961a5a44997598fd2aeeaa899564f8343110e7a",
+    "test_content_sha256": "23802c22c6eaf90b4287019b8901093b2b49f670f04e93418bd37f1a85c0f3da",
+    "test_labels_content_sha256": "c03bf6fd5d7660db00dbb3daa6ab378f6e8774a3be3caf8d04c3d04b0bd8fa9a",
+    "research_provenance_sha256": "92d35d17874c63266178ab065811ed4f6cd61bf168c9cb0cb61b517cb7d59507"
   },
   "policy": {
     "parameters_frozen_before_full_index_build": true,

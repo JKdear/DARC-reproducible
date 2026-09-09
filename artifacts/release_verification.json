@@ -20,19 +20,19 @@
     },
     "frozen_research_features": {
       "passed": true,
-      "detail": "5 frozen research feature files match server hashes"
+      "detail": "4 released research feature files match content hashes"
     },
     "research_runtime": {
       "passed": true,
       "detail": {
-        "fingerprint": "cae32234570213a07011076f15ce6526d0c9a9a3de77d195d114bb6d63fa2a7a",
+        "fingerprint": "92f8a5bf5c41040d214ae8b9b8ab82df29015303ce05217f44f88a8a63a1d1c2",
         "sample_count": 836
       }
     },
     "competition_runtime": {
       "passed": true,
       "detail": {
-        "fingerprint": "4e341d5047c1cafdc643ba2ae937a57c6662d3d6eec4c15d53e6dfe0860e4564",
+        "fingerprint": "2e9e20a1aefeb01143ddc6f367f0398a923db938a85329f0c4b39bc6724ba6c7",
         "sample_count": 1200
       }
     },
@@ -43,17 +43,17 @@
     "research_metrics": {
       "passed": true,
       "detail": {
-        "exact_match_accuracy": 0.7362637362637363,
-        "primary_category_accuracy": 0.978021978021978,
-        "micro_f1": 0.896,
-        "macro_f1_fixed_11_classes": 0.6654943444956265,
-        "mean_description_token_f1": 0.6016195093949901,
-        "mean_description_jaccard": 0.4431408560546276
+        "exact_match_accuracy": 0.7142857142857143,
+        "primary_category_accuracy": 0.9725274725274725,
+        "micro_f1": 0.882591093117409,
+        "macro_f1_fixed_11_classes": 0.6616346533514543,
+        "mean_description_token_f1": 0.5973337308394249,
+        "mean_description_jaccard": 0.4393743333058353
       }
     },
     "release_manifest": {
       "passed": true,
-      "detail": "49 distributable files match (file_bytes, npz_content)"
+      "detail": "50 distributable files match (file_bytes, npz_content)"
     },
     "local_clip_model": {
       "passed": true,

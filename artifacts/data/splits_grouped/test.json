@@ -12,12 +12,11 @@
       "category_prompt": "According to the image, does the structure have any damage?",
       "category_label_text": "Yes, there are potholes on the road.",
       "description_prompt": "Q: From the picture, judge whether the structure has damage. A: Yes, potholes exist on the road. Q: Describe the damage characteristics as per the image.",
-      "reference_description": "Multiple potholes have appeared on the road surface with standing water inside. The nearby pavement material has cracked and has been crushed and spalled.",
+      "reference_description": "Multiple potholes have appeared on the road surface with standing water inside. The nearby pavement material has been crushed and spalled.",
       "normalized_categories": [
-        "crack",
         "spalling"
       ],
-      "primary_category": "crack",
+      "primary_category": "spalling",
       "attributes": [
         "standing_water"
       ],
@@ -61,12 +60,11 @@
       "category_prompt": "From the image, does the structure exhibit any damage?",
       "category_label_text": "Yes, there are potholes on the road.",
       "description_prompt": "Q: Using the picture, judge whether the structure has any damage. A: Yes, potholes exist on the road. Q: Describe the damage features based on the image.",
-      "reference_description": "Multiple potholes have appeared on the road surface with standing water inside. The nearby pavement material has cracked and has been crushed and spalled.",
+      "reference_description": "Multiple potholes have appeared on the road surface with standing water inside. The nearby pavement material has been crushed and spalled.",
       "normalized_categories": [
-        "crack",
         "spalling"
       ],
-      "primary_category": "crack",
+      "primary_category": "spalling",
       "attributes": [
         "standing_water"
       ],
@@ -229,9 +227,8 @@
       "category_prompt": "From the image, does the structure exhibit any damage?",
       "category_label_text": "Yes, there is a pothole on the road.",
       "description_prompt": "Q: Using the picture, judge whether the structure has any damage. A: Yes, a pothole appears on the road. Q: Please describe the damage features based on the image.",
-      "reference_description": "There is a pothole on the road surface. The surrounding pavement material shows cracks and has been crushed and spalled.",
+      "reference_description": "There is a pothole on the road surface. The surrounding pavement material has been crushed and spalled.",
       "normalized_categories": [
-        "crack",
         "pothole",
         "spalling"
       ],
@@ -252,9 +249,8 @@
       "category_prompt": "Examine the image – does the structure have any damage?",
       "category_label_text": "Yes, there is a pothole on the road.",
       "description_prompt": "Q: Based on the image, decide if the structure has damage. A: Yes, a pothole exists on the road. Q: Describe the damage features as per the image.",
-      "reference_description": "There is a pothole on the road with standing water inside. The surrounding material has developed cracks and has been crushed, leading to spalling.",
+      "reference_description": "There is a pothole on the road with standing water inside. The surrounding material has been crushed, leading to spalling.",
       "normalized_categories": [
-        "crack",
         "pothole",
         "spalling"
       ],
@@ -3541,19 +3537,15 @@
       "height": 512,
       "prefix": "lou",
       "category_prompt": "Look at this image – does the structure exhibit any damage?",
-      "category_label_text": "Yes, spalling and exposed reinforcement are visible on the concrete.",
-      "description_prompt": "Q: Using the image, decide if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Describe the damage characteristics from the image.",
-      "reference_description": "Extensive concrete peeling appears on the structural surface, exposing the underlying aggregate and load-bearing rebar; at the same time, these rebars have suffered severe rusting.",
+      "category_label_text": "Yes, spalling is visible on the concrete.",
+      "description_prompt": "Q: Using the image, decide if the structure has damage? A: Yes, spalling is visible on the concrete. Q: Describe the damage characteristics from the image.",
+      "reference_description": "Extensive concrete peeling appears on the structural surface, exposing the underlying aggregate.",
       "normalized_categories": [
-        "corrosion",
-        "exposed_rebar",
         "peeling",
         "spalling"
       ],
-      "primary_category": "exposed_rebar",
-      "attributes": [
-        "load_bearing_risk"
-      ],
+      "primary_category": "peeling",
+      "attributes": [],
       "annotation_count": 2,
       "source_annotation_paths": [
         "image/lou_0401.jpg"
@@ -3567,18 +3559,14 @@
       "height": 512,
       "prefix": "lou",
       "category_prompt": "Examine the image – does the structure have any damage?",
-      "category_label_text": "Yes, the concrete shows spalling and exposed reinforcement.",
-      "description_prompt": "Q: Based on the picture, judge if the structure has damage? A: Yes, spalling and exposed rebar exist on the concrete. Q: Please characterize the damage based on the image.",
-      "reference_description": "Large-area concrete spalling appears on the structural surface, exposing the interior from aggregate to load-bearing rebar, and these rebars are observed to be heavily rusted.",
+      "category_label_text": "Yes, spalling is visible on the concrete.",
+      "description_prompt": "Q: Based on the picture, judge if the structure has damage? A: Yes, spalling is visible on the concrete. Q: Please characterize the damage based on the image.",
+      "reference_description": "Large-area concrete spalling appears on the structural surface, exposing the interior aggregate.",
       "normalized_categories": [
-        "corrosion",
-        "exposed_rebar",
         "spalling"
       ],
-      "primary_category": "exposed_rebar",
-      "attributes": [
-        "load_bearing_risk"
-      ],
+      "primary_category": "spalling",
+      "attributes": [],
       "annotation_count": 2,
       "source_annotation_paths": [
         "image/lou_0402.jpg"
@@ -3592,18 +3580,14 @@
       "height": 512,
       "prefix": "lou",
       "category_prompt": "According to the image, does the structure have any damage?",
-      "category_label_text": "Yes, the concrete exhibits spalling and exposed reinforcement.",
-      "description_prompt": "Q: From the picture, determine if the structure has damage? A: Yes, spalling and exposed rebar appear on the concrete. Q: Based on the image, describe the damage features.",
-      "reference_description": "Large-area concrete spalling on the structural surface has exposed internal aggregate and load-bearing rebar, and these rebars have suffered severe rusting.",
+      "category_label_text": "Yes, spalling is visible on the concrete.",
+      "description_prompt": "Q: From the picture, determine if the structure has damage? A: Yes, spalling is visible on the concrete. Q: Based on the image, describe the damage features.",
+      "reference_description": "Large-area concrete spalling on the structural surface has exposed internal aggregate.",
       "normalized_categories": [
-        "corrosion",
-        "exposed_rebar",
         "spalling"
       ],
-      "primary_category": "exposed_rebar",
-      "attributes": [
-        "load_bearing_risk"
-      ],
+      "primary_category": "spalling",
+      "attributes": [],
       "annotation_count": 2,
       "source_annotation_paths": [
         "image/lou_0403.jpg"
@@ -4151,7 +4135,7 @@
       "image_id": "xiu_150.jpg",
       "image_path": "image/xiu_150.jpg",
       "width": 720,
-      "height": 540,
+      "height": 493,
       "prefix": "xiu",
       "category_prompt": "According to the image, does the structure have any damage?",
       "category_label_text": "Yes, the component has corroded.",
@@ -4239,7 +4223,7 @@
       "image_id": "xiu_154.jpg",
       "image_path": "image/xiu_154.jpg",
       "width": 360,
-      "height": 540,
+      "height": 496,
       "prefix": "xiu",
       "category_prompt": "Examine the image – does the structure have any damage?",
       "category_label_text": "Yes, the component has corroded.",

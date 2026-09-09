@@ -12,7 +12,7 @@ from typing import Any
 
 from PIL import Image
 
-from .common import file_sha256, sequence_sha256, write_json
+from .common import file_sha256, read_json, sequence_sha256, write_json
 from .taxonomy import (
     UNKNOWN_CATEGORY,
     build_taxonomy_payload,
@@ -25,6 +25,7 @@ SUPPORTED_IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 DEFAULT_SEED = 2026
 DEFAULT_WINDOW_SIZE = 10
 DEFAULT_RATIOS = {"train": 0.70, "val": 0.15, "test": 0.15}
+EXPECTED_SPLIT_COUNTS = {"train": 836, "val": 182, "test": 182}
 _NAME_RE = re.compile(r"^(.*?)(\d+)$")
 
 
@@ -357,14 +358,98 @@ def build_grouped_splits(
         },
     }
     counts = {name: len(items) for name, items in splits.items()}
-    if counts != {"train": 836, "val": 182, "test": 182}:
+    if counts != EXPECTED_SPLIT_COUNTS:
         raise ValueError(f"frozen grouped split counts changed: {counts}")
     return summary, splits
 
 
-def prepare_dataset(dataset_dir: str | Path, output_dir: str | Path) -> dict:
+def build_frozen_splits(
+    manifest: dict,
+    reference_split_dir: str | Path,
+) -> tuple[dict, dict[str, list[dict]]]:
+    """Rebuild split contents while freezing membership to image IDs.
+
+    Annotation corrections can change category-derived grouping decisions. For a
+    revised dataset whose image roster is unchanged, retaining the published
+    image-ID roster keeps the formal research comparison valid.
+    """
+    reference_root = Path(reference_split_dir)
+    samples_by_image = {sample["image_id"]: sample for sample in manifest["samples"]}
+    splits: dict[str, list[dict]] = {}
+    split_membership: dict[str, str] = {}
+
+    for name in ("train", "val", "test"):
+        payload = read_json(reference_root / f"{name}.json")
+        reference_samples = payload.get("samples")
+        if not isinstance(reference_samples, list):
+            raise ValueError(f"reference split has no samples: {name}")
+        image_ids = [sample.get("image_id") for sample in reference_samples]
+        if any(not image_id for image_id in image_ids) or len(set(image_ids)) != len(image_ids):
+            raise ValueError(f"reference split has invalid image IDs: {name}")
+        missing = sorted(set(image_ids) - set(samples_by_image))
+        if missing:
+            raise ValueError(f"{name} reference roster is missing from manifest: {missing[:5]}")
+        duplicate_ids = set(image_ids) & set(split_membership)
+        if duplicate_ids:
+            raise ValueError(f"reference split rosters overlap: {sorted(duplicate_ids)[:5]}")
+
+        items = sorted(
+            (samples_by_image[image_id] for image_id in image_ids),
+            key=lambda sample: sample["image_id"],
+        )
+        splits[name] = items
+        split_membership.update({sample["image_id"]: name for sample in items})
+
+    if set(split_membership) != set(samples_by_image):
+        missing = sorted(set(samples_by_image) - set(split_membership))
+        extra = sorted(set(split_membership) - set(samples_by_image))
+        raise ValueError(f"frozen split roster does not cover manifest: missing={missing[:5]}, extra={extra[:5]}")
+
+    counts = {name: len(items) for name, items in splits.items()}
+    if counts != EXPECTED_SPLIT_COUNTS:
+        raise ValueError(f"frozen split counts changed: {counts}")
+
+    reference_summary = read_json(reference_root / "split_summary.json")
+    summary = {
+        "format_version": "1.0",
+        "method": "DARC",
+        "split_method": reference_summary.get(
+            "split_method", "group_aware_sequence_exact_duplicate"
+        ),
+        "seed": reference_summary.get("seed", DEFAULT_SEED),
+        "window_size": reference_summary.get("window_size", DEFAULT_WINDOW_SIZE),
+        "near_duplicate_distance": reference_summary.get("near_duplicate_distance"),
+        "ratios": reference_summary.get("ratios", DEFAULT_RATIOS),
+        "group_count": reference_summary.get("group_count"),
+        "largest_group_size": reference_summary.get("largest_group_size"),
+        "frozen_from": "published_image_id_roster",
+        "frozen_by": "image_id",
+        "splits": {
+            name: {
+                "sample_count": len(items),
+                "sample_ids": [item["sample_id"] for item in items],
+                "sample_ids_sha256": sequence_sha256(item["sample_id"] for item in items),
+                "image_ids_sha256": sequence_sha256(item["image_id"] for item in items),
+                "primary_category_counts": dict(
+                    sorted(Counter(item["primary_category"] for item in items).items())
+                ),
+            }
+            for name, items in splits.items()
+        },
+    }
+    return summary, splits
+
+
+def prepare_dataset(
+    dataset_dir: str | Path,
+    output_dir: str | Path,
+    reference_split_dir: str | Path | None = None,
+) -> dict:
     manifest, image_paths = build_manifest(dataset_dir)
-    summary, splits = build_grouped_splits(manifest, image_paths)
+    if reference_split_dir is None:
+        summary, splits = build_grouped_splits(manifest, image_paths)
+    else:
+        summary, splits = build_frozen_splits(manifest, reference_split_dir)
     output = Path(output_dir)
     write_json(output / "dataset_manifest.json", manifest)
     write_json(output / "label_taxonomy.json", manifest["taxonomy"])

@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from src.common import file_sha256, sequence_sha256
+from src.common import npz_content_sha256, sequence_sha256
 from src.data import filename_group_key
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,8 +33,8 @@ def test_sequence_grouping_matches_research_protocol():
     assert filename_group_key("00013.jpg", 10) == "numeric:13"
 
 
-def test_imported_feature_hashes_match_allowlist():
+def test_released_feature_content_hashes_match_allowlist():
     manifest = json.loads((ROOT / "config/server_sync_manifest.json").read_text(encoding="utf-8"))
     feature_root = ROOT / "artifacts/features/research"
-    for entry in manifest["required_for_saved_research_feature_reuse"]:
-        assert file_sha256(feature_root / entry["destination_name"]) == entry["sha256"]
+    for entry in manifest["release_feature_allowlist"]:
+        assert npz_content_sha256(feature_root / entry["destination_name"]) == entry["sha256"]
